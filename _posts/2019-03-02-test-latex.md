@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Test $\LaTeX$"
+title: "Test $\\LaTeX$"
 categories: misc
 ---
 
