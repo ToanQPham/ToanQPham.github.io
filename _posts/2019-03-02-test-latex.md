@@ -33,8 +33,10 @@ $U^{-1}\mathcal{A}^{\ell}U$ is a diagonal matrix. This implies
 that if $\lambda_1,\ldots, \lambda_p$ are eigenvalues of 
 $\mathbf{A}(G)$ then there exists real numbers $c_1,\ldots, c_p$
 such that for all $\ell\ge 1$ then 
+
 \[ (\mathbf{A}(G)^{\ell})_{i,j}=c_1\lambda_1^{\ell}
 +c_2\lambda_2^{\ell}+\ldots+c_p\lambda_p^{\ell}.\]
+
 In a particular case where we want to count number of closed walks
 of length $\ell$ (from any vertex), 
 this is then equal to 
