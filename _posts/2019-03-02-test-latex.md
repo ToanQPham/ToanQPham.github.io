@@ -48,3 +48,5 @@ all $\ell$ then we can determine eigenvalues of $\mathbf{A}$.
 In particular, if we can show 
 $f_G(\ell)=\alpha_1^{\ell}+\ldots+\alpha_p^{\ell}$
 for all $\ell\ge1 $ then $\alpha_i$'s are eigenvalues of $\mathbf{A}$.
+
+Test thu mot $1 va $2 la bao nhieu do.
