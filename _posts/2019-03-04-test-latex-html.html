@@ -1,0 +1,111 @@
+---
+layout: post
+title: "Test $\\LaTeX$"
+categories: misc
+---
+
+
+<p>
+
+<p>
+ \title{MATH3303 assignment 2} \author{Toan Q. Pham <br/>
+ ID:44827863} \maketitle
+<p>
+I choose (A1), (B1), (C1) to be marked in full. 
+
+<ol> <li>A1. In order to write down a composition series for ${G/H}$, we first describe what subgroups of ${G/H}$ look like in folllowing claim  
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Claim 1.</b> <em> Let ${H}$ be a normal subgroup of group ${G}$. There is a bijection ${u}$ between subgroups ${K}$ of ${G}$ containing ${H}$ and subgroups of ${G/H}$ defined by ${u(K)=K/H}$. This bijection preserves inclusions. 
+</em>
+</div>
+
+<p>
+
+  To show that ${u}$ is bijective, we define ${u}$ to be the function from subgroups of ${G/H}$ to subgroups ${K}$ of ${G}$ containing ${H}$ as follow ${v(K')=K=\{a\in G|aH\in K'\}}$ where ${K'}$ is a subgroup of ${G/H}$. One can easily check that ${K}$ is indeed a subgroup of ${G}$ containing ${H}$ and that ${u,v}$ are inverses of each other. Therefore, ${u}$ is bijective.
+<p>
+ For ${H \subseteq K \subseteq L}$ then it is clear that ${u(K)=K/H \subseteq L/H=u(L)}$ so ${u}$ preserves bijection.  Back to the problem, from this claim, we know that subgroups of ${G/H}$ are ${K/H}$ where ${K\le G}$ and ${H \subseteq K}$. Hence, we can denote the composition series of ${H,K}$ as <p align=center>$\displaystyle \begin{array}{c} 1 \triangleleft H_1 \triangleleft \cdots \triangleleft H_k=H, \\ K_0/H=H/H \triangleleft K_1/H \triangleleft K_2/H \triangleleft \cdots \triangleleft K_{\ell}/H=G/H, \end{array}$</p>
+ where ${K_1\subseteq K_2 \subseteq \cdots \subseteq K_{\ell}}$ are subgroups of ${G}$ containing ${H}$ and ${H_1, \ldots, H_k}$ are subgroups of ${G}$ satisfying the above composition series. From the composition series of ${G/H}$, we find that the quotient groups ${\frac{K_i/H}{K_{i-1}/H} (1 \le i \le \ell)}$ are simple. According to third isomorphism theorem, we obtain ${\frac{K_i/H}{K_{i-1}/H}\cong K_i/K_{i-1}}$ is simple for ${1 \le i \le \ell}$. Therefore, the following subnormal series <p align=center>$\displaystyle 1 \triangleleft H_1\triangleleft H_2 \cdots \triangleleft H_k=H=K_0 \triangleleft K_1 \triangleleft K_2 \triangleleft \cdots \triangleleft K_{\ell}=G$</p>
+ is a compostition series for ${G}$ since the quotients ${H_j/H_{j-1} \; (1 \le j \le k)}$ and ${K_i/K_{i-1} \; (1 \le i \le \ell)}$ are simple. This composition series also contains ${H}$.
+<p>
+<li>A2. (a) Denote ${D_{2m}=\left\langle r,s|r^m=s^2=srsr=1\right\rangle}$ where ${r}$ refers to rotation a regular ${m}$-gon counterclockwise with angle ${2\pi/m}$ and ${s}$ refers to reflection through a diagonal of such polygon. 
+<p>
+As the subgroup ${\langle r\rangle}$ has order ${m}$, which is half the order of ${D_{2m}}$, we find that ${\langle r\rangle}$ is a normal subgroup of ${D_{2m}}$.
+<p>
+Since ${srsr=1}$ or ${sr=r^{-1}s}$, any element of ${D_{2m}}$ can be represented as ${r^ks^t}$ for some ${0 \le k \le m-1, 0 \le t \le 1}$. This follows ${D_{2m}=\langle r\rangle \langle s\rangle}$. 
+<p>
+Note ${\langle r\rangle \cap \langle s\rangle=\{1\}}$ so we have found a decomposition ${G=NH}$ for ${D_{2m}}$.
+<p>
+(b) Consider ${G=\langle a|a^{2m}=1\rangle}$ then ${G\not\cong D_{2m}}$ as ${G}$ is abelian while ${D_{2m}}$ is not. Furthermore, as ${m}$ is odd, we know ${\langle a^m\rangle \cap \langle a^2\rangle =\{1\}}$.
+<p>
+Since ${G=\langle a^2\rangle \langle a^m\rangle}$ (again, also because ${m}$ is odd) and ${\langle a^2\rangle}$ is normal subgroup of ${G}$, we conclude that ${G}$ has decomposition ${G= \langle a^2 \rangle \langle a^m \rangle}$. 
+<p>
+As ${\langle a^2\rangle \cong \langle r\rangle \cong \ZZ/m\ZZ}$ and ${\langle a^m \rangle \cong \langle s \rangle \cong \ZZ/2\ZZ}$ so ${G}$ has same decomposition as ${D_{2m}}$ up to isomorphism. 
+<p>
+<li>A3. For ${0\le i \le n}$, let ${H_i=G_i\cap H}$ and we show that ${1=H_0 \triangleleft H_1 \triangleleft \cdots \triangleleft H_n=H}$ is a solvable series of ${H}$, i.e. we need to show that for every ${1 \le i \le n}$ then ${H_{i-1} \triangleleft H_i}$ and ${H_i/H_{i-1}}$ is abelian.
+<p>
+Fix an ${i \in \{1,\ldots, n\}}$, we consider the group ${G_i}$. Note that ${G_{i-1}}$ and ${H_i=G_i\cap H}$ are subgroups of ${G_i}$ and also ${G_{i-1}\triangleleft G_i}$ so by the second isomorphism theorem, we obtain ${G_{i-1} \triangleleft (G_i\cap H)G_{i-1}}$ and that <p align=center>$\displaystyle  \frac{(G_{i}\cap H)G_{i-1}}{G_{i-1}} \cong \frac{G_i \cap H}{G_{i-1}\cap(G_i\cap H)} = \frac{G_i\cap H}{G_{i-1}\cap H}= H_i/H_{i-1} $</p>
+ Therefore, ${H_{i-1}\triangleleft H_i}$. On the other hand, ${\frac{(G_{i}\cap H)G_{i-1}}{G_{i-1}}}$ is a subgroup of ${G_i/G_{i-1}}$ (since ${G_{i-1}\triangleleft G_{i}}$ so ${(G_{i}\cap H)G_{i-1} \le G_i}$ and ${G_{i-1} \triangleleft (G_{i}\cap H)G_{i-1}}$, all from Second Isomorphism Theorem) and as ${G_i/G_{i-1}}$ is abelian, we obtain that ${\frac{(G_{i}\cap H)G_{i-1}}{G_{i-1}}}$ or ${H_i/H_{i-1}}$ is also abelian. 
+<p>
+Since this holds for any ${1 \le i \le n}$, we have found a solvable series ${1=H_0 \triangleleft H_1 \triangleleft \cdots \triangleleft H_n=H}$ of ${H}$. 
+<p>
+<li>B1. Suppose ${m}$ has prime factorisation ${m=p_1p_2\cdots p_k}$ where ${p_i}$'s are not necessarily distinct. We will show that the composition factors of ${D_{2m}}$ are ${\ZZ/2\ZZ}$ and ${\ZZ/p_i\ZZ}$'s.
+<p>
+Indeed, denote ${D_{2m}=\langle r,s|r^m=s^2=srsr=1\rangle}$ as in exercise A2. With the same argument as in exercise A2, we also observe that ${\langle r\rangle}$ is a normal subgroup of ${D_{2m}}$. Furthermore, since ${\langle r\rangle}$ is a cyclic subgroup so we obtain the following subnormal series for ${D_{2m}}$: <p align=center>$\displaystyle 1 \triangleleft \langle r^{p_1\cdots p_{k-1}} \rangle \triangleleft \langle r^{p_1\cdots p_{k-2}}\rangle \triangleleft \cdots \triangleleft \langle r^{p_1}\rangle \triangleleft \langle r \rangle \triangleleft D_{2m}.$</p>
+ We have ${\langle r^{p_1\cdots p_{i-1}}\rangle /\langle r^{p_1\cdots p_{i}}\rangle \cong \ZZ/p_i\ZZ}$ for ${1 \le i \le k}$ and that ${D_{2m} /\langle r \rangle = \ZZ/2\ZZ}$ so this is a composition series for ${D_{2m}}$. According to Jordan H&ouml;lder theorem, ${D_{2m}}$ have composition factors (up to isomorphism) ${\left \{ \ZZ/2\ZZ, \ZZ/p_1\ZZ,\ldots, \ZZ/p_k\ZZ \right\}}$ where ${m=p_1\cdots p_k}$ as prime factorisation of ${m}$. 
+<p>
+<li>B2. We will go a find refinements of the two subnormal series of ${G}$: <p align=center>$\displaystyle \begin{array}{c} A:G_0=1 \triangleleft G_1=N \triangleleft G_2=G, \\ B:H_0=1\triangleleft H_1=M \triangleleft H_2=G \end{array}$</p>
+ We do this by following the proof of Schreier refinement theorem, which is shown in the lecture (so we will just stating facts without giving proofs from here on). In particular, define ${G_{i,j}= G_{i-1}(G_i\cap H_j)}$ for ${1\le i \le 2, 0 \le j \le 2}$ then we know that ${A}$ has refinement <p align=center>$\displaystyle \mathcal{A}: 1=G_0=G_{1,0} \triangleleft G_{1,1} \triangleleft G_{1,2}=G_{2,0}=G_1 \triangleleft G_{2,1}\triangleleft G_{2,2}=G_2=G.$</p>
+ We have ${G_{1,1}=G_0(G_1\cap H_1)=N\cap M}$ and ${G_{2,1}=G_1(G_2\cap H_1)=N(G\cap M)=NM}$. Therefore, we have <p align=center>$\displaystyle \mathcal{A}: 1 \triangleleft N\cap M \triangleleft N \triangleleft NM \triangleleft G$</p>
+ as a refinement of ${A}$. Similarly, we have <p align=center>$\displaystyle \mathcal{B}: 1 \triangleleft N \cap M \triangleleft M \triangleleft MN \triangleleft G$</p>
+ as a refinement of ${B}$. From Schreier refinement theorem, we know that two subnormal series ${\mathcal{A}}$ and ${\mathcal{B}}$ of ${G}$ are equivalent but are not identical as ${N\ne M}$, ${N}$ appears in ${\mathcal{A}}$ but not in ${\mathcal{B}}$, ${M}$ appears in ${\mathcal{B}}$ but not in ${\mathcal{A}}$. 
+<p>
+<li>B3. If (solvable) group ${G}$ is finite then from the lecture, ${G}$ has composition series. Conversely, if solvable group ${G}$ has composition series, we will show that ${G}$ is finite. We first prove the following claims:
+<p>
+ 
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Claim 2.</b> <em> <a name="lem_02"></a> For a solvable group ${G}$, a refinement of a solvable series of ${G}$ is also a solvable series. 
+</em>
+</div>
+
+<p>
+
+  Denote ${1=G_0 \triangleleft G_1 \triangleleft G_2 \triangleleft \cdots \triangleleft G_k=G}$ as the solvable series of group ${G}$, which means ${G_{i+1}/G_i}$ is abelian for ${0 \le i \le k-1}$. Consider a refinement of this series where between any two ${G_i,G_{i+1}}$ are the subgroups ${H_i}$'s forming the subnormal series ${G_i=H_0 \triangleleft H_1 \triangleleft \cdots \triangleleft H_{\ell-1} \triangleleft H_{\ell}=G_{i+1}.}$
+<p>
+ In order to show our refinement is a solvable series, it suffices to show that ${H_{j+1}/H_j}$ is abelian for ${0 \le j \le \ell-1}$. Indeed, since ${G_{i+1}/G_i}$ is abelian group which has subgroups ${H_j/G_i \; (1 \le j \le \ell)}$ (as ${G_i \triangleleft G_{i+1}}$ and ${G_i \le H_j \le G_{i+1}}$ so ${G_i \triangleleft H_j}$) so the subgroups ${H_j/G_i}$'s are also abelian. This follows, according to Third Isomorphism Theorem, that ${\frac{H_{j+1}}{H_j} \cong \frac{H_{j+1}/G_i}{H_j/G_i}}$ is also abelian for ${1 \le j \le \ell-1}$, as desired. 
+<p>
+ 
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Claim 3.</b> <em> <a name="lem_03"></a> A simple abelian group is finite. 
+</em>
+</div>
+
+<p>
+
+  Let ${G}$ be a simple nontrivial abelian group. If ${g\in G, g \ne 1}$ then ${\langle g \rangle}$ is a normal subgroup of ${G}$ since ${G}$ is abelian. Since ${G}$ is simple so ${G=\langle g \rangle}$. If ${g}$ has infinite order in ${G}$ then ${\langle g^2\rangle}$ is a proper normal subgroup of ${G}$, a contradiction. Hence, ${g}$ has finite order in ${G}$, which means ${G=\langle g \rangle}$ is finite. 
+<p>
+Back to the problem, if solvable group ${G}$ has composition series ${A}$ and since ${G}$ is solvable, ${G}$ admits a solvable series ${B}$, then according to Schreier's refinement theorem, there exists refinements ${A',B'}$ of ${A,B}$, respectively, such that ${A'}$ and ${B'}$ are equivalent. As ${A}$ is composition series of ${G}$ so the quotients of ${A'}$ (or ${B'}$) are simple groups. Furthermore, according to claim <a href="#lem_02">2</a>, quotients of ${A'}$ (or ${B'}$ since they are equivalent) are abelian as ${B}$ is a solvable series of ${G}$. Hence, from claim <a href="#lem_03">3</a>, the quotients of the subnormal series ${A'}$ of ${G}$ are finite. 
+<p>
+Denote ${A: 1=G_0 \triangleleft G_1 \triangleleft \cdots \triangleleft G_k=G}$ then as ${G_{i+1}/G_i}$ is finite for ${0 \le i \le k-1}$ and ${G_0=1}$, by induction on ${i}$, we find that ${G_i}$ is finite (recall ${G_i}$ for ${i\ge 1}$ is partitioned into left cosets ${gG_{i-1}}$'s for ${g\in G}$, and if there are finite ${|G_i/G_{i-1}|}$ number of such cosets, each having finite ${|G_{i-1}|}$ number of elements, then ${G_i}$ is finite). Thus, ${G=G_k}$ is finite. 
+<p>
+<li>C1. For any element ${r\in R}$, we consider the elements ${r,r^2,\ldots}$ in ${R}$. As ${R}$ is finite, there must exists positive integers ${i,k}$ such that ${r^i=r^{i+k}}$. This follows for ${a \in \ZZ_{\ge 1}}$ then <p align=center>$\displaystyle r^{i+ak}=r^{(a-1)k} r^{i+k}=r^{i+(a-1)k}=\cdots=r^i.$</p>
+ Hence, ${r^{i+b}=r^{i+ak+b}}$ for any ${a,b\in \ZZ_{\ge 0}}$.
+<p>
+Let ${n=i+b+ak}$, we want to find ${n}$ such that ${r^n}$ is idempotent, i.e. ${r^n=r^{2n}}$. If ${2n=i+b+a'k}$ for some ${a'\in \ZZ_{\ge 0}}$ then from our previous claim, we know ${r^n=r^{2n}=r^{i+b}}$. Hence, we need to choose ${a,b,a'\in \ZZ_{\ge 0}}$ such that ${2(i+b+ak)=i+b+a'k}$ or ${i+b=(a'-2a)k}$. This suggests us to choose ${b\in \ZZ_{\ge 0}}$ so that ${k}$ divides ${i+b}$, which is completely possible. After this, there obviously exist ${a',a\in \ZZ_{\ge 0}}$ such that ${i+b=(a'-2a)k}$. Thus, there exists ${n\in \ZZ_{\ge 1}}$ such that ${r^n=r^{2n}}$ or ${r^n}$ is an idempotent. 
+<p>
+<li>C2. If each of ${R,S}$ has more than one element then there exist nonzero ${r\in R,s\in S}$. This follows in ${R\times S}$, we have ${(r,0) \cdot (0,s)=(0,0)}$ while ${(r,0)\ne (0,0)}$ and ${(0,s) \ne (0,0)}$. Hence, ${R\times S}$ is not a domain.
+<p>
+If one of ${R,S}$ is the zero ring. Wihout loss of generality, suppose ${R=0}$ then elements in ${R\times S}$ are ${(0,s)}$ for ${s\in S}$. Each ${(0,s)}$ is not a zero divisor if and only if ${(0,s)(0,s')=(0,ss') \ne 0}$ for all nonzero ${s'\in S}$ if and only if ${ss'\ne 0}$ for all ${s'\in S,s'\ne 0}$ if and only if ${s}$ is not a zero divisor in ${S}$. Thus, in this case, ${R\times S=\{0\}\times S}$ is a domain if and only if ${S}$ is a domain. 
+<p>
+Thus, direct product ring ${R\times S}$ is a domain if and only if at least one of ${R,S}$ is the zero ring and the other is a domain \footnote{here we consider the zero ring also as a domain so ${0\times 0}$ is valid in our answer}.
+<p>
+<li>C3. 
+<p>
+First, for prime ${p}$ and positive integer ${n}$ denote ${v_p(n)=k \in \ZZ_{\ge 0}}$ if ${p^k}$ divides ${n}$ but ${p^{k+1}}$ does not divide ${n}$. Observe that ${v_p(a^N)=N \cdot v_p(a)}$.
+<p>
+We show that ${\overline{a}}$ is nilpotent in ${\ZZ/n\ZZ}$ if and only if the following condition holds: Every prime divisor of ${n}$ is a prime divisor of ${a}$. If this is true then it certainly classifies all nilpotent elements in ${\ZZ/n\ZZ}$ as we can identify all nilpotent elements in ${\ZZ/n\ZZ}$ from knowing ${n}$.
+<p>
+If ${p \mid a}$ or ${v_p(a)\ge 1}$ for every prime divisor ${p}$ of ${n}$ then there exists sufficient large positive integer ${N}$ such that ${v_p(a^N) = N \cdot v_p(a)&gt;v_p(n)}$ for all prime dividor ${p}$ of ${n}$. This follows ${n}$ divides ${a^N}$ or ${a^N=0}$ in ${\ZZ/n\ZZ}$. Thus, ${\overline{a}}$ is nilpotent in ${\ZZ/n\ZZ}$.
+<p>
+Conversely, if ${a}$ is nilpotent in ${\ZZ/n\ZZ}$, there exists positive integer ${N}$ such that ${a^N=0}$ in ${\ZZ/n\ZZ}$. This follows ${n}$ divides ${a^N}$. If ${p}$ is a prime divisor of ${n}$ then ${p}$ also divides ${a^N}$ which follows ${p}$ divides ${a}$. Hence, every prime divisor of ${n}$ is a prime divisor of ${a}$. 
+<p>
+
+</ol>
+
+  
