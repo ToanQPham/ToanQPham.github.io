@@ -30,7 +30,7 @@ $on-palm:          700px;
 $on-laptop:        800px;
 
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+        "minima/base",
+        "minima/layout",
+        "minima/syntax-highlighting"
 ;
