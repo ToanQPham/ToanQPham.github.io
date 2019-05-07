@@ -4,108 +4,83 @@ title: "Test $\\LaTeX$"
 categories: misc
 ---
 
-
 <p>
 
 <p>
- \title{MATH3303 assignment 2} \author{Toan Q. Pham <br/>
- ID:44827863} \maketitle
+ The main idea in this chapter is that the count for number of walks of length ${\ell}$ in a graph can be done by finding the entries of certain matrix or equivalently, finding the eigenvalues of such matrix. Conversely, one can even find the eigenvalues of such matrix by counting number of closed walks of lenght ${\ell}$ in a graph corresponding to such matrix:
 <p>
-I choose (A1), (B1), (C1) to be marked in full. 
-
-<ol> <li>A1. In order to write down a composition series for ${G/H}$, we first describe what subgroups of ${G/H}$ look like in folllowing claim  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Claim 1.</b> <em> Let ${H}$ be a normal subgroup of group ${G}$. There is a bijection ${u}$ between subgroups ${K}$ of ${G}$ containing ${H}$ and subgroups of ${G/H}$ defined by ${u(K)=K/H}$. This bijection preserves inclusions. 
-</em>
-</div>
-
+The \vocab{adjacency matrix} of graph ${G}$ is ${p\times p}$ matrix ${\mathbf{A}=\mathbf{A}(G)}$, over the field of complex numbers, whose ${(i,j)}$-entry ${a_{i,j}}$ is equal to number of edges incident to ${v_i}$ and ${v_j}$. Thus ${\mathbf{A}}$ is a real symmetric matrix (so real eigenvalues) whose trace is the number of loops in ${G}$. 
 <p>
-
-  To show that ${u}$ is bijective, we define ${u}$ to be the function from subgroups of ${G/H}$ to subgroups ${K}$ of ${G}$ containing ${H}$ as follow ${v(K')=K=\{a\in G|aH\in K'\}}$ where ${K'}$ is a subgroup of ${G/H}$. One can easily check that ${K}$ is indeed a subgroup of ${G}$ containing ${H}$ and that ${u,v}$ are inverses of each other. Therefore, ${u}$ is bijective.
-<p>
- For ${H \subseteq K \subseteq L}$ then it is clear that ${u(K)=K/H \subseteq L/H=u(L)}$ so ${u}$ preserves bijection.  Back to the problem, from this claim, we know that subgroups of ${G/H}$ are ${K/H}$ where ${K\le G}$ and ${H \subseteq K}$. Hence, we can denote the composition series of ${H,K}$ as <p align=center>$\displaystyle \begin{array}{c} 1 \triangleleft H_1 \triangleleft \cdots \triangleleft H_k=H, \\ K_0/H=H/H \triangleleft K_1/H \triangleleft K_2/H \triangleleft \cdots \triangleleft K_{\ell}/H=G/H, \end{array}$</p>
- where ${K_1\subseteq K_2 \subseteq \cdots \subseteq K_{\ell}}$ are subgroups of ${G}$ containing ${H}$ and ${H_1, \ldots, H_k}$ are subgroups of ${G}$ satisfying the above composition series. From the composition series of ${G/H}$, we find that the quotient groups ${\frac{K_i/H}{K_{i-1}/H} (1 \le i \le \ell)}$ are simple. According to third isomorphism theorem, we obtain ${\frac{K_i/H}{K_{i-1}/H}\cong K_i/K_{i-1}}$ is simple for ${1 \le i \le \ell}$. Therefore, the following subnormal series <p align=center>$\displaystyle 1 \triangleleft H_1\triangleleft H_2 \cdots \triangleleft H_k=H=K_0 \triangleleft K_1 \triangleleft K_2 \triangleleft \cdots \triangleleft K_{\ell}=G$</p>
- is a compostition series for ${G}$ since the quotients ${H_j/H_{j-1} \; (1 \le j \le k)}$ and ${K_i/K_{i-1} \; (1 \le i \le \ell)}$ are simple. This composition series also contains ${H}$.
-<p>
-<li>A2. (a) Denote ${D_{2m}=\left\langle r,s|r^m=s^2=srsr=1\right\rangle}$ where ${r}$ refers to rotation a regular ${m}$-gon counterclockwise with angle ${2\pi/m}$ and ${s}$ refers to reflection through a diagonal of such polygon. 
-<p>
-As the subgroup ${\langle r\rangle}$ has order ${m}$, which is half the order of ${D_{2m}}$, we find that ${\langle r\rangle}$ is a normal subgroup of ${D_{2m}}$.
-<p>
-Since ${srsr=1}$ or ${sr=r^{-1}s}$, any element of ${D_{2m}}$ can be represented as ${r^ks^t}$ for some ${0 \le k \le m-1, 0 \le t \le 1}$. This follows ${D_{2m}=\langle r\rangle \langle s\rangle}$. 
-<p>
-Note ${\langle r\rangle \cap \langle s\rangle=\{1\}}$ so we have found a decomposition ${G=NH}$ for ${D_{2m}}$.
-<p>
-(b) Consider ${G=\langle a|a^{2m}=1\rangle}$ then ${G\not\cong D_{2m}}$ as ${G}$ is abelian while ${D_{2m}}$ is not. Furthermore, as ${m}$ is odd, we know ${\langle a^m\rangle \cap \langle a^2\rangle =\{1\}}$.
-<p>
-Since ${G=\langle a^2\rangle \langle a^m\rangle}$ (again, also because ${m}$ is odd) and ${\langle a^2\rangle}$ is normal subgroup of ${G}$, we conclude that ${G}$ has decomposition ${G= \langle a^2 \rangle \langle a^m \rangle}$. 
-<p>
-As ${\langle a^2\rangle \cong \langle r\rangle \cong \ZZ/m\ZZ}$ and ${\langle a^m \rangle \cong \langle s \rangle \cong \ZZ/2\ZZ}$ so ${G}$ has same decomposition as ${D_{2m}}$ up to isomorphism. 
-<p>
-<li>A3. For ${0\le i \le n}$, let ${H_i=G_i\cap H}$ and we show that ${1=H_0 \triangleleft H_1 \triangleleft \cdots \triangleleft H_n=H}$ is a solvable series of ${H}$, i.e. we need to show that for every ${1 \le i \le n}$ then ${H_{i-1} \triangleleft H_i}$ and ${H_i/H_{i-1}}$ is abelian.
-<p>
-Fix an ${i \in \{1,\ldots, n\}}$, we consider the group ${G_i}$. Note that ${G_{i-1}}$ and ${H_i=G_i\cap H}$ are subgroups of ${G_i}$ and also ${G_{i-1}\triangleleft G_i}$ so by the second isomorphism theorem, we obtain ${G_{i-1} \triangleleft (G_i\cap H)G_{i-1}}$ and that <p align=center>$\displaystyle  \frac{(G_{i}\cap H)G_{i-1}}{G_{i-1}} \cong \frac{G_i \cap H}{G_{i-1}\cap(G_i\cap H)} = \frac{G_i\cap H}{G_{i-1}\cap H}= H_i/H_{i-1} $</p>
- Therefore, ${H_{i-1}\triangleleft H_i}$. On the other hand, ${\frac{(G_{i}\cap H)G_{i-1}}{G_{i-1}}}$ is a subgroup of ${G_i/G_{i-1}}$ (since ${G_{i-1}\triangleleft G_{i}}$ so ${(G_{i}\cap H)G_{i-1} \le G_i}$ and ${G_{i-1} \triangleleft (G_{i}\cap H)G_{i-1}}$, all from Second Isomorphism Theorem) and as ${G_i/G_{i-1}}$ is abelian, we obtain that ${\frac{(G_{i}\cap H)G_{i-1}}{G_{i-1}}}$ or ${H_i/H_{i-1}}$ is also abelian. 
-<p>
-Since this holds for any ${1 \le i \le n}$, we have found a solvable series ${1=H_0 \triangleleft H_1 \triangleleft \cdots \triangleleft H_n=H}$ of ${H}$. 
-<p>
-<li>B1. Suppose ${m}$ has prime factorisation ${m=p_1p_2\cdots p_k}$ where ${p_i}$'s are not necessarily distinct. We will show that the composition factors of ${D_{2m}}$ are ${\ZZ/2\ZZ}$ and ${\ZZ/p_i\ZZ}$'s.
-<p>
-Indeed, denote ${D_{2m}=\langle r,s|r^m=s^2=srsr=1\rangle}$ as in exercise A2. With the same argument as in exercise A2, we also observe that ${\langle r\rangle}$ is a normal subgroup of ${D_{2m}}$. Furthermore, since ${\langle r\rangle}$ is a cyclic subgroup so we obtain the following subnormal series for ${D_{2m}}$: <p align=center>$\displaystyle 1 \triangleleft \langle r^{p_1\cdots p_{k-1}} \rangle \triangleleft \langle r^{p_1\cdots p_{k-2}}\rangle \triangleleft \cdots \triangleleft \langle r^{p_1}\rangle \triangleleft \langle r \rangle \triangleleft D_{2m}.$</p>
- We have ${\langle r^{p_1\cdots p_{i-1}}\rangle /\langle r^{p_1\cdots p_{i}}\rangle \cong \ZZ/p_i\ZZ}$ for ${1 \le i \le k}$ and that ${D_{2m} /\langle r \rangle = \ZZ/2\ZZ}$ so this is a composition series for ${D_{2m}}$. According to Jordan H&ouml;lder theorem, ${D_{2m}}$ have composition factors (up to isomorphism) ${\left \{ \ZZ/2\ZZ, \ZZ/p_1\ZZ,\ldots, \ZZ/p_k\ZZ \right\}}$ where ${m=p_1\cdots p_k}$ as prime factorisation of ${m}$. 
-<p>
-<li>B2. We will go a find refinements of the two subnormal series of ${G}$: <p align=center>$\displaystyle \begin{array}{c} A:G_0=1 \triangleleft G_1=N \triangleleft G_2=G, \\ B:H_0=1\triangleleft H_1=M \triangleleft H_2=G \end{array}$</p>
- We do this by following the proof of Schreier refinement theorem, which is shown in the lecture (so we will just stating facts without giving proofs from here on). In particular, define ${G_{i,j}= G_{i-1}(G_i\cap H_j)}$ for ${1\le i \le 2, 0 \le j \le 2}$ then we know that ${A}$ has refinement <p align=center>$\displaystyle \mathcal{A}: 1=G_0=G_{1,0} \triangleleft G_{1,1} \triangleleft G_{1,2}=G_{2,0}=G_1 \triangleleft G_{2,1}\triangleleft G_{2,2}=G_2=G.$</p>
- We have ${G_{1,1}=G_0(G_1\cap H_1)=N\cap M}$ and ${G_{2,1}=G_1(G_2\cap H_1)=N(G\cap M)=NM}$. Therefore, we have <p align=center>$\displaystyle \mathcal{A}: 1 \triangleleft N\cap M \triangleleft N \triangleleft NM \triangleleft G$</p>
- as a refinement of ${A}$. Similarly, we have <p align=center>$\displaystyle \mathcal{B}: 1 \triangleleft N \cap M \triangleleft M \triangleleft MN \triangleleft G$</p>
- as a refinement of ${B}$. From Schreier refinement theorem, we know that two subnormal series ${\mathcal{A}}$ and ${\mathcal{B}}$ of ${G}$ are equivalent but are not identical as ${N\ne M}$, ${N}$ appears in ${\mathcal{A}}$ but not in ${\mathcal{B}}$, ${M}$ appears in ${\mathcal{B}}$ but not in ${\mathcal{A}}$. 
-<p>
-<li>B3. If (solvable) group ${G}$ is finite then from the lecture, ${G}$ has composition series. Conversely, if solvable group ${G}$ has composition series, we will show that ${G}$ is finite. We first prove the following claims:
+This chapter shows that for any integer ${\ell\ge 1}$, the ${(i,j)}$-entry of the matrix ${\mathbf{A}(G)^{\ell}}$ is equal to the number of walks from ${v_i}$ to ${v_j}$ in ${G}$ of length ${\ell}$. Furthermore, due to the fact that ${\mathbf{A}(G)}$ is real symmetric means there exists orthogonal matrix ${U}$ such that ${U^{-1}\mathcal{A}^{\ell}U}$ is a diagonal matrix. This implies that if ${\lambda_1,\ldots, \lambda_p}$ are eigenvalues of ${\mathbf{A}(G)}$ then there exists real numbers ${c_1,\ldots, c_p}$ such that for all ${\ell\ge 1}$ then <p align=center>$\displaystyle  (\mathbf{A}(G)^{\ell})_{i,j}=c_1\lambda_1^{\ell} +c_2\lambda_2^{\ell}+\ldots+c_p\lambda_p^{\ell}.$</p>
+ In a particular case where we want to count number of closed walks of length ${\ell}$ (from any vertex), this is then equal to <p align=center>$\displaystyle f_G(\ell)=\sum_{i=1}^p (\mathbf{A}(G)^{\ell})_{i,i}=\text{trace}(\mathbf{A}(G)^{\ell}) =\lambda_1^{\ell}+\ldots+\lambda_p^{\ell}.$</p>
+ An amazing fact is that if we know formula for ${f_G(\ell)}$ for all ${\ell}$ then we can determine eigenvalues of ${\mathbf{A}}$. In particular, if we can show ${f_G(\ell)=\alpha_1^{\ell}+\ldots+\alpha_p^{\ell}}$ for all ${\ell\ge1 }$ then ${\alpha_i}$'s are eigenvalues of ${\mathbf{A}}$.
 <p>
  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Claim 2.</b> <em> <a name="lem_02"></a> For a solvable group ${G}$, a refinement of a solvable series of ${G}$ is also a solvable series. 
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Remark 1.</b> <em> See \cite[Example 1.8]{algcomb_stanley}, if one knows number of closed walks of length ${\ell}$ for a graph ${G}$ for any ${\ell}$ then one can find the eigenvalues for ${\textbf{A}(G)}$. 
 </em>
 </div>
 
 <p>
 
-  Denote ${1=G_0 \triangleleft G_1 \triangleleft G_2 \triangleleft \cdots \triangleleft G_k=G}$ as the solvable series of group ${G}$, which means ${G_{i+1}/G_i}$ is abelian for ${0 \le i \le k-1}$. Consider a refinement of this series where between any two ${G_i,G_{i+1}}$ are the subgroups ${H_i}$'s forming the subnormal series ${G_i=H_0 \triangleleft H_1 \triangleleft \cdots \triangleleft H_{\ell-1} \triangleleft H_{\ell}=G_{i+1}.}$
-<p>
- In order to show our refinement is a solvable series, it suffices to show that ${H_{j+1}/H_j}$ is abelian for ${0 \le j \le \ell-1}$. Indeed, since ${G_{i+1}/G_i}$ is abelian group which has subgroups ${H_j/G_i \; (1 \le j \le \ell)}$ (as ${G_i \triangleleft G_{i+1}}$ and ${G_i \le H_j \le G_{i+1}}$ so ${G_i \triangleleft H_j}$) so the subgroups ${H_j/G_i}$'s are also abelian. This follows, according to Third Isomorphism Theorem, that ${\frac{H_{j+1}}{H_j} \cong \frac{H_{j+1}/G_i}{H_j/G_i}}$ is also abelian for ${1 \le j \le \ell-1}$, as desired. 
-<p>
  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Claim 3.</b> <em> <a name="lem_03"></a> A simple abelian group is finite. 
-</em>
-</div>
+<p align=center><b> &mdash;  1. Exercises  &mdash; </b></p>
+
+ 
+
+<ol> <li> As mentioned in Corollary 1.6, it suffices to count number of sequences ${(i_1,\ldots, i_{\ell})}$ of numbers ${1,2,\ldots, p}$ such that ${i_1=i}$, no two consecutive terms are equal, and ${i_{\ell}\ne i_1}$.
+<p>
+Let such answer be ${f_{\ell}}$. If the last condition is not true, i.e. if ${i_{\ell}=i_1}$, then ${i_{\ell-1}\ne i_1}$ and number of such sequences is exactly ${f_{\ell-1}}$. 
+<p>
+We count number of such sequences so that the last condition ${i_{\ell}\ne i_1}$ is neglected. There are ${p-1}$ choices for ${i_2}$, ${p-1}$ choices for ${i_3}$ and keep going until there are ${p-1}$ choices for ${i_{\ell}}$. Hence, number of such sequences so that it doesn't matter whether ${i_{\ell}}$ is equal to ${i_1}$ or not is ${(p-1)^{\ell-1}}$. This is precisely ${f_{\ell}+f_{\ell-1}}$. Hence, ${f_{\ell}+f_{\ell-1}=(p-1)^{\ell-1}}$.
+<p>
+Note that ${f_1=0}$ (since we know ${f_2=p-1}$ and we want ${f_2+f_1=p-1}$). This follows <p align=center>$\displaystyle  \begin{aligned}  f_{\ell} & = \sum_{i=1}^{\ell-1} (-1)^{i+1}(f_{\ell-i+1}-f_{\ell-i}), \\ & = \sum_{i=1}^{\ell-1} (-1)^{i+1} (p-1)^{\ell-i}, \\ p \cdot f_{\ell}& = (p-1+1) \left( \sum_{i=1}^{\ell-1} (-1)^{i+1} (p-1)^{\ell-i} \right), \\ p \cdot f_{\ell} & = (p-1)^{\ell}+(-1)^{\ell}(p-1). \end{aligned} $</p>
 
 <p>
+<li> From the condition and similarly to \cite[Example 1.8]{algcomb_stanley}, we know the eigenvalues of ${\textbf{A}(G)}$ is ${8,3,3,-1,-1,-1,6,1,1,1,1,1,0,0,0}$. If we add a loop at each vertex of ${G}$ to get ${G'}$ then ${\textbf{A}(G')=\textbf{A}(G)+I}$, which means eigenvalues of ${G'}$ are ${9,4,4,0,0,0,7,2,2,2,2,2,1,1,1}$. Hence, number of closed walks in ${G'}$ of length ${\ell}$ is ${f_{G'}(\ell)=9^{\ell}+2\cdot 4^{\ell}+7^{\ell}+5\cdot 2^{\ell}+3}$.
+<p>
+<li> For bipartite graph ${G}$, there are no closed walks in ${G}$ of odd length ${\ell}$ so ${f_G(\ell)=0}$ for all odd ${\ell}$. From corollary 1.6, we know ${f_G(\ell)=\lambda_1^{\ell}+\cdots +\lambda_p^{\ell}}$. If nonzero eigenvalues of ${G}$ don't come in pairs ${\pm \lambda}$ then let ${\lambda= \max \{|\lambda_i|:1\le i \le p\}}$, one can show that ${\left|\sum_{|\lambda_i|=\lambda} \lambda_i^{\ell}\right| &gt;\left| \sum_{|\lambda_i|&lt;\lambda} \lambda_i^{\ell}\right|}$ for sufficiently large ${\ell}$, which means ${f_G(\ell)}$ is nonzero for sufficiently large ${\ell}$, a contradiction. We are done. 
+<p>
+<li> (a) As discussed in previous exercise, for odd ${\ell}$ then ${f_{K_{rs}}(\ell)=0}$. If ${\ell}$ is even, for a closed walks of length ${\ell}$, one needs to go from ${u_i}$ to ${v_j}$ exactly ${\ell/2}$ times and from ${v_j}$ to ${u_i}$ also ${\ell/2}$ times. However, the last edge must return to the starting vertex so if there are ${r^{\ell/2}s^{\ell/2-1}}$ closed walks that starts at some ${v_j}$ and ${r^{\ell/2-1}s^{\ell/2}}$ closed walks that starts at some ${u_i}$. This follows the total number of closed walks for even ${\ell}$ is ${f_{K_{rs}}(\ell)=2(rs)^{\ell/2}}$. 
+<p>
+(b) From previous exercise, part (a) and following \cite[Example 1.8]{algcomb_stanley}, the eigenvalues of ${K_{rs}}$ are ${\pm\sqrt{rs}}$ and ${0}$ with multiplicity ${r+s-2}$. 
+<p>
+<li> It suffices to find number of closed walks in ${H_n}$. Let ${g_{\ell}}$ be number of closed walks in ${H_n}$ from some vertex ${u}$. Since ${H_n}$ is bipartite graph so ${g_{\ell}=0}$ for odd ${\ell}$. We will find ${g_{\ell}}$ for even ${\ell}$:
+<p>
+Suppose that ${w}$ is not adjacent to vertex ${u}$ in ${G}$. This means for any closed walk ${uv_{1} \cdots v_{\ell-1}u}$ of length ${\ell}$ from ${u}$, the second-to-last vertex ${v_{\ell-1}}$ must be different from ${w}$. Hence, <p align=center>$\displaystyle  \begin{aligned}  g_{\ell} &=\# (\text{closed walks length }\ell\text{ from }u), \\ &= \# (\text{walks length }\ell-1 \text{ from } u \text{ to vertex different from }w)\\ &= \# (\text{walks length }\ell-1 \text{ from }u) \\ &\quad - \# (\text{walks length }\ell-1 \text{ from }u \text{ to }w), \\ &= (n-1)^{\ell-1}- \# (\text{walks length }\ell-1 \text{ from }u \text{ to }w), \\ &= (n-1)^{\ell-1}- \left[ \# (\text{walks length }\ell-2 \text{ from }u)\right. \\ &\qquad \qquad \qquad \quad \left. - \text{closed walks length }\ell-2 \text{ from }u)\right], \\ & = (n-1)^{\ell-1}-\left[ (n-1)^{\ell-2}-g_{\ell-2}\right]. \end{aligned} $</p>
+ Note ${g_0=1}$ so from this recursive relation, we find ${g_{\ell}= \frac{(n-1)^{\ell}+n-1}{n}}$. By the symmetry of the graph ${H_n}$, as there are ${2n}$ vertices in ${H_{2n}}$, the total number of closed walks of length ${\ell}$ in ${H_n}$ is ${2n \cdot g_{\ell}= 2(n-1)^{\ell}+2(n-1)}$ for even ${\ell}$. This follows for all ${\ell \ge 1}$, we have <p align=center>$\displaystyle f_{H_n}(\ell)=(n-1)^{\ell}+(1-n)^{\ell}+(n-1) \cdot 1^{\ell} +(n-1) \cdot (-1)^{\ell}.$</p>
+ Thus, the eigenvalues of ${H_n}$ are ${\pm 1}$ (${n-1}$ times each) and ${\pm (n-1)}$ (once each) according to Corollary 1.3 and Lemma 1.7. 
+<p>
+<li> (a) Imagine each vertex set ${V_i}$ as a big vertex then ${K(n,p)}$ can be seen as a complete graph of ${p}$ vertices ${V_i}$'s. Hence, to count number of closed walks of length ${\ell}$ in ${K(n,p)}$ starting from ${v_1\in V_1}$, we first choose a closed walks of length ${\ell}$ of ${p}$ vertices ${V_i}$'s of ${K_p}$ starting from ${V_1}$. From corollary 1.6, there are ${(\textbf{A}(K_p)^{\ell})_{1,1}}$ such closed walks. 
+<p>
+For each such closed walk ${V_1 V_{k_1} \cdots V_{k_{\ell-1}}V_1}$, there are ${n}$ ways to go from ${v_1\in V}$ to a vertex ${v_{k_1}}$ in ${V_{k_1}}$, ${n}$ ways to go from ${v_{k_1}}$ to ${v_{k_2} \in V_{k_2}}$ and keep going until ${V_{k_{\ell-1}}}$. Note there is one way to go from a vertex in ${V_{k_{\ell-1}}}$ back to ${v_1 \in V_1}$ to form a closed walk. Hence, there are ${n^{\ell}-1}$ closed walks that follow ${V_1 V_{k_1}\cdots V_{k_{\ell-1}}V_1}$. 
+<p>
+Thus, number of closed walks of length ${\ell}$ in ${K(n,p)}$ starting from a specific vertex is <p align=center>$\displaystyle  (\textbf{A}(K_p)^{\ell})_{i,i} \cdot n^{\ell-1}= \frac{n^{\ell-1}}{p}\left( (p-1)^{\ell}+(p-1)(-1)^{\ell}\right).$</p>
+ Due to the symmetry of ${K(n,p)}$, the total number of closed walks of length ${\ell}$ in ${K(n,p)}$ is <p align=center>$\displaystyle  n^{\ell}\left( (p-1)^{\ell}+(p-1)(-1)^{\ell}\right).$</p>
+ From this, \cite[Corollary 1.3]{algcomb_stanley} and \cite[Lemma 1.7]{algcomb_stanley}, we find that eigenvalues of ${K(n,p)}$ are ${-n}$ of mulitplicity ${p-1}$, ${n(p-1)}$ of multiplicity ${1}$ and ${0}$ of multiplicity ${p(n-1)}$.
+<p>
+<li> The same method as in previous exercise. Using \cite[Corollary 1.3]{algcomb_stanley}, we find the total number of closed walks length ${\ell}$ in ${G(n)}$ is ${n^{\ell}\sum_{i=1}^{p}\lambda_i^{\ell}}$. Thus, the eigenvalues of ${G(n)}$ are ${\lambda_in}$ (each with multiplicity ${1}$) and ${0}$ with multiplicity ${p(n-1)}$.
+<p>
+<li> We can easily find that ${\textbf{A}(G')=\begin{pmatrix} \textbf{A}(G) & I \\ I & O \end{pmatrix}}$ where ${I}$ is ${p\times p}$ identity matrix and ${O}$ is ${p\times p}$ all-zero matrix. Let ${\begin{pmatrix} V_1 \\ V_2 \end{pmatrix}}$ be an eigenvector of ${\textbf{A}(G')}$ with respect to eigenvalue ${\lambda'}$. Here ${V_1,V_2}$ are ${p\times 1}$ matrices and ${V_1}$ is eigenvector of ${\textbf{A}(G)}$ with respect to eigenvalue ${\lambda}$. We have <p align=center>$\displaystyle \lambda'\begin{pmatrix} V_1 \\ V_2 \end{pmatrix}= \begin{pmatrix} \textbf{A}(G) & I \\ I & O \end{pmatrix}\begin{pmatrix} V_1 \\ V_2 \end{pmatrix} = \begin{pmatrix} \lambda V_1+V_2 \\ V_1 \end{pmatrix}$</p>
+ Solving this gives ${(\lambda')^2-\lambda\lambda'-1=0}$ or ${\lambda'= \frac{\lambda\pm \sqrt{\lambda^2+4}}{2}}$, as desired. 
+<p>
+<li> (a) From \cite[Corollary 1.2]{algcomb_stanley}, we know ${c_k(i,j)=u_{ik}u_{jk}}$ where ${U=(u_{ij})}$ is a real orthonormal matrix so ${U^{-1}AU=\text{diag}(\lambda_1,\lambda_2,\ldots, \lambda_p)}$. Hence, ${c_k(i,i)=u_{ik}^2\ge 0}$.
+<p>
+(b) it suffices to choose a symmetric matrix of positive integer entries such that one of its orthonormal vectors has both positive and negative entries. We can choose ${G}$ such that ${\textbf{A}(G)=\begin{pmatrix} a & b\\ b & a\end{pmatrix}}$ where ${a\ne b}$. With this, ${\begin{pmatrix} \pm 1/\sqrt{2} \\ 1/\sqrt{2} \end{pmatrix}}$ are orthonormal vectors of this matrix.
+<p>
+<li> Essentially ${G^*=G^2}$ so eigenvalues of ${G^*}$ are ${\lambda_i^2}$'s.
+<p>
+<li> We can write the adjacency matrix of ${\Gamma= K_n^o-K_m^o}$ as ${\begin{pmatrix} O_{m\times m} & I_{m\times (n-m)} \\ I_{(n-m)\times m} & I_{(n-m)\times (n-m)} \end{pmatrix}}$. Essentially we go and find the eigenvalues of ${\Gamma}$ using linear algebra and the rest one applies \cite[Corollary 1.3]{algcomb_stanley}. 
+<p>
+<li> (a) Number of closed walks of length ${\ell}$ in ${G}$ is obviously less than or equal to total of number of walks of length ${\ell}$ starting at each vertex. The latter is at most ${p\Delta^2}$ so we obtain ${f_G(\ell)=\lambda_1^{\ell} +\ldots+\lambda_p^{\ell} \le p\Delta^{\ell}}$ for any positive integer ${\ell}$. This implies ${\lambda_1\le \Delta}$.
+<p>
+(b) If ${G}$ is simple then ${f_G(1)=0}$ and ${f_G(2)=2q}$. This follows ${\lambda_1+\ldots+\lambda_p=0}$ and ${\lambda_1^2+\ldots+\lambda_p^2=2q}$. We have <p align=center>$\displaystyle \lambda_2^2+\ldots+\lambda_p^2 \ge \frac{1}{p-1}(\lambda_2+\ldots+\lambda_p)^2 =\frac{1}{p-1}\lambda_1^2.$</p>
+ Therefore, <p align=center>$\displaystyle  2q \ge \lambda_1^2 \cdot \frac{p}{p-1} \implies \lambda_1 \le \sqrt{2q}.$</p>
 
-  Let ${G}$ be a simple nontrivial abelian group. If ${g\in G, g \ne 1}$ then ${\langle g \rangle}$ is a normal subgroup of ${G}$ since ${G}$ is abelian. Since ${G}$ is simple so ${G=\langle g \rangle}$. If ${g}$ has infinite order in ${G}$ then ${\langle g^2\rangle}$ is a proper normal subgroup of ${G}$, a contradiction. Hence, ${g}$ has finite order in ${G}$, which means ${G=\langle g \rangle}$ is finite. 
 <p>
-Back to the problem, if solvable group ${G}$ has composition series ${A}$ and since ${G}$ is solvable, ${G}$ admits a solvable series ${B}$, then according to Schreier's refinement theorem, there exists refinements ${A',B'}$ of ${A,B}$, respectively, such that ${A'}$ and ${B'}$ are equivalent. As ${A}$ is composition series of ${G}$ so the quotients of ${A'}$ (or ${B'}$) are simple groups. Furthermore, according to claim <a href="#lem_02">2</a>, quotients of ${A'}$ (or ${B'}$ since they are equivalent) are abelian as ${B}$ is a solvable series of ${G}$. Hence, from claim <a href="#lem_03">3</a>, the quotients of the subnormal series ${A'}$ of ${G}$ are finite. 
-<p>
-Denote ${A: 1=G_0 \triangleleft G_1 \triangleleft \cdots \triangleleft G_k=G}$ then as ${G_{i+1}/G_i}$ is finite for ${0 \le i \le k-1}$ and ${G_0=1}$, by induction on ${i}$, we find that ${G_i}$ is finite (recall ${G_i}$ for ${i\ge 1}$ is partitioned into left cosets ${gG_{i-1}}$'s for ${g\in G}$, and if there are finite ${|G_i/G_{i-1}|}$ number of such cosets, each having finite ${|G_{i-1}|}$ number of elements, then ${G_i}$ is finite). Thus, ${G=G_k}$ is finite. 
-<p>
-<li>C1. For any element ${r\in R}$, we consider the elements ${r,r^2,\ldots}$ in ${R}$. As ${R}$ is finite, there must exists positive integers ${i,k}$ such that ${r^i=r^{i+k}}$. This follows for ${a \in \ZZ_{\ge 1}}$ then <p align=center>$\displaystyle r^{i+ak}=r^{(a-1)k} r^{i+k}=r^{i+(a-1)k}=\cdots=r^i.$</p>
- Hence, ${r^{i+b}=r^{i+ak+b}}$ for any ${a,b\in \ZZ_{\ge 0}}$.
-<p>
-Let ${n=i+b+ak}$, we want to find ${n}$ such that ${r^n}$ is idempotent, i.e. ${r^n=r^{2n}}$. If ${2n=i+b+a'k}$ for some ${a'\in \ZZ_{\ge 0}}$ then from our previous claim, we know ${r^n=r^{2n}=r^{i+b}}$. Hence, we need to choose ${a,b,a'\in \ZZ_{\ge 0}}$ such that ${2(i+b+ak)=i+b+a'k}$ or ${i+b=(a'-2a)k}$. This suggests us to choose ${b\in \ZZ_{\ge 0}}$ so that ${k}$ divides ${i+b}$, which is completely possible. After this, there obviously exist ${a',a\in \ZZ_{\ge 0}}$ such that ${i+b=(a'-2a)k}$. Thus, there exists ${n\in \ZZ_{\ge 1}}$ such that ${r^n=r^{2n}}$ or ${r^n}$ is an idempotent. 
-<p>
-<li>C2. If each of ${R,S}$ has more than one element then there exist nonzero ${r\in R,s\in S}$. This follows in ${R\times S}$, we have ${(r,0) \cdot (0,s)=(0,0)}$ while ${(r,0)\ne (0,0)}$ and ${(0,s) \ne (0,0)}$. Hence, ${R\times S}$ is not a domain.
-<p>
-If one of ${R,S}$ is the zero ring. Wihout loss of generality, suppose ${R=0}$ then elements in ${R\times S}$ are ${(0,s)}$ for ${s\in S}$. Each ${(0,s)}$ is not a zero divisor if and only if ${(0,s)(0,s')=(0,ss') \ne 0}$ for all nonzero ${s'\in S}$ if and only if ${ss'\ne 0}$ for all ${s'\in S,s'\ne 0}$ if and only if ${s}$ is not a zero divisor in ${S}$. Thus, in this case, ${R\times S=\{0\}\times S}$ is a domain if and only if ${S}$ is a domain. 
-<p>
-Thus, direct product ring ${R\times S}$ is a domain if and only if at least one of ${R,S}$ is the zero ring and the other is a domain \footnote{here we consider the zero ring also as a domain so ${0\times 0}$ is valid in our answer}.
-<p>
-<li>C3. 
-<p>
-First, for prime ${p}$ and positive integer ${n}$ denote ${v_p(n)=k \in \ZZ_{\ge 0}}$ if ${p^k}$ divides ${n}$ but ${p^{k+1}}$ does not divide ${n}$. Observe that ${v_p(a^N)=N \cdot v_p(a)}$.
-<p>
-We show that ${\overline{a}}$ is nilpotent in ${\ZZ/n\ZZ}$ if and only if the following condition holds: Every prime divisor of ${n}$ is a prime divisor of ${a}$. If this is true then it certainly classifies all nilpotent elements in ${\ZZ/n\ZZ}$ as we can identify all nilpotent elements in ${\ZZ/n\ZZ}$ from knowing ${n}$.
-<p>
-If ${p \mid a}$ or ${v_p(a)\ge 1}$ for every prime divisor ${p}$ of ${n}$ then there exists sufficient large positive integer ${N}$ such that ${v_p(a^N) = N \cdot v_p(a)&gt;v_p(n)}$ for all prime dividor ${p}$ of ${n}$. This follows ${n}$ divides ${a^N}$ or ${a^N=0}$ in ${\ZZ/n\ZZ}$. Thus, ${\overline{a}}$ is nilpotent in ${\ZZ/n\ZZ}$.
-<p>
-Conversely, if ${a}$ is nilpotent in ${\ZZ/n\ZZ}$, there exists positive integer ${N}$ such that ${a^N=0}$ in ${\ZZ/n\ZZ}$. This follows ${n}$ divides ${a^N}$. If ${p}$ is a prime divisor of ${n}$ then ${p}$ also divides ${a^N}$ which follows ${p}$ divides ${a}$. Hence, every prime divisor of ${n}$ is a prime divisor of ${a}$. 
-<p>
-
+<li> 
 </ol>
 
+
+<p>
+\newpage {10} \bibitem{algcomb_stanley} Richard P. Stanley. Algebraic Combinatorics. Walks, Trees, Tableaux and More. 2nd Ed.  
   
