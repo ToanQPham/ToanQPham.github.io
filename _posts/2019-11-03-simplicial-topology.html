@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Simplicial homology"
+categories: algebraic topology
+---
+
+<p align=center><b> &mdash;  1. Simplicial homology  &mdash; </b></p>
+
+
+<p>
+Simplicial homology means the study of homology of simplicial complexes. First, we define simplicial complexes. 
+<p>
+ 
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 1.</b> <em> An \vocab{(abstract) simplicial complex} consists of a set ${V}$, i.e. set of <i>vertices</i>, together with a set ${S}$ of subsets of ${V}$ such that 
+
+<ol> <li> ${\{v\}}$ in ${S}$ for every ${v\in V}$. <li> If ${\sigma \in S}$ and ${\emptyset \ne \tau \subset \sigma \in S}$ then ${\tau \in S}$, i.e. ${S}$ is closed under operation of taking nonempty subsets. 
+</ol>
+
+ Elements of ${S}$ are called \vocab{simplices}. If ${\sigma=\{v_0,\ldots, v_n\}\in S}$ then ${\sigma}$ is \vocab{${n}$-simplex} and ${n\ge 0}$ is the \vocab{dimension} of ${\sigma}$. The dimension of the simplicial complex is the largest dimension of a simplex in ${K}$. Vertices (i.e. elements of ${V}$) are identified with ${0}$-simplices. Denote ${K^r}$ as set of all ${r}$-simplices in ${K}$.
+<p>
+ For a ${n}$-simplex ${\sigma}$, any ${\emptyset \ne \tau \subset \sigma}$ of dimension ${r}$ is called a \vocab{${r}$-face} of ${\sigma}$. The union of all ${(n-1)}$-faces is called the \vocab{boundary} of the simplex. 
+</em>
+</div>
+
+<p>
+
+
+<p>
+ 
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Example 2.</b> <em> Some examples of ${k}$-simplex, ${k}$-simplicial complex. 
+</em>
+</div>
+
+<p>
+
+
+<p>
+The goal of homology is to count number of "holes" of some geometric objects, such as torus, Klein bottle, or graph, ... In simplicial context, a "hole" is a combination of simplices which could possibly be the boundary of a simplex or of a combination of simplices, but is not. For example, the ${2}$-simplex has a boundary (according to definition) which is the set of its three edges. However, the set of three edges of a simplicial circle is not a boundary, and geometrically, it forms a "hole". 
+<p>
+\textcolor{red}{insert image}
+<p>
+ \centering \includegraphics[height=3cm]{simplices.png} 
+<p>
+Another example is the simplicial torus which has three uppermost edges looking just like the boundary of a ${2}$-simplex but there is no ${2}$-simplex in this simplicial torus. That's how we realize there's a hole in the torus. 
+<p>
+\textcolor{red}{insert image}
+<p>
+To define homology groups, we need an orientation for our complex.
+<p>
+
+ <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 3 (Orientation).</b> <em> <a name="SimplicialComplex_def1orientation"></a> An \vocab{orientation} of a simplex is an ordering of vertices of that simplex. An orientation of a simplicial complex is a choice of orientation of each simplex. If ${\{v_0,\ldots,v_k\}}$ spans ${k}$-simplex ${\sigma}$ then we will use the symbol ${[v_0,\ldots, v_k]}$ to denote the oriented simplex. 
+<p>
+ There are many ways to define an orientation of a simplicial complex ${K=(V,S)}$. For example, one can define a total ordering on the vertex set ${V}$ and induce an ordering for each simplex whose vertex set is a subset of ${V}$. In particular, if our ordered vertex set is ${V=\{v_0,\ldots, v_n\}}$ then ${[v_{a_0},\ldots,v_{a_k}]}$ is an oriented simplex iff ${a_i&lt;a_j}$ for any ${i&lt;j}$. Simplcial complex with this orientation is called \vocab{ordered} simplicial complex. This will be our choice for the definition of orientation. 
+<p>
+ One can also define a partial ordering on ${V}$ that induces a total ordering on each simplex of ${K}$. 
+<p>
+ Another way is that we define the orientation of an ${n}$-simplex ${[v_0,v_1,\ldots, v_n]}$ to be an equivalence class of orderings of the vertices where two orderings are equivalence if and only if one can be obtained from the other by an even permutation. For example, ${[v_0,v_1,v_2,v_3]=[v_1,v_0,v_3,v_2]= -[v_0,v_2,v_1,v_3]}$. \footnote{Most books/notes use the last definition for orientation but by doing this, one would have to prove well-defineness (since we are dealing will equivalence classes) for any other definitions using the orientation.} 
+</em>
+</div>
+
+<p>
+
+
+<p>
+ 
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Remark 4.</b> <em> There is another notion\textcolor{red}{s?} of orientation, i.e. orientation of manifold, so we should not confuse one with the other. 
+<p>
+ At the moment, \textcolor{red}{any?} choice of orientation helps to define homology but soon we will see that if we have a simplicial complex that has \textcolor{red}{realization?} as some \textcolor{red}{topological space?} (and we want our homology of the complex to be applicable to the \textcolor{red}{realization}) then we need some restrictions for our choice of orientation (in order to make such \textcolor{red}{realization} possible). READ MORE <a href="https://math.stackexchange.com/a/2593220/58951">HERE</a>. 
+</em>
+</div>
+
+<p>
+
+
+<p>
+The <i>only</i> purpose in defining the orientation of simplices is to define the boundary of a chain (or more specifically, to define the face maps). 
+<p>
+
+ <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 5 (${r}$-chain group).</b> <em> <a name="SimplicialComplex_def2chainGroup"></a> For a simplcial complex ${K}$ with dimension ${n}$, for ${0 \le r \le n}$ then the 
