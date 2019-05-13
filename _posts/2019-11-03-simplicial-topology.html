@@ -11,15 +11,14 @@ categories: algebraic topology
 Simplicial homology means the study of homology of simplicial complexes. First, we define simplicial complexes. 
 <p>
  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 1.</b> <em> An \vocab{(abstract) simplicial complex} consists of a set ${V}$, i.e. set of <i>vertices</i>, together with a set ${S}$ of subsets of ${V}$ such that 
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 1.</b>  An <mark>(abstract) simplicial complex</mark> consists of a set ${V}$, i.e. set of <i>vertices</i>, together with a set ${S}$ of subsets of ${V}$ such that 
 
 <ol> <li> ${\{v\}}$ in ${S}$ for every ${v\in V}$. <li> If ${\sigma \in S}$ and ${\emptyset \ne \tau \subset \sigma \in S}$ then ${\tau \in S}$, i.e. ${S}$ is closed under operation of taking nonempty subsets. 
 </ol>
 
- Elements of ${S}$ are called \vocab{simplices}. If ${\sigma=\{v_0,\ldots, v_n\}\in S}$ then ${\sigma}$ is \vocab{${n}$-simplex} and ${n\ge 0}$ is the \vocab{dimension} of ${\sigma}$. The dimension of the simplicial complex is the largest dimension of a simplex in ${K}$. Vertices (i.e. elements of ${V}$) are identified with ${0}$-simplices. Denote ${K^r}$ as set of all ${r}$-simplices in ${K}$.
+ Elements of ${S}$ are called <mark>simplices</mark>. If ${\sigma=\{v_0,\ldots, v_n\}\in S}$ then ${\sigma}$ is <mark>${n}$-simplex</mark> and ${n\ge 0}$ is the <mark>dimension</mark> of ${\sigma}$. The dimension of the simplicial complex is the largest dimension of a simplex in ${K}$. Vertices (i.e. elements of ${V}$) are identified with ${0}$-simplices. Denote ${K^r}$ as set of all ${r}$-simplices in ${K}$.
 <p>
- For a ${n}$-simplex ${\sigma}$, any ${\emptyset \ne \tau \subset \sigma}$ of dimension ${r}$ is called a \vocab{${r}$-face} of ${\sigma}$. The union of all ${(n-1)}$-faces is called the \vocab{boundary} of the simplex. 
-</em>
+ For a ${n}$-simplex ${\sigma}$, any ${\emptyset \ne \tau \subset \sigma}$ of dimension ${r}$ is called a <mark>${r}$-face</mark> of ${\sigma}$. The union of all ${(n-1)}$-faces is called the <mark>boundary</mark> of the simplex. 
 </div>
 
 <p>
@@ -27,8 +26,7 @@ Simplicial homology means the study of homology of simplicial complexes. First, 
 
 <p>
  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Example 2.</b> <em> Some examples of ${k}$-simplex, ${k}$-simplicial complex. 
-</em>
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Example 2.</b>  Some examples of ${k}$-simplex, ${k}$-simplicial complex. 
 </div>
 
 <p>
@@ -46,14 +44,13 @@ Another example is the simplicial torus which has three uppermost edges looking 
 To define homology groups, we need an orientation for our complex.
 <p>
 
- <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 3 (Orientation).</b> <em> <a name="SimplicialComplex_def1orientation"></a> An \vocab{orientation} of a simplex is an ordering of vertices of that simplex. An orientation of a simplicial complex is a choice of orientation of each simplex. If ${\{v_0,\ldots,v_k\}}$ spans ${k}$-simplex ${\sigma}$ then we will use the symbol ${[v_0,\ldots, v_k]}$ to denote the oriented simplex. 
+ <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 3 (Orientation).</b>  <a name="SimplicialComplex_def1orientation"></a> An <mark>orientation</mark> of a simplex is an ordering of vertices of that simplex. An orientation of a simplicial complex is a choice of orientation of each simplex. If ${\{v_0,\ldots,v_k\}}$ spans ${k}$-simplex ${\sigma}$ then we will use the symbol ${[v_0,\ldots, v_k]}$ to denote the oriented simplex. 
 <p>
- There are many ways to define an orientation of a simplicial complex ${K=(V,S)}$. For example, one can define a total ordering on the vertex set ${V}$ and induce an ordering for each simplex whose vertex set is a subset of ${V}$. In particular, if our ordered vertex set is ${V=\{v_0,\ldots, v_n\}}$ then ${[v_{a_0},\ldots,v_{a_k}]}$ is an oriented simplex iff ${a_i&lt;a_j}$ for any ${i&lt;j}$. Simplcial complex with this orientation is called \vocab{ordered} simplicial complex. This will be our choice for the definition of orientation. 
+ There are many ways to define an orientation of a simplicial complex ${K=(V,S)}$. For example, one can define a total ordering on the vertex set ${V}$ and induce an ordering for each simplex whose vertex set is a subset of ${V}$. In particular, if our ordered vertex set is ${V=\{v_0,\ldots, v_n\}}$ then ${[v_{a_0},\ldots,v_{a_k}]}$ is an oriented simplex iff ${a_i&lt;a_j}$ for any ${i&lt;j}$. Simplcial complex with this orientation is called <mark>ordered</mark> simplicial complex. This will be our choice for the definition of orientation. 
 <p>
  One can also define a partial ordering on ${V}$ that induces a total ordering on each simplex of ${K}$. 
 <p>
  Another way is that we define the orientation of an ${n}$-simplex ${[v_0,v_1,\ldots, v_n]}$ to be an equivalence class of orderings of the vertices where two orderings are equivalence if and only if one can be obtained from the other by an even permutation. For example, ${[v_0,v_1,v_2,v_3]=[v_1,v_0,v_3,v_2]= -[v_0,v_2,v_1,v_3]}$. \footnote{Most books/notes use the last definition for orientation but by doing this, one would have to prove well-defineness (since we are dealing will equivalence classes) for any other definitions using the orientation.} 
-</em>
 </div>
 
 <p>
@@ -61,10 +58,9 @@ To define homology groups, we need an orientation for our complex.
 
 <p>
  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Remark 4.</b> <em> There is another notion\textcolor{red}{s?} of orientation, i.e. orientation of manifold, so we should not confuse one with the other. 
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Remark 4.</b>  There is another notion\textcolor{red}{s?} of orientation, i.e. orientation of manifold, so we should not confuse one with the other. 
 <p>
  At the moment, \textcolor{red}{any?} choice of orientation helps to define homology but soon we will see that if we have a simplicial complex that has \textcolor{red}{realization?} as some \textcolor{red}{topological space?} (and we want our homology of the complex to be applicable to the \textcolor{red}{realization}) then we need some restrictions for our choice of orientation (in order to make such \textcolor{red}{realization} possible). READ MORE <a href="https://math.stackexchange.com/a/2593220/58951">HERE</a>. 
-</em>
 </div>
 
 <p>
@@ -74,8 +70,7 @@ To define homology groups, we need an orientation for our complex.
 The <i>only</i> purpose in defining the orientation of simplices is to define the boundary of a chain (or more specifically, to define the face maps). 
 <p>
 
- <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 5 (${r}$-chain group).</b> <em> <a name="SimplicialComplex_def2chainGroup"></a> For a simplcial complex ${K}$ with dimension ${n}$, for ${0 \le r \le n}$ then the ${r}$-chain group ${C_r(K)}$ is the set consisting of elements, called \vocab{${r}$-chain} of the form ${\sum_{\sigma\in K^r}\lambda \sigma}$ where ${\lambda\in {\mathbb Z}}$ and the sum is over all ${r}$-simplices ${\sigma}$. In particular, ${C_r(K)}$ is a free abelian group generated by ${r}$-simplices. 
-</em>
+ <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 5 (${r}$-chain group).</b>  <a name="SimplicialComplex_def2chainGroup"></a> For a simplcial complex ${K}$ with dimension ${n}$, for ${0 \le r \le n}$ then the ${r}$-chain group ${C_r(K)}$ is the set consisting of elements, called <mark>${r}$-chain</mark> of the form ${\sum_{\sigma\in K^r}\lambda \sigma}$ where ${\lambda\in {\mathbb Z}}$ and the sum is over all ${r}$-simplices ${\sigma}$. In particular, ${C_r(K)}$ is a free abelian group generated by ${r}$-simplices. 
 </div>
 
 <p>
@@ -83,11 +78,10 @@ The <i>only</i> purpose in defining the orientation of simplices is to define th
 
 <p>
 
- <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 6 (Boundary maps).</b> <em> We define a boundary homomorphism ${\partial_r:C_r(K) \rightarrow C_{r-1}(K)}$ on the generators of ${C_r(K)}$ by <p align=center>$\displaystyle \partial_r[v_0,v_1,\ldots,v_r]= \sum_{i=0}^{r}(-1)^i [v_0,\ldots,\widehat{v_i},\ldots,v_r]$</p>
+ <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 6 (Boundary maps).</b>  We define a boundary homomorphism ${\partial_r:C_r(K) \rightarrow C_{r-1}(K)}$ on the generators of ${C_r(K)}$ by <p align=center>$\displaystyle \partial_r[v_0,v_1,\ldots,v_r]= \sum_{i=0}^{r}(-1)^i [v_0,\ldots,\widehat{v_i},\ldots,v_r]$</p>
  where the oriented simplex ${[v_0,\ldots,\widehat{v_i},\ldots,v_r]}$ is the ${i}$-th face of ${[v_0,\ldots,v_r]}$, obtained by deleting ${i}$-th vertex.
 <p>
  By convention, ${\partial_0([v_i])=0}$ for all possible ${i}$. 
-</em>
 </div>
 
 <p>
@@ -95,8 +89,7 @@ The <i>only</i> purpose in defining the orientation of simplices is to define th
 
 <p>
  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Remark 7.</b> <em> If with definition <a href="#SimplicialComplex_def1orientation">3</a> of orientation as equivalence classes obtained by taking even permutation, then ${\partial_r}$ is well-defined. 
-</em>
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Remark 7.</b>  If with definition <a href="#SimplicialComplex_def1orientation">3</a> of orientation as equivalence classes obtained by taking even permutation, then ${\partial_r}$ is well-defined. 
 </div>
 
 <p>
@@ -104,19 +97,17 @@ The <i>only</i> purpose in defining the orientation of simplices is to define th
 
 <p>
  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Proposition 8.</b> <em> <a name="SimplicialComplex_prop1"></a> For simplicial complex ${K}$ then ${\partial_r \circ \partial_{r+1}=0}$. 
-</em>
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Proposition 8.</b>  <a name="SimplicialComplex_prop1"></a> For simplicial complex ${K}$ then ${\partial_r \circ \partial_{r+1}=0}$. 
 </div>
 
 <p>
 
 
 <p>
-The boundary of an ${(r+1)}$-simplex, which is a set of ${r+1}$ ${r}$-simplices, which can be represented as an ${r}$-chain through the boundary homomorphism, is in the image of the boundary homomorphism ${\partial_{r+1}}$. This suggests the name for elements of ${\text{im}\partial_{r+1}}$ as \vocab{${r}$-boundaries}. As ${\text{im} \partial_{r+1} \subset \ker \partial_r}$, ${\ker \partial_r}$ is the set of ${r}$-chains that <i>could potentially be</i> boundary and we call elements of ${\ker \partial_r}$ as \vocab{${r}$-cycles}. Recall that in homology, we would like to know which combination of simplices that could be a boundary but is not, i.e. ${r}$-chains in ${\ker \partial_{n}}$ that is not in ${\partial_{n+1}}$. Hence, one way to do this is take the quotient group ${\ker \partial_r/\text{im} \partial_{r+1}}$, which will be the definition of homology group:
+The boundary of an ${(r+1)}$-simplex, which is a set of ${r+1}$ ${r}$-simplices, which can be represented as an ${r}$-chain through the boundary homomorphism, is in the image of the boundary homomorphism ${\partial_{r+1}}$. This suggests the name for elements of ${\text{im}\partial_{r+1}}$ as <mark>${r}$-boundaries</mark>. As ${\text{im} \partial_{r+1} \subset \ker \partial_r}$, ${\ker \partial_r}$ is the set of ${r}$-chains that <i>could potentially be</i> boundary and we call elements of ${\ker \partial_r}$ as <mark>${r}$-cycles</mark>. Recall that in homology, we would like to know which combination of simplices that could be a boundary but is not, i.e. ${r}$-chains in ${\ker \partial_{n}}$ that is not in ${\partial_{n+1}}$. Hence, one way to do this is take the quotient group ${\ker \partial_r/\text{im} \partial_{r+1}}$, which will be the definition of homology group:
 <p>
  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 9.</b> <em> The quotient ${H_r(K)=\ker \partial_r/\text{im} \partial_{r+1}}$ is called the \vocab{${r}$-th homology group}. Two ${r}$-cycles ${\alpha, \beta}$ are \vocab{homologous} if the ${r}$-cycle ${\alpha-\beta}$ is a ${r}$-boundary. The equivalence class of a ${r}$-cycle ${\alpha}$ is the \vocab{homology class} ${[\alpha]}$. 
-</em>
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 9.</b>  The quotient ${H_r(K)=\ker \partial_r/\text{im} \partial_{r+1}}$ is called the <mark>${r}$-th homology group</mark>. Two ${r}$-cycles ${\alpha, \beta}$ are <mark>homologous</mark> if the ${r}$-cycle ${\alpha-\beta}$ is a ${r}$-boundary. The equivalence class of a ${r}$-cycle ${\alpha}$ is the <mark>homology class</mark> ${[\alpha]}$. 
 </div>
 
 <p>
@@ -124,8 +115,7 @@ The boundary of an ${(r+1)}$-simplex, which is a set of ${r+1}$ ${r}$-simplices,
 
 <p>
  
- <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Example 10.</b> <em> Consider simplicial complex ${K}$ of ${3}$ vertices ${v_0,v_1,v_2}$ and set of simplices ${\{[v_0,v_1], [v_1,v_2],[v_0,v_2],[v_0],[v_1],[v_2]\}}$. 
-</em>
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Example 10.</b>  Consider simplicial complex ${K}$ of ${3}$ vertices ${v_0,v_1,v_2}$ and set of simplices ${\{[v_0,v_1], [v_1,v_2],[v_0,v_2],[v_0],[v_1],[v_2]\}}$. 
 </div>
 
 <p>
@@ -138,7 +128,6 @@ The boundary of an ${(r+1)}$-simplex, which is a set of ${r+1}$ ${r}$-simplices,
 <p align=center><b> &mdash;  1.1. Q: Does simplicial homology depends on orientation?  &mdash; </b></p>
 
  If our chosen definition of orientation based on a total ordering of the vertices then the answer is no. <a href="problem">\href</a>{MSE}} Let ${K}$ be a simplicial complex and denote ${K_1}$ and ${K_2}$ the complexes obtained from ${K}$ with two different orientations then the simplicial homology groups of ${K_1}$ and ${K_2}$ are isomorphic. That is, for each ${n}$, we have ${H_n(K_1) \cong H_n(K_2)}$. 
-</em>
 </div>
 
 <p>
@@ -153,8 +142,7 @@ Perhaps this question is answered in \cite{Barr_OrientedSingularHomology}.
 <p align=center><b> &mdash;  2. Examples  &mdash; </b></p>
 
  Below is the definition of a cone taking from \cite{Casolo}(page 16): 
- <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 11 (Cone).</b> <em> A complex ${X}$ is a cone if there exists a vertex ${x}$ of ${X}$ such that ${\sigma\cup x\in X}$ for every ${\sigma\in X}$. 
-</em>
+ <div style= " background: #ffffff; border-left: 5px solid; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 11 (Cone).</b>  A complex ${X}$ is a cone if there exists a vertex ${x}$ of ${X}$ such that ${\sigma\cup x\in X}$ for every ${\sigma\in X}$. 
 </div>
 
 <p>
