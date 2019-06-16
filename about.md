@@ -19,7 +19,7 @@ You can find the source code for Jekyll at GitHub:
 
 # Principles
 
-## Compassion, Love
+## Compassion, Love and Non-discrimination
 
 I highly recommend everyone to watch the following great lecture by the great master Thich Nhat Hanh 
 about love and compassion: [https://youtu.be/Oe1HU4GiF90]
