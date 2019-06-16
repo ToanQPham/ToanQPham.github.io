@@ -12,11 +12,3 @@ permalink: /about/
 
 I highly recommend everyone to watch the following great lecture by the great master Thich Nhat Hanh 
 about love and compassion: [Link](https://youtu.be/Oe1HU4GiF90).
-
-### mkasdm
-
-One
-===
-
-Two
----
