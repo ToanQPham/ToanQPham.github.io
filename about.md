@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-# Principles
+# Life Principles
 
 ## Compassion, Love and Non-discrimination
 
