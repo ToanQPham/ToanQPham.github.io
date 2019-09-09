@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Writing
-permalink: /writing/
+permalink: /about/writing/
+exclude: false
 ---
 
 Here are some of my writings:

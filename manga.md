@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Manga
-permalink: /manga/
+permalink: /about/manga/
+exclude: true
 ---
 
 Here is my manga list

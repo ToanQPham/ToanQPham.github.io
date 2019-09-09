@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Vietnamese Mathematics Dictionary
-permalink: /vietnamese-math-dictionary/
+permalink: /about/vietnamese-math-dictionary/
+exclude: true
 ---
 
 ideal = ideal
