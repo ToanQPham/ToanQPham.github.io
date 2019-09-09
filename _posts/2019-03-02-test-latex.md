@@ -2,6 +2,7 @@
 layout: post
 title: "Test $\\LaTeX$"
 categories: misc
+tag: Representation theory
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
