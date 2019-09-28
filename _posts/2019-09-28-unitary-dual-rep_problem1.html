@@ -1,0 +1,75 @@
+---
+layout: post
+title: "Problem 1 - Unitary representation of dual space"
+categories: Representation Theory
+tag: Representation theory, Lie algebra
+---
+
+<div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Problem 1.</b> <em> Let $latex {V}&fg=000000$ finite-dimensional vector space over $latex {\CC}&fg=000000$ admitting symmetric nondegenerate seaqui-linear form $latex {(,)}&fg=000000$: 
+
+<ol> <li> symmetry: $latex {(v,w)=\overline{(w,v)}}&fg=000000$. <li> (sesqui-)linearity: $latex {(v,\alpha w+\beta u)=\alpha(v,w)+\beta(v,u)}&fg=000000$. <li> non-degeneracy: $latex {(v,w)=0 \forall w\in W\implies v=0}&fg=000000$. 
+</ol>
+
+ for all $latex {v,u,w\in V; \alpha,\beta\in \CC}&fg=000000$ where the overbar denotes the complex conjugation. Suppose $latex {\{v_i:1 \le i \le n\}}&fg=000000$ basis of $latex {V}&fg=000000$ over $latex {\CC}&fg=000000$ and let $latex {g}&fg=000000$ denotes the matrix $latex {g_{i,j}=(v_i,v_j)}&fg=000000$. 
+
+<ol> <li> Show that the matrix $latex {g}&fg=000000$ is non-singular. <li> Let $latex {v^i=\sum_j\overline{g^{ij}}v_j}&fg=000000$ where $latex {g^{ij}=(g^{-1})_{i,j}}&fg=000000$. Show $latex {\{v^i:1 \le i \le n\}}&fg=000000$ basis of $latex {V}&fg=000000$ which is dual of $latex {\{v_i\}}&fg=000000$ in the sense that $latex {(v^i,v_j)=\delta_{i,j}}&fg=000000$ <li> Deduce that $latex {g^{ij}=(v^jv^i)}&fg=000000$. 
+</ol>
+
+ 
+</em>
+</div>
+
+<p>
+
+
+<p>
+ (i) Since if $latex {(v,w)=0}&fg=000000$ then $latex {(w,v)=\overline{(v,w)}=0}&fg=000000$ so the non-degeneracy condition can be stated as: if $latex {(v,w)=0}&fg=000000$ for all $latex {v\in V}&fg=000000$ then $latex {w=0}&fg=000000$. 
+<p>
+To show $latex {g}&fg=000000$ is non-singular, it suffices to show that its rows are linearly independent. Indeed, denote $latex {i}&fg=000000$-th row of $latex {g}&fg=000000$ to be $latex {r_i}&fg=000000$ then $latex {r_i=((v_i,v_1),(v_iv_2),\ldots, (v_i,v_n))}&fg=000000$. If $latex {\sum_{i=1}^n \alpha_ir_i=0}&fg=000000$ for some $latex {\alpha_i\in \CC}&fg=000000$ then this implies $latex {(\alpha,v_j)= \left( \sum_{i=1}^n \alpha_iv_i,v_j\right)=0}&fg=000000$ for all $latex {1 \le j \le n}&fg=000000$. Since $latex {\{v_j:1\le j\le n\}}&fg=000000$ basis of $latex {V}&fg=000000$ so $latex {\left(\alpha,v\right)=0}&fg=000000$ for all $latex {v\in V}&fg=000000$. This implies $latex {\alpha=0}&fg=000000$ or $latex {\sum_{i=1}^n \alpha_iv_i=0}&fg=000000$. Since $latex {\{v_i:1\le i \le n\}}&fg=000000$ basis of $latex {V}&fg=000000$ so $latex {\alpha_i=0}&fg=000000$ for all $latex {1 \le i \le n}&fg=000000$, implying that the rows of $latex {g}&fg=000000$ are linearly independent, as desired. 
+<p>
+(ii) Consider the $latex {n\times n}&fg=000000$ matrix $latex {A}&fg=000000$ where $latex {A_{i,j}=\overline{g^{ji}}}&fg=000000$ then $latex {A}&fg=000000$ is the conjugate transpose of $latex {g^{-1}}&fg=000000$, meaning $latex {A}&fg=000000$ is invertible. One can view $latex {A}&fg=000000$ as matrix whose columns are coefficients of $latex {v^i}&fg=000000$ in basis $latex {\{v_i:1\le i\le n\}}&fg=000000$. Since $latex {A}&fg=000000$ is invertible, there exists column vector $latex {\mathbf{x}=(\alpha_i)_{1\le i\le n}}&fg=000000$ such that $latex {Ax=\begin{pmatrix}1 \\ 0 \\ \vdots \\ 0 \end{pmatrix}}&fg=000000$. This means $latex {\sum_{i=1}^n \alpha_i v^i=v_1}&fg=000000$. Hence, $latex {v_1}&fg=000000$ in span of $latex {\{v^i:1 \le i \le n\}}&fg=000000$. Similarly, one can show all $latex {v_i}&fg=000000$'s are in the span of $latex {\{v^j:1 \le j \le n\}}&fg=000000$, implying $latex {\{v^j:1 \le j \le n\}}&fg=000000$ is a spanning set, hence a basis, of $latex {V}&fg=000000$. 
+<p>
+We have <p align=center>$latex \displaystyle  \begin{aligned}  (v^i,v_j) & = \left( \sum_{k=1}^n \overline{g^{-1}_{i,k}}v_k, v_j\right), & \\ & = \overline{\left( v_j, \sum_{k=1}^n \overline{g^{-1}_{i,k}}v_k\right)} & \text{(symmetry)}, \\ & = \sum_{k=1}^n g^{-1}_{i,k}\overline{(v_j,v_k)} & \text{(linearity)}, \\ & = \sum_{k=1}^n g^{-1}_{i,k} (v_k,v_j), & \text{(symmetry)} \\ & = \sum_{k=1}^n g^{-1}_{i,k} g_{k,j}, & \\ & = (gg^{-1})_{i,j}=(I_{n\times n})_{i,j}, & \\ & = \delta_{i,j}. & \end{aligned} &fg=000000$</p>
+ (iii) We have <p align=center>$latex \displaystyle  \begin{aligned}  (v^j,v^i) & = \left( v^j, \sum_{k=1}^n \overline{g^{i,k}}v_k \right), \\ & = \sum_{k=1}^n \overline{g^{i,k}}(v^j,v_k), \\ & = \sum_{k=1}^n \overline{g^{i,k}}\delta_{j,k}, \\ & = \overline{g^{i,j}}. \end{aligned} &fg=000000$</p>
+ This follows from symmetry property that $latex {g^{i,j}= (v^i,v^j)}&fg=000000$. 
+<p>
+ 
+ <div style= " background: #ffffff; border-left: 5px solid ; margin: 10px 0px 10px 0px; padding-left: 10px; "><b>Definition 2.</b> <em> Let $latex {L}&fg=000000$ the Lie algebra over $latex {\CC}&fg=000000$. We call anti-linear map $latex {\star: L\rightarrow L}&fg=000000$ a \vocab{star operation} on $latex {L}&fg=000000$ if it satisfies the following: 
+
+<ol> <li> anti-linearity: $latex {(\alpha a+\beta b)^*=\overline{\alpha} a^*+\overline{\beta}b^*}&fg=000000$ <li> $latex {a^{**}=a}&fg=000000$. <li> $latex {[a,b]^*=[b^*,a^*]}&fg=000000$. 
+</ol>
+
+ for all $latex {a,b\in L}&fg=000000$ and $latex {\alpha,\beta\in \CC}&fg=000000$. 
+</em>
+</div>
+
+<p>
+
+
+<p>
+Let $latex {L}&fg=000000$ complex Lie algebra with a star operation $latex {*}&fg=000000$. We call an $latex {L}&fg=000000$ module $latex {V}&fg=000000$ \vocab{unitary} if it can be equipped with an inner product $latex {(,)}&fg=000000$ which respects the star operation in the sense that $latex {(av,w)=(v,a^*w)}&fg=000000$ for all $latex {a\in L;v,w\in V}&fg=000000$.
+<p>
+We show that if $latex {V}&fg=000000$ is unitary then so is $latex {V^*}&fg=000000$.
+<p>
+ Recall $latex {V^*}&fg=000000$ is an $latex {L}&fg=000000$-module with action $latex {(x.f)(v)=-f(x.v)}&fg=000000$ for $latex {x\in L,f\in V^*, v\in V}&fg=000000$. To show $latex {V^*}&fg=000000$ is unitary, we want to define inner product on $latex {V^*}&fg=000000$ that respects the star operation. For $latex {v_1,\ldots, v_n}&fg=000000$ basis of $latex {V}&fg=000000$, denote $latex {v^1,v^2, \ldots, v^n}&fg=000000$ another basis of $latex {V}&fg=000000$ as defined in the lecture notes such that $latex {(v^i,v_j)=\delta_{i,j}}&fg=000000$.
+<p>
+Let $latex {v_i^*}&fg=000000$'s be the dual basis of $latex {V^*}&fg=000000$ corresponding to $latex {v_i}&fg=000000$ and $latex {(v^i)^*}&fg=000000$'s be dual basis of $latex {V^*}&fg=000000$ corresponding to $latex {v^j}&fg=000000$. We define the the inner product $latex {\langle ,\rangle}&fg=000000$ on $latex {V^*}&fg=000000$ to be <a name="definner_prod_dual_rep"><p align=center>$latex \displaystyle   \langle (v^i)^*,v_j^*\rangle = \delta_{i,j} \ \ \ \ \ (1)&fg=000000$</p>
+</a> and extend linearly. 
+<p>
+Before showing that this is an inner product on $latex {V^*}&fg=000000$ that respects the star operation, we recall that since $latex {(v_i,v^j)=\delta_{i,j}}&fg=000000$ so every $latex {v\in V}&fg=000000$ can be written as <a name="eqn1"><p align=center>$latex \displaystyle   v=\sum_i (v,v_i)v^i=\sum_i(v,v^i)v_i \ \ \ \ \ (2)&fg=000000$</p>
+</a>
+<p>
+First we show that this is indeed an inner product on $latex {V^*}&fg=000000$. (Sesqui-)linearity follows from the way we define the inner product (i.e. we extend it linearly from the basis of $latex {V^*}&fg=000000$). To show symmetry holds, we need to show $latex {\langle v_j^*, (v^i)^*\rangle =\delta_{i,j}}&fg=000000$. First, we will try to write $latex {v_j^*}&fg=000000$ in terms of $latex {(v^i)^*}&fg=000000$. We have $latex {v^j=\sum_{k}\overline{g_{jk}^{-1}}v_k}&fg=000000$ from Q2(ii) so $latex {(v_i)^*(v^j)=\overline{g_{ji}^{-1}}}&fg=000000$. This follows <p align=center>$latex \displaystyle (v_i)^*= \sum_j \overline{g_{ji}^{-1}}(v^j)^*.&fg=000000$</p>
+ Similarly, since $latex {v_j=\sum_k (v_j,v_k)v^k}&fg=000000$ so $latex {(v^i)^*(v_j)=(v_j,v_i)=g_{ji}}&fg=000000$ so $latex {(v^i)^*= \sum_j g_{ji}(v_j)^*}&fg=000000$. Therefore, <p align=center>$latex \displaystyle  \langle v_j^*, (v^i)^*\rangle = \left\langle \sum_k \overline{g_{kj}^{-1}}(v^k)^*, \sum_{\ell} g_{\ell i}(v_{\ell})^*\right\rangle =\sum_{k,\ell} g_{kj}^{-1}g_{\ell,i} \langle (v^k)^*, (v_\ell)^*\rangle = \sum_{k=1}^n g_{kj}^{-1}g_{ki}= \sum_{k=1}^n g_{kj}^{-1}\overline{g_{ik}} =(g^{-1}g^{\dag})_{ij}.&fg=000000$</p>
+ Recall $latex {g}&fg=000000$ is a matrix with $latex {g_{ij}=(v_i,v_j)}&fg=000000$ so $latex {g_{ij}=\overline{g_{ji}}}&fg=000000$ so $latex {g=g^{\dag}}&fg=000000$. Since $latex {g}&fg=000000$ invertible so $latex {gg^{-1}=I_{n}}&fg=000000$. This follows $latex {g^{\dag}g^{-1}=I_{n\times n}}&fg=000000$, proving that symmetry holds for $latex {\langle,\rangle}&fg=000000$.
+<p>
+To show $latex {\langle ,\rangle}&fg=000000$ is positive definite, for any $latex {f\in V^*}&fg=000000$ then $latex {f=\sum_i \alpha_i (v^i)^*}&fg=000000$. This follows $latex {f=\sum_i\alpha_i \sum_j g_{ji}(v_j)^* =\sum_j (v_j)^* \sum_i \alpha_ig_{ji}}&fg=000000$. Thus, <p align=center>$latex \displaystyle \langle f,f \rangle = \left \langle \sum_i \alpha_i (v^i)^*, \sum_j (v_j)^* \sum_k \alpha_kg_{jk} \right \rangle = \sum_i \overline{\alpha_i}\sum_k \alpha_kg_{ik} = \left( \sum_i \alpha_iv_i,\sum_i\alpha_iv_j \right)\ge 0. &fg=000000$</p>
+ Equality holds iff $latex {\sum_i \alpha_iv_i=0}&fg=000000$ iff $latex {\alpha_i=0}&fg=000000$ for all $latex {1 \le i \le n}&fg=000000$ iff $latex {f=0}&fg=000000$, as desired. 
+<p>
+Finally, we show $latex {\langle ,\rangle}&fg=000000$ respects the star operation, i.e. we want $latex {\langle a(v^i)^*, v_j^*\rangle = \langle (v^i)^*, a^*v_j^*\rangle}&fg=000000$. We have <p align=center>$latex \displaystyle  a(v^i)^*(v^j)=-(v^i)^*(av^j) =-(v^i)^* \left( \sum_k (av^j,v_k)v^k \right) = -(av^j,v_i).&fg=000000$</p>
+ Hence, $latex {a(v^i)^*= -\sum_k (av^k,v_i)(v^k)^*}&fg=000000$. This follows <a name="eq2"><p align=center>$latex \displaystyle   LHS=\langle a(v^i)^*,v_j^*\rangle = \left\langle -\sum_k (av^k,v_i)(v^k)^*, v_j^* \right\rangle= -\overline{(av^j,v_i)} =- (v_i,av^j). \ \ \ \ \ (3)&fg=000000$</p>
+</a> Similarly, since <p align=center>$latex \displaystyle  a^*(v_j)^*(v_i) = -(v_j)^*(a^*v_i) =-v_j^*\left( \sum_k (a^*v_i,v^k)v_k \right) =-(a^*v_i,v^j).&fg=000000$</p>
+ Hence, $latex {a^*(v_j)^* = - \sum_k (a^*v_k,v^j)(v_k)^*}&fg=000000$. Therefore, <a name="eq3"><p align=center>$latex \displaystyle   RHS= \left\langle (v^i)^*, - \sum_k (a^*v_k,v^j)(v_k)^* \right \rangle = -(a^*v_i,v^j). \ \ \ \ \ (4)&fg=000000$</p>
+</a> From <a href="#eq2">(3)</a> and <a href="#eq3">(4)</a> and the fact $latex {(,)}&fg=000000$ on $latex {V}&fg=000000$ is unitary so we are done. 
+<p>
+ 
