@@ -7,7 +7,7 @@ tag: Representation theory, Lie algebra
 
 <div style= " background: #ffffff; border-left: 5px solid grey; margin: 10px 0px 10px 0px; padding-left: 10px; font-size:13px "><b>Problem 1.</b>  Let ${V}$ finite-dimensional vector space over ${{\mathbb C}}$ admitting symmetric nondegenerate seaqui-linear form ${(,)}$: 
 
-<ol> <li> symmetry: ${(v,w)=\overline{(w,v)}}$. <li> (sesqui-)linearity: ${(v,\alpha w+\beta u)=\alpha(v,w)+\beta(v,u)}$. <li> non-degeneracy: ${(v,w)=0 \forall w\in W\Rigtarrow v=0}$. 
+<ol> <li> symmetry: ${(v,w)=\overline{(w,v)}}$. <li> (sesqui-)linearity: ${(v,\alpha w+\beta u)=\alpha(v,w)+\beta(v,u)}$. <li> non-degeneracy: ${(v,w)=0 \forall w\in W\Rightarrow v=0}$. 
 </ol>
 
  for all ${v,u,w\in V; \alpha,\beta\in {\mathbb C}}$ where the overbar denotes the complex conjugation. Suppose ${\{v_i:1 \le i \le n\}}$ basis of ${V}$ over ${{\mathbb C}}$ and let ${g}$ denotes the matrix ${g_{i,j}=(v_i,v_j)}$. 
@@ -59,7 +59,7 @@ Before showing that this is an inner product on ${V^*}$ that respects the star o
 <p>
 First we show that this is indeed an inner product on ${V^*}$. (Sesqui-)linearity follows from the way we define the inner product (i.e. we extend it linearly from the basis of ${V^*}$). To show symmetry holds, we need to show ${\langle v_j^*, (v^i)^*\rangle =\delta_{i,j}}$. First, we will try to write ${v_j^*}$ in terms of ${(v^i)^*}$. We have ${v^j=\sum_{k}\overline{g_{jk}^{-1}}v_k}$ from Q2(ii) so ${(v_i)^*(v^j)=\overline{g_{ji}^{-1}}}$. This follows <p align=center>$\displaystyle (v_i)^*= \sum_j \overline{g_{ji}^{-1}}(v^j)^*.$</p>
  Similarly, since ${v_j=\sum_k (v_j,v_k)v^k}$ so ${(v^i)^*(v_j)=(v_j,v_i)=g_{ji}}$ so ${(v^i)^*= \sum_j g_{ji}(v_j)^*}$. Therefore, <p align=center>$\displaystyle  \langle v_j^*, (v^i)^*\rangle = \left\langle \sum_k \overline{g_{kj}^{-1}}(v^k)^*, \sum_{\ell} g_{\ell i}(v_{\ell})^*\right\rangle =\sum_{k,\ell} g_{kj}^{-1}g_{\ell,i} \langle (v^k)^*, (v_\ell)^*\rangle = \sum_{k=1}^n g_{kj}^{-1}g_{ki}= \sum_{k=1}^n g_{kj}^{-1}\overline{g_{ik}} =(g^{-1}g^{t})_{ij}.$</p>
- Recall ${g}$ is a matrix with ${g_{ij}=(v_i,v_j)}$ so ${g_{ij}=\overline{g_{ji}}}$ so ${g=g^{\t}}$. Since ${g}$ invertible so ${gg^{-1}=I_{n}}$. This follows ${g^{\t}g^{-1}=I_{n\times n}}$, proving that symmetry holds for ${\langle,\rangle}$.
+ Recall ${g}$ is a matrix with ${g_{ij}=(v_i,v_j)}$ so ${g_{ij}=\overline{g_{ji}}}$ so ${g=g^{t}}$. Since ${g}$ invertible so ${gg^{-1}=I_{n}}$. This follows ${g^{t}g^{-1}=I_{n\times n}}$, proving that symmetry holds for ${\langle,\rangle}$.
 <p>
 To show ${\langle ,\rangle}$ is positive definite, for any ${f\in V^*}$ then ${f=\sum_i \alpha_i (v^i)^*}$. This follows ${f=\sum_i\alpha_i \sum_j g_{ji}(v_j)^* =\sum_j (v_j)^* \sum_i \alpha_ig_{ji}}$. Thus, <p align=center>$\displaystyle \langle f,f \rangle = \left \langle \sum_i \alpha_i (v^i)^*, \sum_j (v_j)^* \sum_k \alpha_kg_{jk} \right \rangle = \sum_i \overline{\alpha_i}\sum_k \alpha_kg_{ik} = \left( \sum_i \alpha_iv_i,\sum_i\alpha_iv_j \right)\ge 0. $</p>
  Equality holds iff ${\sum_i \alpha_iv_i=0}$ iff ${\alpha_i=0}$ for all ${1 \le i \le n}$ iff ${f=0}$, as desired. 
