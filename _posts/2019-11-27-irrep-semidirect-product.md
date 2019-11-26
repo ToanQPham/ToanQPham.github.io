@@ -180,6 +180,7 @@ To show (3), it suffices to show that
 
 $$\sum_{i\in X/H}\sum_{\rho}(\text{dim }
 \theta_{i,\rho})^2=|G|$$
+
 where $\rho$ is summed over all irreducible 
 representations of $H_i$. We have 
 
@@ -191,10 +192,12 @@ $$\begin{aligned}
 (\chi_i\otimes \tilde{\rho}), \\
 & = \frac{|G|}{|G_i|}\text{dim }\rho
 \end{aligned}$$
+
 so for fixed $i$ then 
 
 $$\sum_{\rho}(\text{dim }\theta_{i,\rho})^2
 = \frac{|G|^2}{|G_i|^2}|H_i|= \frac{|H|^2}{|H_i|}.$$
+
 Hence, it suffices to show that 
 $\sum_{i\in X/H}\frac{|H|^2}{|H_i|}=|G|$
 or $\sum_{i\in X/H}\frac{|H|}{|H_i|}=|A|$.
@@ -204,4 +207,5 @@ is isomorphic to $A$ (see
 
 $$|A|=|X|=\sum_{i\in X/H}|H\chi_i|=
 \sum_{i\in X/H} \frac{|H|}{|H_i|}.$$
+
 We are done.
