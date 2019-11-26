@@ -106,7 +106,7 @@ $$x \mapsto \chi_i(s^{-1}xs)\text{id}_V=(s\chi_i)(x)\text{id}_V$$
 
 ---
 
-Now we prove (2):
+Now we prove (2): 
 
 > The restriction of $\theta_{i,\rho}$ to $A$ only 
 involves characters $\chi$ belonging to the orbit $H\chi_i$
