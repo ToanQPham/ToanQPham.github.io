@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Irreducible representation of semidirect product by abelian group"
-categories: Representation Theory,
-tag: Group Representation,
+categories: 
+- Representation Theory
+tag: 
+- Group Representation
 ---
 
 I would like the write down the argument of $\S 8.2$
