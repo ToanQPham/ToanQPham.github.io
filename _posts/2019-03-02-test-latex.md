@@ -35,22 +35,26 @@ that if $\lambda_1,\ldots, \lambda_p$ are eigenvalues of
 $\mathbf{A}(G)$ then there exists real numbers $c_1,\ldots, c_p$
 such that for all $\ell\ge 1$ then 
 
-\[ (\mathbf{A}(G)^{\ell})_{i,j}=c_1\lambda_1^{\ell}
-+c_2\lambda_2^{\ell}+\ldots+c_p\lambda_p^{\ell}.\]
+$$ (\mathbf{A}(G)^{\ell})_{i,j}=c_1\lambda_1^{\ell}
++c_2\lambda_2^{\ell}+\ldots+c_p\lambda_p^{\ell}. $$
 
 In a particular case where we want to count number of closed walks
 of length $\ell$ (from any vertex), 
 this is then equal to 
-\[f_G(\ell)=\sum_{i=1}^p
-(\mathbf{A}(G)^{\ell})_{i,i}=\text{trace}(\mathbf{A}(G)^{\ell})
-=\lambda_1^{\ell}+\ldots+\lambda_p^{\ell}.\]
-An amazing fact is that if we know formula for $f_G(\ell)$ for 
-all $\ell$ then we can determine eigenvalues of $\mathbf{A}$.
+
+$$f_G(\ell)=\sum_{i=1}^p(\mathbf{A}(G)^{\ell})_{i,i}=
+\text{trace}(\mathbf{A}(G)^{\ell})=\lambda_1^{\ell}+\ldots+\lambda_p^{\ell}.$$
+
+An amazing fact is that if we know formula for $f_G(\ell)$ for all $\ell$ then we can determine eigenvalues of $\mathbf{A}$.
 In particular, if we can show 
 $f_G(\ell)=\alpha_1^{\ell}+\ldots+\alpha_p^{\ell}$
-for all $\ell\ge1 $ then $\alpha_i$'s are eigenvalues of $\mathbf{A}$.
+for all $\ell\ge1$ then $\alpha_i$'s are eigenvalues of $\mathbf{A}$.
 
-Test thu mot $1 va $2 la bao nhieu do.
+Test thu mot 
 
 > asjdnajfnbfaisbfah This is a quote 
-$$1+2+3+...+$$
+>
+> $$1+2+3+...+$$
+
+$123$
+
