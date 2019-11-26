@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Irreducible representation of semidirect product by abelian group"
-categories: Representation Theory
-tag: Group Representation
+categories: Representation Theory,
+tag: Group Representation,
 ---
 
 I would like the write down the argument of $\S 8.2$
@@ -47,6 +47,7 @@ $$\begin{aligned}
 & = \chi_i(a)\chi_i(a'), \; (h\in H_i) \\
 & = \chi_i(ah)\chi_i(a'h').
 \end{aligned}$$
+
 ---
 Now let $\rho$ be an irreducible representation of 
 $H_i$. By composing $\rho$ with the canonical
@@ -55,10 +56,11 @@ representation $\tilde{\rho}$ of $G_i$. Finally,
 by making the tensor product of $\chi_i$ and 
 $\tilde{\rho}$ we obtain an irreducible representation 
 $\chi_i\otimes \tilde{\rho}$ of $G_i$. Note 
-since $\chi_i:G_i\to \mathbf{C}^*$ so one can view 
+since $\chi_i:G_i\to \mathbf{C}^{\times}$ so one can view 
 $\chi_i\otimes \tilde{\rho}$ as 
 $g \mapsto\chi_i(g)\tilde{\rho}(g)$ (where 
-$\chi_i(g)\in\mathbf{C}^*$ and $\tilde{\rho}(g):V\to V$
+$\chi_i(g)\in\mathbf{C}^{\times}$ and 
+$\tilde{\rho}(g):V\to V$
 where $V$ representation space of $\rho$). 
 Let $\theta_{i,\rho}$
 be the corresponding induced representation of $G$. 
@@ -101,6 +103,7 @@ If $x\in A$ then $s^{-1}xs\in A$ so similarly, we have
 $\tilde{\rho}(s^{-1}xs)=\text{id}_V$ so 
 
 $$x \mapsto \chi_i(s^{-1}xs)\text{id}_V=(s\chi_i)(x)\text{id}_V$$
+
 ---
 
 Now we prove (2):
@@ -141,9 +144,9 @@ are disjoint so $\tau^i\ne \tau^{i'}$, implying
 $\chi^i\ne \chi^{i'}$. 
 
 > Let $W$ be the representation space for $\theta_{i,\rho}$, let 
-$W_i$ be the subspace of $W$ corresponding to $\chi_i$ [the set 
+$W_i$ be the subspace of $W$ corresponding to $\chi_i$ (the set 
 of $x\in W$ such that $\theta_{i,\rho}(a)x=\chi_i(a)x$ for all 
-$a\in A$]. The subspace $W_i$ is stable under $H_i$ and the representation
+$a\in A$). The subspace $W_i$ is stable under $H_i$ and the representation
 of $H_i$ in $W_i$ is isomorphic to $\rho$; whence $\theta_{i,\rho}$
 determines $\rho$.
 
