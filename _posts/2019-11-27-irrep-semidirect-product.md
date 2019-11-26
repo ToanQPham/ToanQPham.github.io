@@ -24,6 +24,7 @@ form a group $X=\text{Hom }(A,\mathbf{C}^*)$. The group
 $G$ acts on $X$ by 
 
 $$s_{\chi}(a)=\chi(s^{-1}as), s\in G,\chi\in X, a\in A.$$
+
 Let $(\chi_i)_{i\in X/H}$ be a system of representatives
 of for the orbits of $H$ in $X$. For each $i\in X/H$, let
 $H_i$ be the subgroup of $H$ consisting of those elements
