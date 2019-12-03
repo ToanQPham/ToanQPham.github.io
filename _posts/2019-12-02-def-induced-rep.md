@@ -87,9 +87,9 @@ such that the following diagram commutes
 
 (OK NEED TO FIGURE HOW TO DRAW DIAGRAM)
 
-\[
+$$
 \xymatrix{A \ar@{}[dr]|{=} \ar[d] \ar[r] & B \ar[d] \\ B \ar[r] & C }
-\]
+$$
 
 The induced representation 
 $((\rho, \text{Ind}_H^G W),j)$
