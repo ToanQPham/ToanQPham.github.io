@@ -19,7 +19,7 @@ a finite-dimensional representation $V$ of a
 finite group $G$ and a subgroup 
 $H\subset G$, there is a *natural* way to construct 
 a representation of $H$. The **restriction** of $V$
-to $H$, \(\text{Res}_{H}\)
+to $H$, \\(\text{Res}_{H}\\)
 is the representation 
 given by the vector space $V$, and the action 
 $\rho_{\text{Res}_H^G V}=\rho_{V|H}$. This 
@@ -35,7 +35,8 @@ $\text{Ind}_H^G W$.
 # First explanation
 
 I learn this from answer on 
-[MathStackExchange](https://math.stackexchange.com/a/266687/58951). This explanation is good since it assumes no
+[MathStackExchange](https://math.stackexchange.com/a/266687/58951). 
+This explanation is good since it assumes no
 other knowledge. 
 
 First question is how to describe 
