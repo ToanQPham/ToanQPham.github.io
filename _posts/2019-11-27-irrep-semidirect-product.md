@@ -14,7 +14,8 @@ Let $A$ and $H$ be two subgroups of finite group $G$, with
 $A$ normal and abelian. $G$ is the semidirect product 
 of $H$ by $A$ (i.e. $G=AH$ and $A\cap H=\{1\}$,
 or in other words, each element of $G$ can be 
-written uniquely as product of $ah$). Irreducible representations of $G$ can then 
+written uniquely as product of $ah$). Irreducible representations 
+of $G$ can then 
 be constructed from those of certain subgroups of $H$,
 as follow:
 
@@ -162,7 +163,8 @@ $(gg_i)\otimes v$ and $g\otimes (\chi_i\otimes \tilde{\rho})(g_i)v$
 are considered the same in $W$ for $g_i\in G_i$. 
 
 Now, we identify $W_i$. For $a\in A, g\otimes v\in W$, we have 
-$\theta_{i,\rho}(a)(g\otimes v)= (ag)\otimes v=g\otimes(g^{-1}ag)v$. Since $g^{-1}ag\in A$ so 
+$\theta_{i,\rho}(a)(g\otimes v)= (ag)\otimes v=g\otimes(g^{-1}ag)v$. 
+Since $g^{-1}ag\in A$ so 
 $(\chi_i\otimes \tilde{\rho})(g^{-1}ag)v=\chi_i(g^{-1}ag)v$.
 Thus, 
 $\theta_{i,\rho}(a)(g\otimes v)=\chi_i(g^{-1}ag)(g\otimes v$. Thus, in order for 
@@ -175,7 +177,8 @@ With this, it is obvious that $W_i$ is stable under $H_i$.
 Furthermore, observe $W_i$ is spanned by $1\otimes v_j$
 where $v_j$'s basis of $V$, $1$ identity in $H_i$ (this holds
 since $h\otimes v=1\otimes \rho(h)v$ for all $h\in H_i,v\in V$). 
-Hence, one can easily construct isomorphism representation of $H_i$ in $W$ to $\rho$, as desired. 
+Hence, one can easily construct isomorphism representation of 
+$H_i$ in $W$ to $\rho$, as desired. 
 
 ---
 
