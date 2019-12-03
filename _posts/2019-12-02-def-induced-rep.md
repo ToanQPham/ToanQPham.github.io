@@ -20,7 +20,7 @@ finite group $G$ and a subgroup
 $H\subset G$, there is a *natural* way to construct 
 a representation of $H$. The **restriction** of $V$
 to $H$, 
-$\text{Res}_H^G V$ is the representation 
+\$\text{Res}_H^G V\$ is the representation 
 given by the vector space $V$, and the action 
 $\rho_{\text{Res}_H^G V}=\rho_{V|H}$. This 
 is indeed a representation since the map 
