@@ -79,8 +79,73 @@ $((\rho,V),f)$ where $(\rho,V)$ a representation
 of $V$ and $f:W\to V$ a linear map satisfying 
 $f(\theta(h)w)=\rho(h)f(w)$ for $h\in H$. 
 
-A morphism $(V_1,f_1) \to (V_2,f_2)$ is a linear 
-map $\varphi:V_1\to V_2$ such that the following 
-diagram commutes
+A morphism $(V_1,f_1) \to (V_2,f_2)$ is a 
+$G$-module homomorphism $\varphi:V_1\to V_2$ 
+such that the following diagram commutes
 
-$$\xymatrix{ y \ar[r]_ g \ar[d]_ f &  z \ar[d]^ q \\  x \ar[r]^ p &  x\amalg _ y z }$$
+(OK NEED TO FIGURE HOW TO DRAW DIAGRAM)
+
+The induced representation 
+$((\rho, \text{Ind}_H^GW),j)$
+with $j:W\to \text{Ind}_H^GW$
+is an *initial object* in this category:
+it is an object such that 
+for all representation $V$ of $G$ and 
+$G$-module homomorphism $f:W\to V$, 
+there exists a *unique* $G$-module
+homomorphism $\varphi:\text{Ind}_H^GW \to V$
+such that the diagram 
+
+(DIAGRAM)
+
+commutes. This universal property defines
+$\text{Ind}_H^GW$ up to isomorphism, 
+if it exists. In fact, one can check 
+with the induced representation defined
+in the first explanation that it safisties
+the above universal property. 
+
+## Short explanation
+
+Left-induced representations as left-adjoint
+to restricted representation. 
+
+TODO.
+
+See more at [nLab](https://ncatlab.org/nlab/show/induced+representation). 
+
+# Module perspective
+
+**Quick explanation.**
+In fact $\text{Ind}_H^GW$ can be viewed as 
+$k[G] \otimes_{k[H]} W$ where 
+this is a left $k[G]$-module with $g$ acts on
+$g'\otimes w$ as $gg'\otimes w$. Also, 
+$gh\otimes w$ and $g\otimes (hw)$ are considered
+the same for $h\in H$. 
+
+**Detailed explanation.**
+Here we need to know about tensor product
+of modules over noncommutative ring. 
+For this, see exercise 5.10.2 in Etingof's
+Representation theory book, or 
+this [blogspot](https://mathstrek.blog/2015/01/31/tensor-product-over-noncommutative-rings/).
+
+TODO. 
+
+# Different definition
+
+TODO.
+
+The induced representation $\text{Ind}_H^GW$
+is the representation of $G$ with
+
+$$\text{Ind}_H^GW=\{f:G\to W|f(hx)=hf(x)
+\forall x\in G, \in H\}$$
+
+and the action $g(f)(x)=f(xg)$ for all $g\in G$.
+
+---
+
+**Question.** How does the last two 
+definitions relate to the first definition?
