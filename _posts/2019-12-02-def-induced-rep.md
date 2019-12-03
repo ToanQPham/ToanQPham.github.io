@@ -91,7 +91,7 @@ $$
 \xymatrix{A \ar@{}[dr]|{=} \ar[d] \ar[r] & B \ar[d] \\ B \ar[r] & C }
 $$
 
-\[
+$$
 \begin{xy}
 \xymatrix {
 U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
@@ -99,9 +99,9 @@ U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
  & Y \ar[r]^g & Z
 }
 \end{xy}
-\]
+$$
 
-\[
+$$
 \begin{xy}
 \xymatrix @=5pc {
 A \rtwocell^f_g^h & B \ruppertwocell^f{\alpha} \rlowertwocell<-15>_h{\beta} \ar[r]_(.35)g & C\\
@@ -113,7 +113,7 @@ P \rtwocell\omit^f{\alpha} & S \rtwocell<\omit>^f{\beta} & R \\
 P \rcompositemap_f^g & S \\
 }
 \end{xy}
-\]
+$$
 
 
 The induced representation 
