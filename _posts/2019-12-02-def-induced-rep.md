@@ -147,5 +147,8 @@ and the action $g(f)(x)=f(xg)$ for all $g\in G$.
 
 ---
 
-**Question.** How does the last two 
+**TODO.** How does the last two 
 definitions relate to the first definition?
+
+**TODO.** Learn more about induced representation,
+see [Wikipedia](https://en.wikipedia.org/wiki/Induced_representation).
