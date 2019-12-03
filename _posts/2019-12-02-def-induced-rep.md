@@ -19,9 +19,9 @@ a finite-dimensional representation $V$ of a
 finite group $G$ and a subgroup 
 $H\subset G$, there is a *natural* way to construct 
 a representation of $H$. The **restriction** of $V$
-to $H$, $\text{Res}_H^GV$ is the representation 
+to $H$, $\text{Res}_H^G V$ is the representation 
 given by the vector space $V$, and the action 
-$\rho_{\text{Res}_H^GV}=\rho_{V|H}$. This 
+$\rho_{\text{Res}_H^G V}=\rho_{V|H}$. This 
 is indeed a representation since the map 
 $H \hookrightarrow G \rightarrow \text{GL}(V)$ is
 a group homomorphism. 
@@ -29,7 +29,7 @@ a group homomorphism.
 One may ask whether there is a *natural* way to construct 
 representation $V$ of $G$ knowing a representation $W$ of 
 subgroup $H$ of $G$. $V$ is then denoted as 
-$\text{Ind}_H^GW$
+$\text{Ind}_H^G W$
 
 # First explanation
 
@@ -86,20 +86,20 @@ such that the following diagram commutes
 (OK NEED TO FIGURE HOW TO DRAW DIAGRAM)
 
 The induced representation 
-$((\rho, \text{Ind}_H^GW),j)$
-with $j:W\to \text{Ind}_H^GW$
+$((\rho, \text{Ind}_H^G W),j)$
+with $j:W\to \text{Ind}_H^G W$
 is an *initial object* in this category:
 it is an object such that 
 for all representation $V$ of $G$ and 
 $G$-module homomorphism $f:W\to V$, 
 there exists a *unique* $G$-module
-homomorphism $\varphi:\text{Ind}_H^GW \to V$
+homomorphism $\varphi:\text{Ind}_H^G W \to V$
 such that the diagram 
 
 (DIAGRAM)
 
 commutes. This universal property defines
-$\text{Ind}_H^GW$ up to isomorphism, 
+$\text{Ind}_H^G W$ up to isomorphism, 
 if it exists. In fact, one can check 
 with the induced representation defined
 in the first explanation that it safisties
@@ -117,7 +117,7 @@ See more at [nLab](https://ncatlab.org/nlab/show/induced+representation).
 # Module perspective
 
 **Quick explanation.**
-In fact $\text{Ind}_H^GW$ can be viewed as 
+In fact $\text{Ind}_H^G W$ can be viewed as 
 $k[G] \otimes_{k[H]} W$ where 
 this is a left $k[G]$-module with $g$ acts on
 $g'\otimes w$ as $gg'\otimes w$. Also, 
@@ -137,7 +137,7 @@ TODO.
 
 TODO.
 
-The induced representation $\text{Ind}_H^GW$
+The induced representation $\text{Ind}_H^G W$
 is the representation of $G$ with
 
 $$\text{Ind}_H^GW=\{f:G\to W|f(hx)=hf(x)
