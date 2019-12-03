@@ -101,6 +101,21 @@ U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
 \end{xy}
 \]
 
+\[
+\begin{xy}
+\xymatrix @=5pc {
+A \rtwocell^f_g^h & B \ruppertwocell^f{\alpha} \rlowertwocell<-15>_h{\beta} \ar[r]_(.35)g & C\\
+A \ruppertwocell^{f}{\alpha} \rlowertwocell_h{\beta} \ar[r]_(.35)g & B \\
+P \rtwocell~!~'{\dir{>>}}~`{\dir{|}}^{<1.5>M}_{<1.5>M'}{=f} & S \\
+P \rtwocell^{<2>*@{>}}_{<2>*@{>}}{<3>f} & S & P' \ltwocell^{<2>*@{>}}_{<2>*@{>}}{<3>f} \\
+P \rtwocell^{f} & S \rtwocell^f & R \\
+P \rtwocell\omit^f{\alpha} & S \rtwocell<\omit>^f{\beta} & R \\
+P \rcompositemap_f^g & S \\
+}
+\end{xy}
+\]
+
+
 The induced representation 
 $((\rho, \text{Ind}_H^G W),j)$
 with $j:W\to \text{Ind}_H^G W$
