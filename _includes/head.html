@@ -15,14 +15,18 @@
       MathJax.Hub.Config({
         extensions: ['tex2jax.js'],
         jax: ['input/TeX','output/HTML-CSS'],
-        'HTML-CSS': { 
-          styles: {".MathJax_Preview": {visibility: "hidden"}}
-        }
+        TeX: {
+          extensions: ['/assets/xypic.js','AMSmath.js', 'AMSsymbols.js'],
+          Macros: {
+            linebreak: ["", 1, ""],
+            },
+          TagSide: 'left'
+        },
         tex2jax: {
           inlineMath: [['$','$']],
           displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
         },
-        TeX: {extensions: ['/assets/xypic.js','AMSmath.js', 'AMSsymbols.js']}
+        'HTML-CSS': { scale: 100 }
       });
     </script>
     
