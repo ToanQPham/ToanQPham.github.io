@@ -22,7 +22,7 @@ a representation of $H$. The **restriction** of $V$
 to $H$, $\text{Res}\_{H}$
 is the representation 
 given by the vector space $V$, and the action 
-$\rho_{\text{Res}_H^G V}=\rho_{V|H}$. This 
+$\rho_{\text{Res}\_H^G V}=\rho_{V|H}$. This 
 is indeed a representation since the map 
 $H \hookrightarrow G \rightarrow \text{GL}(V)$ is
 a group homomorphism. 
@@ -30,7 +30,7 @@ a group homomorphism.
 One may ask whether there is a *natural* way to construct 
 representation $V$ of $G$ knowing a representation $W$ of 
 subgroup $H$ of $G$. $V$ is then denoted as 
-$\text{Ind}_H^G W$.
+$\text{Ind}\_H^G W$.
 
 # First explanation
 
@@ -88,10 +88,6 @@ such that the following diagram commutes
 (OK NEED TO FIGURE HOW TO DRAW DIAGRAM)
 
 $$
-\xymatrix{A \ar@{}[dr]|{=} \ar[d] \ar[r] & B \ar[d] \\ B \ar[r] & C }
-$$
-
-$$
 \begin{xy}
 \xymatrix {
 U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
@@ -101,36 +97,23 @@ U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
 \end{xy}
 $$
 
-$$
-\begin{xy}
-\xymatrix @=5pc {
-A \rtwocell^f_g^h & B \ruppertwocell^f{\alpha} \rlowertwocell<-15>_h{\beta} \ar[r]_(.35)g & C\\
-A \ruppertwocell^{f}{\alpha} \rlowertwocell_h{\beta} \ar[r]_(.35)g & B \\
-P \rtwocell~!~'{\dir{>>}}~`{\dir{|}}^{<1.5>M}_{<1.5>M'}{=f} & S \\
-P \rtwocell^{<2>*@{>}}_{<2>*@{>}}{<3>f} & S & P' \ltwocell^{<2>*@{>}}_{<2>*@{>}}{<3>f} \\
-P \rtwocell^{f} & S \rtwocell^f & R \\
-P \rtwocell\omit^f{\alpha} & S \rtwocell<\omit>^f{\beta} & R \\
-P \rcompositemap_f^g & S \\
-}
-\end{xy}
-$$
 
 
 The induced representation 
-$((\rho, \text{Ind}_H^G W),j)$
-with $j:W\to \text{Ind}_H^G W$
+$((\rho, \text{Ind}\_H^G W),j)$
+with $j:W\to \text{Ind}\_H^G W$
 is an *initial object* in this category:
 it is an object such that 
 for all representation $V$ of $G$ and 
 $G$-module homomorphism $f:W\to V$, 
 there exists a *unique* $G$-module
-homomorphism $\varphi:\text{Ind}_H^G W \to V$
+homomorphism $\varphi:\text{Ind}\_H^G W \to V$
 such that the diagram 
 
 (DIAGRAM)
 
 commutes. This universal property defines
-$\text{Ind}_H^G W$ up to isomorphism, 
+$\text{Ind}\_H^G W$ up to isomorphism, 
 if it exists. In fact, one can check 
 with the induced representation defined
 in the first explanation that it safisties
