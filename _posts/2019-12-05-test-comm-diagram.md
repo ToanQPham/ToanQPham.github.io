@@ -10,7 +10,7 @@ tag:
 ---
 
 I use [xyjax](https://github.com/sonoisa/XyJax) which
-is xy-pic extension for MathJax. 
+is [xy-pic](http://xy-pic.sourceforge.net/) extension for MathJax. 
 
 $$
 \xymatrix {
