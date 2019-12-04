@@ -85,30 +85,7 @@ A morphism $(V_1,f_1) \to (V_2,f_2)$ is a
 $G$-module homomorphism $\varphi:V_1\to V_2$ 
 such that the following diagram commutes
 
-(OK NEED TO FIGURE HOW TO DRAW DIAGRAM)
-
-$$
-\xymatrix {
-U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
- & X \times_Z Y \ar[d]^q \ar[r]_p & X \ar[d]_f \\
- & Y \ar[r]^g & Z
-}
-$$
-
-$$
-\begin{xy}
-\xymatrix {
-U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
- & X \times_Z Y \ar[d]^q \ar[r]_p & X \ar[d]_f \\
- & Y \ar[r]^g & Z
-}
-\end{xy}
-$$
-
-$$
-\xymatrix{A \ar@{}[dr]|{=} \ar[d] \ar[r] & B \ar[d] \\ B \ar[r] & C }
-$$
-
+(DIAGRAM)
 
 
 The induced representation 
