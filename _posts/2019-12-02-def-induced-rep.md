@@ -103,6 +103,10 @@ U \ar@/_/[ddr]_y \ar@{.>}[dr]|{\langle x,y \rangle} \ar@/^/[drr]^x \\
 }
 \end{xy}
 
+\[
+\xymatrix{A \ar@{}[dr]|{=} \ar[d] \ar[r] & B \ar[d] \\ B \ar[r] & C }
+\]
+
 
 
 The induced representation 
@@ -137,7 +141,7 @@ See more at [nLab](https://ncatlab.org/nlab/show/induced+representation).
 # Module perspective
 
 **Quick explanation.**
-In fact $\text{Ind}_H^G W$ can be viewed as 
+In fact $\text{Ind}\_H^G W$ can be viewed as 
 $k[G] \otimes_{k[H]} W$ where 
 this is a left $k[G]$-module with $g$ acts on
 $g'\otimes w$ as $gg'\otimes w$. Also, 
