@@ -2,13 +2,9 @@
 layout: default
 ---
 
-My name is Toan Q. Pham and I am a second year student
-majoring in mathematics at the University of Queensland. 
+<p>My name is Toan Q. Pham and I am a third year student
+majoring in mathematics at the University of Queensland.</p> 
 
-
-<h2>Latest blogposts</h2>
-<ul class="posts-list">
-{% for post in site.posts limit:5 %}
-  <li><span class="date">{{ post.date | date: "%b %d, %Y" }}</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>{% if post.draft %} (draft){% endif %}
-{% endfor %}
-</ul>
+<p>I have a <a href="{{ site.baseurl }}/blog/">blog</a> a 
+<a href="{{ site.baseurl }}/writing/">writing</a>
+containing some of my mathematical writings.</p>

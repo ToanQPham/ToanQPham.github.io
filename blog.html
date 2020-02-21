@@ -2,9 +2,17 @@
 layout: page
 title: Blog
 permalink: /blog/
+exclude: true
 ---
 
-<p>This blog used to be on WordPress.com, but now it is integrated in my actual homepage. You can browse it by year below, or by
+<h2>Latest blogposts</h2>
+<ul class="posts-list">
+{% for post in site.posts limit:5 %}
+  <li><span class="date">{{ post.date | date: "%b %d, %Y" }}</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>{% if post.draft %} (draft){% endif %}
+{% endfor %}
+</ul>
+
+<p>You can browse it by year below, or by
 <ul>
   <li><a href="{{ site.baseurl }}/blog/categories">categories</a>
   <li><a href="{{ site.baseurl }}/blog/tags">tags</a>
