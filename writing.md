@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Writing
-permalink: /about/writing/
+permalink: /writing/
 exclude: true
 ---
 
