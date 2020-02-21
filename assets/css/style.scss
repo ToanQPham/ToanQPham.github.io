@@ -1,12 +1,13 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+# https://www.w3schools.com/cssref/css_websafe_fonts.asp
 ---
 
 @charset "utf-8";
 
 // Our variables
 // Font family https://www.w3schools.com/cssref/css_websafe_fonts.asp
-$base-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+$base-font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 $base-font-size:   14px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
