@@ -43,6 +43,8 @@ WRITING WORDS:
 
  Démontrer = demonstrate 
  Montrer = show
+ exprimer = express
+
  que/qui = that / which
  que la = that the 
  la/le/les = the
@@ -64,7 +66,7 @@ WRITING WORDS:
  est = is 
  soit = to be/ let
  un/une = a 
- de = of, sur = on, 
+ de(s) = of, sur = on, 
  par = by 
  pour = for
  dans = in
