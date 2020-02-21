@@ -2,7 +2,7 @@
 layout: page
 title: Writing
 permalink: /about/writing/
-exclude: false
+exclude: true
 ---
 
 Here are some of my writings:
