@@ -5,12 +5,13 @@ categories:
 - Learning
 tag: 
 - learning
+- OPPD
 ---
 
 Today is 17/03/2020. 
 
 Since I have gone too lazy these days without learning not as much mathematics
-each day, I decide to try to make one post per day (or may be per two days 
+each day, I decide to try to make one post per day (OPPD) (or may be per two days 
 if busy) telling about what I learned. It won't be like many mathematicians'blogs
 you find online but rather just like a normal blog/diary. 
 
