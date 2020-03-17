@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New plan: One post per day"
+title: "New plan: One post per day (OPPD)"
 categories: 
 - Learning
 tag: 
