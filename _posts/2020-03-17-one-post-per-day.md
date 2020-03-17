@@ -23,9 +23,9 @@ below are things I want to learn first:
 Right know, I think this is the most important thing I need to 
 learn first (as you will see next items in the list all related 
 to this). Here is what I plane to prioritise first:
-  1. First, I want to learn classification of representations 
+    1. First, I want to learn classification of representations 
 of semisimple Lie algebras. 
-  2. Next will be learn structure theory of reductive groups (?), 
+    2. Next will be learn structure theory of reductive groups (?), 
 but since this require some algebraic geometry, I may need to 
 learn those first. This serves as the prereq for the 3rd item 
 in this list.  
