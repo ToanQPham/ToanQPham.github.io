@@ -231,7 +231,29 @@ the following object
 This is the content of lemma (4.4) in the book. Let $P$
 be submodule of $N$ of cotype $\beta$ in $M$. From 
 what is written there, the general idea is that 
-to construct sequence of submodules $P=P_0\supset P_1 
-\supset P_2 \cdots$ of $P$ that uniquely determines
-cotype $\beta$ of $P$ such that the event $A_i=$ 
-"number of $P_{i-1}$ given $P_i$" is not hard to count. 
+by observing $P=P_0\supset P_1 
+\supset P_2 \cdots$ where $P_i=P\cap \mathfrak{p}^iM$
+then 
+
+$$
+l(P_{i-1}/P_i)= \lambda_i'-\beta_i'
+$$ 
+
+and conversely, if one knows this condition then 
+we know $P$ has cotype $\beta$ in $M$. Hence, 
+in order to construct $P$, one can start construct
+$P_i$ inductively as $i\to 0$. Note an extra 
+condition we need to guarantee is that $P\subset N$
+so for all $i$, we need $P_i$ such that 
+$P_i\subset N_i= N\cap \mathfrak{p}^iM$. This 
+is equivalent to 
+
+$$
+P_{i-1}\cap N_i=P_i
+$$
+
+Thus, we need to count the following
+
+> Given $P_i$, we want to count number of submodules 
+> $P_{i-1}$ of $N_{i-1}$ such that $l(P_{i-1}/P_i)
+> =\lambda_i'-\beta_i'$ and $P_{i-1}\cap N_i=P_i$. 
