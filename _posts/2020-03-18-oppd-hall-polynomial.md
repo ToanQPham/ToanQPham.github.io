@@ -174,8 +174,8 @@ that $w(T)$ is a lattice permutation (see Chapter 1, section 9
 of the book). 
 
 > For each $i\ge 0$, let $\lambda^{(i)}$ the cotype of 
-> $\mathfrak{p}^iN$. Then the sequence $S(N)=
-> (\lambda^{(0)}', \lambda^{(1)}',\ldots, \lambda^{(r)}')$
+> $\mathfrak{p}^iN$. Then the sequence 
+> $S(N)=\left( \lambda^{(0)}', \lambda^{(1)}',\ldots, \lambda^{(r)}' \right)$
 > where $\mathfrak{p}^rN=0$ is an $LR$-sequence of type 
 > $(\mu',\nu',\lambda')$. 
 
