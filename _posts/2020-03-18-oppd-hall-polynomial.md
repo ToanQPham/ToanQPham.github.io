@@ -145,12 +145,12 @@ Let $M$ be finite $\mathfrak{o}$-module of type $\lambda$,
 we have 
 * If $N$ submodule of type $\nu$ and cotype $\mu$ in $M$,
 then $\mu \subset \lambda$ and $\nu \subset \lambda$. 
-* Denote $S=\{x\in M: \mathfrak{p}x=0\}$ called *socle*
+* Denote $S=\\{x\in M: \mathfrak{p}x=0\\}$ called *socle*
 of $M$, which is the unique largest elementary submodule 
 of $M$. Then type of $M/S$ is $\tilde{\lambda}=
 (\lambda_1-1,\lambda_2-1,\ldots)$. 
 * If $N$ elementary submodule of $M$ of cotype $\mu$ then 
-$\lambda-\nu$ is vertical strip (i.e. $\lambda_i\mu_i=0$
+$\lambda-\nu$ is vertical strip (i.e. $\lambda_i-\mu_i=0$
 or $1$).
 
 Proofs for these properties can be obtained by using additive 
@@ -167,7 +167,7 @@ i.e. sequence of partitions
 $$\mu=\lambda^{(0)}\subset \lambda^{(1)}\subset \cdots
 \subset \lambda^{(r)}=\lambda$$ 
 
-as a tableau $T$ of shape $\lambda-\mu$, with weight 
+as set of tableaus $T$ of shape $\lambda-\mu$, with weight 
 $\nu_i= |\lambda^{(i)}-\lambda^{(i-1)}|$ and numbers on $T$
 are determined by above sequence of partitions such 
 that $w(T)$ is a lattice permutation (see Chapter 1, section 9
@@ -175,8 +175,22 @@ of the book).
 
 > For each $i\ge 0$, let $\lambda^{(i)}$ the cotype of 
 > $\mathfrak{p}^iN$. Then the sequence 
-> $S(N)=\left( \lambda^{(0)}', \lambda^{(1)}',\ldots, \lambda^{(r)}' \right)$
+> $S(N)=\left( \lambda^{(0)} ', \lambda^{(1)} ',\ldots, \lambda^{(r)} ' \right)$
 > where $\mathfrak{p}^rN=0$ is an $LR$-sequence of type 
 > $(\mu',\nu',\lambda')$. 
 
 ### Hall polynomial 
+
+We compute the structure constants $G_{\mu \nu}^{\lambda}(\mathfrak{o})$
+of Hall algebra (given $k$ is finite). Let $S$ be $LR$-sequence 
+of type $(\mu',\nu',\lambda')$ and $M$ finite $\mathfrak{o}$-module 
+of type $\lambda$. Denote $G_S(\mathfrak{o})$ the number of submodules 
+$N$ of $M$ whose associated $LR$-sequence $S(N)$ is $S$. Each such $N$
+will have type $\nu$ and cotype $\mu$ (from definition of $S(N)$).
+Then 
+
+$$
+G_{\mu \nu}^{\lambda}(\mathfrak{o})=\sum_S G_S(\mathfrak{o})
+$$
+
+summed over all $LR$-sequences $S$ of type $(\mu',\nu',\lambda')$. 
