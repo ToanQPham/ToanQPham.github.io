@@ -31,7 +31,7 @@ $\mathfrak{o}$-module $M$ and a partition $\lambda$
 is principal ideal domain, $M$ as finitely generated 
 $\mathfrak{o}$-module is direct sum of cyclic modules 
 $$
-M=\bigoplus_{i=1}^r \mathfrak{o}/\mathfrak{p}^{\lamda_i}
+M=\bigoplus_{i=1}^r \mathfrak{o}/\mathfrak{p}^{\lambda_i}
 \label{eq1}\tag{1}
 $$
 Furthermore, if $\mu_i=\text{dim }_k(\mathfrak{p}^{i-1}
@@ -58,7 +58,7 @@ If $m\le n$, multiplication by $\pi^{n-m}$ is
 injective $\mathfrak{o}$-homomorphism from 
 $\mathfrak{o}/\mathfrak{p}^m$ to $\mathfrak{o}/
 \mathfrak{p}^n$. Denote $E=\varinjlim \mathfrak{o}/ 
-\mahfrak{p}^n$ then $E$ can be viewed a the smallest 
+\mathfrak{p}^n$ then $E$ can be viewed a the smallest 
 injective $\mathfrak{o}$-module containing $k$ as submodule. 
 
 The *dual* of finite $\mathfrak{o}$-module $M$ is 
@@ -70,9 +70,15 @@ $$
 $$
 gives rise to exact sequence 
 $$
-\xymatrix{0 \ar[l] & \widehat{N} \ar[l] & \widehat{M} \ar[l] & 
-\widehat{M/N} \ar[l] & 0}
+\xymatrix{0 & \widehat{N} \ar[l] & \widehat{M} \ar[l] & 
+\widehat{M/N} & 0 \ar[l]}
 $$
 where $\widehat{M/N}$ is the annihilator $N^0$ of $N$ in 
 $\widehat{M}$, i.e. set of all $f\in \widehat{M}$
 so $f(N)=0$. 
+
+> $N \leftrigtarrow N^0$ is a one-one correspondence between 
+> submodules of $M, M\widehat{M}$, respectively, which maps 
+> set of all $N\subset M$ of type $\nu$ and cotype $\mu$ onto 
+> set of all $N^0\subset \widehat{M}$ of type $\mu$ and cotype $\nu$. 
+
