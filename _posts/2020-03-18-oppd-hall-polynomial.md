@@ -228,8 +228,9 @@ the following object
 > \lambda$. We want to count $H_{\alpha\beta\lambda}$, number 
 > of submodules $P\subset N$ of cotype $\beta$ in $M$. 
 
-This is the content of lemma (4.4) in the book. Say 
-$P$ is submodule of $N$ of cotype $\beta$ in $M$. We 
-wish to use the additive property of length $l(M)
--l(M/N)-l(N)=0$ and recall if $M$ has type $\lambda$ 
-then $l(\mathfrak{p}^iM)=\lambda$
+This is the content of lemma (4.4) in the book. Let $P$
+be submodule of $N$ of cotype $\beta$ in $M$. From 
+what is written there, the general idea is that 
+to construct sequence of submodules $P=P_0\supset P_1 
+\supset P_2 \cdots$ of $P$ such that the event of 
+($\# P_{i-1}$ given $P_i$) is not hard to count. 
