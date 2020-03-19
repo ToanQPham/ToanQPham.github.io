@@ -5,7 +5,7 @@ permalink: /about/math-dictionary/
 exclude: false
 ---
 
-# English-Vietnamese mathematics dictionary
+## English-Vietnamese mathematics dictionary
 
 * topological space = không gian
 * function = hàm
@@ -13,19 +13,19 @@ exclude: false
 * injection = đơn ánh
 * bijection = song ánh
 
-## Linear algebra - Đại số tuyến tính
+# Linear algebra - Đại số tuyến tính
 
 * matrix = ma trận
 * eigenvalues = giá trị riêng
 * entries of matrix = hệ số
 * determinant = định thức
 
-## Graph - Đồ thị
+# Graph - Đồ thị
 
 * bipartite = hai phe 
 * vertices/vertex = đỉnh
 
-## Algebra 
+# Algebra 
 
 * ideal = ideal
 * maximal ideal = ideal cực đại
@@ -34,7 +34,7 @@ exclude: false
 http://khoaspth.vinhuni.edu.vn/DATA/0/Donvi/Admin//UpVanBan//Tu_Dien_Toan_Anh_Viet_121004170627.pdf
 
 
-# French-English mathematics dictionary
+## French-English mathematics dictionary
 
 See http://www-users.math.umn.edu/~kwlan/documents/french-glossary.pdf
 http://people.brandeis.edu/~jbellaic/French.pdf
@@ -77,7 +77,7 @@ Example: on note par X le = we denote X as
 * désormais = from now on
 * c’est-à-dire = that is to say
 
-## Algebra
+# Algebra
 
 * entiers = integers
 * ensemble = set
