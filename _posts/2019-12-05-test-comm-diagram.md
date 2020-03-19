@@ -33,3 +33,6 @@ $$
 $$
 \xymatrix{A \ar@{}[dr]|{=} \ar[d] \ar[r] & B \ar[d] \\ B \ar[r] & C }
 $$
+
+Here is the [User guide](http://texdoc.net/texmf-dist/doc/generic/xypic/xyguide.pdf)
+how to use xy-pic. 

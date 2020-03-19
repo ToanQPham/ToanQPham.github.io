@@ -1,0 +1,78 @@
+---
+layout: post
+title: "OPPD - Day 1: Hall polynomials"
+categories: 
+- Symmetric functions
+tag: 
+- symmetric function
+- Macdonald's books
+- OPPD
+---
+
+Today is 19/03/2020 and I will post what I learn from 18/03/2020. 
+
+# Symmetric functions - Hall polynomials
+
+I read chapter II of Macdonald's book Symmetric Functions and 
+Hall Polynomials. Here is a brief summary from that chapter, 
+talking about Hall polynomials:
+
+## Finite $\mathfrak{o}$-module
+
+Let $\mathfrak{o}$ discrete valuation ring with maximal ideal 
+$\mathfrak{p}$ and residue field $k=\mathfrak{o}/\mathfrak{p}$. 
+A *finite $\mathfrak{o}$-module* $M$ is a finitely generated 
+$\mathfrak{o}$-module such that $\mathfrak{p}^rM=0$ for 
+some $r \ge 0$. 
+
+There is a unique correspondence between finite 
+$\mathfrak{o}$-module $M$ and a partition $\lambda$ 
+(up to isomorphism of $M$): Since $\mathfrak{o}$
+is principal ideal domain, $M$ as finitely generated 
+$\mathfrak{o}$-module is direct sum of cyclic modules 
+$$
+M=\bigoplus_{i=1}^r \mathfrak{o}/\mathfrak{p}^{\lamda_i}
+\label{eq1}\tag{1}
+$$
+Furthermore, if $\mu_i=\text{dim }_k(\mathfrak{p}^{i-1}
+M/\mathfrak{p}^i M)$ then $\mu=(\mu_1,\ldots,)$ is 
+conjugate of $\lambda$. We call $\lambda$ *type* of $M$.
+
+If $\lambda$ is *type* of $M$ then let $l(M)=|\lambda|=
+\sum \lambda_i$ be the *length* of $M$. The length has 
+very useful property (which will be used frequently 
+in the chapter) is that if $N$ submodule of $M$
+then $l(M)=l(N)+l(M/N)$. The *cotype* of $N$ in $M$
+is defined to be the *type* of $M/N$.
+
+Finite $\mathfrak{o}$-module $M$ is *cyclic* 
+if its type is $(r)$ consisting of single part 
+(very natural definition from \ref{eq1}). $M$
+is *elementary* (i.e. $\mathfrak{p}M=0$) iff
+its type if $(1^r)$.
+
+### Duality 
+
+Let $\pi$ generater of maximal ideal $\mathfrak{p}$.
+If $m\le n$, multiplication by $\pi^{n-m}$ is 
+injective $\mathfrak{o}$-homomorphism from 
+$\mathfrak{o}/\mathfrak{p}^m$ to $\mathfrak{o}/
+\mathfrak{p}^n$. Denote $E=\varinjlim \mathfrak{o}/ 
+\mahfrak{p}^n$ then $E$ can be viewed a the smallest 
+injective $\mathfrak{o}$-module containing $k$ as submodule. 
+
+The *dual* of finite $\mathfrak{o}$-module $M$ is 
+denoted $\widehat{M}=\text{Hom}_{\mathfrak{o}}(M,E)$
+which is isomorphic to $M$. Since $E$ injective, exact 
+sequence 
+$$
+\xymatrix{0 \ar[r] & N \ar[r] & M \ar[r] & M/N \ar[r] & 0}
+$$
+gives rise to exact sequence 
+$$
+\xymatrix{0 \ar[l] & \widehat{N} \ar[l] & \widehat{M} \ar[l] & 
+\widehat{M/N} \ar[l] & 0}
+$$
+where $\widehat{M/N}$ is the annihilator $N^0$ of $N$ in 
+$\widehat{M}$, i.e. set of all $f\in \widehat{M}$
+so $f(N)=0$. 
