@@ -20,12 +20,12 @@ exclude: false
 * entries of matrix = hệ số
 * determinant = định thức
 
-# Graph - Đồ thị
+## Graph - Đồ thị
 
 * bipartite = hai phe 
 * vertices/vertex = đỉnh
 
-# Algebra 
+## Algebra 
 
 * ideal = ideal
 * maximal ideal = ideal cực đại
