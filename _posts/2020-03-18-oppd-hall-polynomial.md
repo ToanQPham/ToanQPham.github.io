@@ -267,7 +267,7 @@ as generating elements) in $N_{i-1}$
 which are linearly independent modulo $N_i$. 
 
 After all of these counting, we conclude that 
-$G_{\mu\nu}^{\lambda}$ can be expressed as polynomial 
+$G_{\mu\nu}^{\lambda}(\mathfrak{o})$ can be expressed as polynomial 
 $g_{\mu\nu}^{\lambda}(t) \in \mathbf{Z}[t]$ evaluated 
 at $q=|k|$. From these computations, Macdonald also gives 
 explicit formulas for two special cases $\nu=(r)$ and 
