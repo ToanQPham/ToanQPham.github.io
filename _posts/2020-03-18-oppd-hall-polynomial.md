@@ -2,10 +2,9 @@
 layout: post
 title: "OPPD - Day 1: Hall polynomials"
 categories: 
-- Symmetric functions
+- Symmetric Functions
 tag: 
 - symmetric function
-- Macdonald's books
 - OPPD
 ---
 
@@ -197,16 +196,20 @@ summed over all $LR$-sequences $S$ of type $(\mu',\nu',\lambda')$.
 Hence, it suffices to compute $G_S(\mathfrak{o})$ for certain $S$. 
 To do this, we divide into smaller subproblems that is easier to count: 
 Observe that if $N$ submodule of $M$ such that $S(N)=S
-= (\lambda^{(1)} ', \ldots, \lambda^{(r)} ')$, then 
+= (\lambda^{(0)} ', \ldots, \lambda^{(r)} ')$, then 
 with $N_1=\mathfrak{p}N$, we have $S(N_1)=\left( \lambda^{(1)} ', 
 \ldots, \lambda^{(r)} ' \right)=S_1$. 
 
 Thus, we have $G_S(\mathfrak{o})$ equals to $G_{S_1}(\mathfrak{o})$
 (i.e. number of submodules $N_1$ of $M$ so $S(N_1)=S_1$) times 
-number of submodule $N$ of $M$ so $S(N)=S$ and $\mathfrak{p}N=N_1$.
+(given such $N_1$) 
+number of submodule $N$ of $M$ so $\mathfrak{p}N=N_1$ and $N$ of 
+cotype $\lambda^{(0)}=\mu$ (note these two conditions will imply 
+$S(N)=S$, which is what we originally want to count).
 The later is equivalent to count number of submodule 
-$N/\mathfrak{p}N_1$ of $M/\mathfrak{p}N_1$ such that 
-$\mathfrak{p} \left( N/\mathfrak{p}N_1 \right)= N_1/\mathfrak{p}N_1$.
+$N/\mathfrak{p}N_1$ of cotype $\lambda^{(0)}$ in $M/\mathfrak{p}N_1$
+of type $\lambda^{(2)}$ such that 
+$\mathfrak{p} \left( N/\mathfrak{p}N_1 \right)= N_1/\mathfrak{p}N_1$. 
 The advantage of rephrasing this way is that $N_1/\mathfrak{p}N_1$
 is an elementary submodule. By generalizing this, the new 
 object we want to count is:
