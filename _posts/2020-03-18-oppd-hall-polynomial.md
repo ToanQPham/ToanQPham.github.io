@@ -199,8 +199,18 @@ To do this, we divide into smaller subproblems that is easier to count:
 Observe that if $N$ submodule of $M$ such that $S(N)=S
 = (\lambda^{(1)} ', \ldots, \lambda^{(r)} ')$, then 
 with $N_1=\mathfrak{p}N$, we have $S(N_1)=\left( \lambda^{(1)} ', 
-\ldots, \lambda^{(r)} '\right)=S_1$. 
+\ldots, \lambda^{(r)} ' \right)=S_1$. 
 
 Thus, we have $G_S(\mathfrak{o})$ equals to $G_{S_1}(\mathfrak{o})$
 (i.e. number of submodules $N_1$ of $M$ so $S(N_1)=S_1$) times 
 number of submodule $N$ of $M$ so $S(N)=S$ and $\mathfrak{p}N=N_1$.
+The later is equivalent to count number of submodule 
+$N/\mathfrak{p}N_1$ of $\mathfrak{M}/\mathfrak{p}N_1$ such that 
+$\mathfrak{p} \left( N/\mathfrak{p}N_1 \right)= N_1/\mathfrak{p}N_1$.
+The advantage of rephrasing this way is that $N_1/\mathfrak{p}N_1$
+is an elementary submodule. By generalizing this, the new 
+object we want to count is:
+
+> Given $P$ elementary submodule in $M$, we want to count number of 
+submodules $N$ of certain (co)type $\alpha$ in $M$ such that 
+$\mathfrak{p}N=P$. 
