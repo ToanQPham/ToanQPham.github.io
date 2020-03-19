@@ -104,7 +104,7 @@ and identifies $N$ with $N^{00}$. Hence,
 > set of all $N\subset M$ of type $\nu$ and cotype $\mu$ onto 
 > set of all $N^0\subset \widehat{M}$ of type $\mu$ and cotype $\nu$. 
 
-## Hall algebra
+### Hall algebra
 
 We assume $k$ to be finite. Then $M$ 
 has finite number of elements. 
@@ -136,5 +136,5 @@ independent over $\mathbf{Z}$. This follows that
 Hall algebra $H(\mathfrak{o})$ isomorphic to ring $\Lambda$
 of symmetric functions. 
 
-## The $LR$-sequence of a submodule. 
+### The $LR$-sequence of a submodule. 
 
