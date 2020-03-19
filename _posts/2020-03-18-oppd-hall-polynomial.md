@@ -167,15 +167,15 @@ i.e. sequence of partitions
 $$\mu=\lambda^{(0)}\subset \lambda^{(1)}\subset \cdots
 \subset \lambda^{(r)}=\lambda$$ 
 
-as set of tableaus $T$ of shape $\lambda-\mu$, with weight 
+as tableau $T$ of shape $\lambda-\mu$, with weight 
 $\nu_i= |\lambda^{(i)}-\lambda^{(i-1)}|$ and numbers on $T$
 are determined by above sequence of partitions such 
 that $w(T)$ is a lattice permutation (see Chapter 1, section 9
 of the book). 
 
 > For each $i\ge 0$, let $\lambda^{(i)}$ the cotype of 
-> $\mathfrak{p}^iN$. Then the sequence 
-> $S(N)=\left( \lambda^{(0)} ', \lambda^{(1)} ',\ldots, \lambda^{(r)} ' \right)$
+> $\mathfrak{p}^iN$. Then the sequence $S(N)=
+> \left( \lambda^{(0)} ', \lambda^{(1)} ',\ldots, \lambda^{(r)} ' \right)$
 > where $\mathfrak{p}^rN=0$ is an $LR$-sequence of type 
 > $(\mu',\nu',\lambda')$. 
 
@@ -194,3 +194,9 @@ G_{\mu \nu}^{\lambda}(\mathfrak{o})=\sum_S G_S(\mathfrak{o})
 $$
 
 summed over all $LR$-sequences $S$ of type $(\mu',\nu',\lambda')$. 
+Hence, it suffices to compute $G_S(\mathfrak{o})$ for certain $S$. 
+To do this, we divide into smaller subproblems that is easier to count: 
+Observe that if $N$ submodule of $M$ such that $S(N)=S
+= (\lambda^{(1)} ', \ldots, \lambda^{(r)} ')$, then 
+with $N_1=\mathfrak{p}N$, we have $S(N_1)=(\lambda^{(1)}', 
+\ldots, \lambda^{(r)}')=S_1$. 
