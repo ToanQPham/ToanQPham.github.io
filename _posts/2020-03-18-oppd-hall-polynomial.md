@@ -265,3 +265,10 @@ idea is that from $P_i$, we want to contruct $P_{i-1}
 \supset P_i$ by adding new $\theta_i'$ elements (viewed 
 as generating elements) in $N_{i-1}$
 which are linearly independent modulo $N_i$. 
+
+After all of these counting, we conclude that 
+$G_{\mu\nu}^{\lambda}$ can be expressed as polynomial 
+$g_{\mu\nu}^{\lambda}(t) \in \mathbf{Z}[t]$ evaluated 
+at $q=|k|$. From these computations, Macdonald also gives 
+explicit formulas for two special cases $\nu=(r)$ and 
+$\nu=(1^r)$. 
