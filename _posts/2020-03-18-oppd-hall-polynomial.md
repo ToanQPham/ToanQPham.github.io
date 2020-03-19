@@ -136,6 +136,8 @@ independent over $\mathbf{Z}$. This follows that
 Hall algebra $H(\mathfrak{o})$ isomorphic to ring $\Lambda$
 of symmetric functions. 
 
+### $LR$-sequence of a submodule
+
 Next, we investigate connection between type of $M$ and 
 type of its submodule:
 
@@ -167,10 +169,14 @@ $$\mu=\lambda^{(0)}\subset \lambda^{(1)}\subset \cdots
 
 as a tableau $T$ of shape $\lambda-\mu$, with weight 
 $\nu_i= |\lambda^{(i)}-\lambda^{(i-1)}|$ and numbers on $T$
-are determined by above sequence of partitions. 
+are determined by above sequence of partitions such 
+that $w(T)$ is a lattice permutation (see Chapter 1, section 9
+of the book). 
 
 > For each $i\ge 0$, let $\lambda^{(i)}$ the cotype of 
 > $\mathfrak{p}^iN$. Then the sequence $S(N)=
 > (\lambda^{(0)}', \lambda^{(1)}',\ldots, \lambda^{(r)}')$
 > where $\mathfrak{p}^rN=0$ is an $LR$-sequence of type 
 > $(\mu',\nu',\lambda')$. 
+
+### Hall polynomial 
