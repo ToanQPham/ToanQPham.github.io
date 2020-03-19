@@ -232,5 +232,6 @@ This is the content of lemma (4.4) in the book. Let $P$
 be submodule of $N$ of cotype $\beta$ in $M$. From 
 what is written there, the general idea is that 
 to construct sequence of submodules $P=P_0\supset P_1 
-\supset P_2 \cdots$ of $P$ such that the event of 
-($\# P_{i-1}$ given $P_i$) is not hard to count. 
+\supset P_2 \cdots$ of $P$ that uniquely determines
+cotype $\beta$ of $P$ such that the event $A_i=$ 
+"number of $P_{i-1}$ given $P_i$" is not hard to count. 
