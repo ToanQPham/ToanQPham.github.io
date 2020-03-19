@@ -206,14 +206,30 @@ Thus, we have $G_S(\mathfrak{o})$ equals to $G_{S_1}(\mathfrak{o})$
 number of submodule $N$ of $M$ so $\mathfrak{p}N=N_1$ and $N$ of 
 cotype $\lambda^{(0)}=\mu$ (note these two conditions will imply 
 $S(N)=S$, which is what we originally want to count).
-The later is equivalent to count number of submodule 
+The later factor is equivalent to count number of submodule 
 $N/\mathfrak{p}N_1$ of cotype $\lambda^{(0)}$ in $M/\mathfrak{p}N_1$
 of type $\lambda^{(2)}$ such that 
-$\mathfrak{p} \left( N/\mathfrak{p}N_1 \right)= N_1/\mathfrak{p}N_1$. 
+$\mathfrak{p} \left( N/\mathfrak{p}N_1 \right)= N_1/\mathfrak{p}N_1$
+(which has cotype $\lambda^{(1)}$). 
 The advantage of rephrasing this way is that $N_1/\mathfrak{p}N_1$
 is an elementary submodule. By generalizing this, the new 
 object we want to count is:
 
-> Given $P$ elementary submodule in $M$, we want to count number of 
-submodules $N$ of certain (co)type $\alpha$ in $M$ such that 
-$\mathfrak{p}N=P$. 
+> Given $P$ elementary submodule of cotype $\beta$ in $M$, 
+> we want to count number of submodules $N$ of certain cotype $\alpha$ 
+> in $M$ such that $\mathfrak{p}N=P$. 
+
+This is the content of lemma (4.7) in the book. If one 
+follows the proof of this lemma, we reduce to count 
+the following object
+
+> Let $N$ elementary submodule of cotype $\alpha$ in $M$. 
+> Let $\beta$ partition such that $\alpha\subset \beta \subset 
+> \lambda$. We want to count $H_{\alpha\beta\lambda}$, number 
+> of submodules $P\subset N$ of cotype $\beta$ in $M$. 
+
+This is the content of lemma (4.4) in the book. Say 
+$P$ is submodule of $N$ of cotype $\beta$ in $M$. We 
+wish to use the additive property of length $l(M)
+-l(M/N)-l(N)=0$ and recall if $M$ has type $\lambda$ 
+then $l(\mathfrak{p}^iM)=\lambda$
