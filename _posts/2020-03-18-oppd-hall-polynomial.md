@@ -205,7 +205,7 @@ Thus, we have $G_S(\mathfrak{o})$ equals to $G_{S_1}(\mathfrak{o})$
 (i.e. number of submodules $N_1$ of $M$ so $S(N_1)=S_1$) times 
 number of submodule $N$ of $M$ so $S(N)=S$ and $\mathfrak{p}N=N_1$.
 The later is equivalent to count number of submodule 
-$N/\mathfrak{p}N_1$ of $\mathfrak{M}/\mathfrak{p}N_1$ such that 
+$N/\mathfrak{p}N_1$ of $M/\mathfrak{p}N_1$ such that 
 $\mathfrak{p} \left( N/\mathfrak{p}N_1 \right)= N_1/\mathfrak{p}N_1$.
 The advantage of rephrasing this way is that $N_1/\mathfrak{p}N_1$
 is an elementary submodule. By generalizing this, the new 
