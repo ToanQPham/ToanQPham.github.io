@@ -269,6 +269,8 @@ which are linearly independent modulo $N_i$.
 After all of these counting, we conclude that 
 $G_{\mu\nu}^{\lambda}(\mathfrak{o})$ can be expressed as polynomial 
 $g_{\mu\nu}^{\lambda}(t) \in \mathbf{Z}[t]$ evaluated 
-at $q=|k|$. From these computations, Macdonald also gives 
+at $q=|k|$. Such polynomial called *Hall polynomial*.
+
+From these computations, Macdonald also gives 
 explicit formulas for two special cases $\nu=(r)$ and 
 $\nu=(1^r)$. 
