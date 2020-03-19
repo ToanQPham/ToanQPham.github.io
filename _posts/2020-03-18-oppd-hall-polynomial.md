@@ -11,13 +11,13 @@ tag:
 
 Today is 19/03/2020 and I will post what I learn from 18/03/2020. 
 
-# Symmetric functions - Hall polynomials
+## Symmetric functions - Hall polynomials
 
 I read chapter II of Macdonald's book Symmetric Functions and 
 Hall Polynomials. Here is a brief summary from that chapter, 
 talking about Hall polynomials:
 
-## Finite $\mathfrak{o}$-module
+### Finite $\mathfrak{o}$-module
 
 Let $\mathfrak{o}$ discrete valuation ring with maximal ideal 
 $\mathfrak{p}$ and residue field $k=\mathfrak{o}/\mathfrak{p}$. 
@@ -30,10 +30,12 @@ $\mathfrak{o}$-module $M$ and a partition $\lambda$
 (up to isomorphism of $M$): Since $\mathfrak{o}$
 is principal ideal domain, $M$ as finitely generated 
 $\mathfrak{o}$-module is direct sum of cyclic modules 
+
 $$
 M=\bigoplus_{i=1}^r \mathfrak{o}/\mathfrak{p}^{\lambda_i}
 \label{eq1}\tag{1}
 $$
+
 Furthermore, if $\mu_i=\text{dim }_k(\mathfrak{p}^{i-1}
 M/\mathfrak{p}^i M)$ then $\mu=(\mu_1,\ldots,)$ is 
 conjugate of $\lambda$. We call $\lambda$ *type* of $M$.
@@ -65,20 +67,57 @@ The *dual* of finite $\mathfrak{o}$-module $M$ is
 denoted $\widehat{M}=\text{Hom}_{\mathfrak{o}}(M,E)$
 which is isomorphic to $M$. Since $E$ injective, exact 
 sequence 
+
 $$
 \xymatrix{0 \ar[r] & N \ar[r] & M \ar[r] & M/N \ar[r] & 0}
 $$
+
 gives rise to exact sequence 
+
 $$
 \xymatrix{0 & \widehat{N} \ar[l] & \widehat{M} \ar[l] & 
 \widehat{M/N} & 0 \ar[l]}
 $$
+
 where $\widehat{M/N}$ is the annihilator $N^0$ of $N$ in 
 $\widehat{M}$, i.e. set of all $f\in \widehat{M}$
-so $f(N)=0$. 
+so $f(N)=0$. The natural mapping $M\to \widehat{\widehat{M}}$
+is isomorphism for all finite $\mathfrak{o}$-module, 
+and identifies $N$ with $N^{00}$. Hence, 
 
 > $N \leftrigtarrow N^0$ is a one-one correspondence between 
 > submodules of $M, M\widehat{M}$, respectively, which maps 
 > set of all $N\subset M$ of type $\nu$ and cotype $\mu$ onto 
 > set of all $N^0\subset \widehat{M}$ of type $\mu$ and cotype $\nu$. 
 
+## Hall algebra
+
+
+We assume $k$ to be finite. Then $M$ 
+has finite number of elements. 
+
+Here we define Hall algebra based on constant coefficients 
+$G_{\mu \nu}^{\lambda} (\mathfrak{o})$ which counts number 
+of submodule $N$ of type $\nu$ and cotype $\mu$ in finite 
+$\mathfrak{o}$-module $M$ of type $\lambda$: 
+
+Since $l(M)=l(M/N)+l(N)$ so $G_{\mu\nu}^{\lambda}(\mathfrak{o})=0$
+unless $|\lambda|=|\mu|+|\nu|$. Let $H=H(\mathfrak{o})$ be 
+free $\mathbf{Z}$-module on basis $(\u_{\lambda})$ indexed 
+by partitions $\lambda$. Define product in $H$ by the rule 
+
+$$
+u_{\mu}u_{\nu}=\sum_{\lambda} G_{\mu \nu}^{\lambda}(\mathfrak{o})
+u_{\lambda}
+$$
+
+One can show the following 
+* $H(\mathfrak{o})$ is commutative and associative ring with 
+identity element, which is called *Hall algebra* of $\mathfrak{o}$.
+* Ring $H(\mathfrak{o})$ is generated (as $\mathbf{Z}$-algebra)
+by elements $u_{(1^r)}$ for $r\ge 1$ and they are algebraically 
+independent over $\mathbf{Z}$. This follows that 
+Hall algebra $H(\mathfrak{o})$ isomorphic to ring $\Lambda$
+of symmetric functions. 
+
+## The $LR$-sequence of a submodule. 
