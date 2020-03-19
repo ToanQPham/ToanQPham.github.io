@@ -220,7 +220,9 @@ object we want to count is:
 > in $M$ such that $\mathfrak{p}N=P$. 
 
 This is the content of lemma (4.7) in the book. If one 
-follows the proof of this lemma, we reduce to count 
+follows the proof of this lemma, where
+we try to rephrase the object in question, just as we did previously,
+(hoping that the new object is easier to count), we reduce to count 
 the following object
 
 > Let $N$ elementary submodule of cotype $\alpha$ in $M$. 
@@ -256,4 +258,9 @@ Thus, we need to count the following
 
 > Given $P_i$, we want to count number of submodules 
 > $P_{i-1}$ of $N_{i-1}$ such that $l(P_{i-1}/P_i)
-> =\lambda_i'-\beta_i'$ and $P_{i-1}\cap N_i=P_i$. 
+> =\lambda_i'-\beta_i'$ and $P_{i-1}\cap N_i=P_i$.
+
+This object can be computed directly, where the 
+idea is that from $P_i$, we want to contruct $P_{i-1}
+\supset P_i$ by adding $\theta_i'$ elements in $N_{i-1}$
+which are linearly independent modulo $N_i$. 
