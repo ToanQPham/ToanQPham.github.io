@@ -198,5 +198,9 @@ Hence, it suffices to compute $G_S(\mathfrak{o})$ for certain $S$.
 To do this, we divide into smaller subproblems that is easier to count: 
 Observe that if $N$ submodule of $M$ such that $S(N)=S
 = (\lambda^{(1)} ', \ldots, \lambda^{(r)} ')$, then 
-with $N_1=\mathfrak{p}N$, we have $S(N_1)=(\lambda^{(1)}', 
-\ldots, \lambda^{(r)}')=S_1$. 
+with $N_1=\mathfrak{p}N$, we have $S(N_1)=\left( \lambda^{(1)} ', 
+\ldots, \lambda^{(r)} '\right)=S_1$. 
+
+Thus, we have $G_S(\mathfrak{o})$ equals to $G_{S_1}(\mathfrak{o})$
+(i.e. number of submodules $N_1$ of $M$ so $S(N_1)=S_1$) times 
+number of submodule $N$ of $M$ so $S(N)=S$ and $\mathfrak{p}N=N_1$.
