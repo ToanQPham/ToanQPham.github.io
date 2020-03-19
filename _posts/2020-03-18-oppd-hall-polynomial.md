@@ -258,9 +258,10 @@ Thus, we need to count the following
 
 > Given $P_i$, we want to count number of submodules 
 > $P_{i-1}$ of $N_{i-1}$ such that $l(P_{i-1}/P_i)
-> =\lambda_i'-\beta_i'$ and $P_{i-1}\cap N_i=P_i$.
+> =\lambda_i'-\beta_i'=\theta_i$ and $P_{i-1}\cap N_i=P_i$.
 
 This object can be computed directly, where the 
 idea is that from $P_i$, we want to contruct $P_{i-1}
-\supset P_i$ by adding $\theta_i'$ elements in $N_{i-1}$
+\supset P_i$ by adding new $\theta_i'$ elements (viewed 
+as generating elements) in $N_{i-1}$
 which are linearly independent modulo $N_i$. 
