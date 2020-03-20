@@ -73,9 +73,9 @@ theorem
 > ideal $J$ of $K[x_1,\ldots, x_n]$, we have $I(V(J))=
 > \sqrt{J}$. In particular, there is an inclusion reversing 
 > bijection 
-> \begin{align*} 
+> $$\begin{align*} 
 > \\{ \text{affine varieties in } \mathbb{A}^n \\}
 > & \leftrightarrow \\{ \text{radical ideal in } 
 > K[x_1,\ldots, x_n] \\}
-> \end{align*}
+> \end{align*}$$
 
