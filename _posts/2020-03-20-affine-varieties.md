@@ -73,6 +73,7 @@ theorem
 > ideal $J$ of $K[x_1,\ldots, x_n]$, we have $I(V(J))=
 > \sqrt{J}$. In particular, there is an inclusion-reversing 
 > bijection 
+> 
 > $$\begin{align*} 
 > \{ \text{affine varieties in } \mathbb{A}^n \}
 > & \longleftrightarrow \{ \text{radical ideal in } 
@@ -81,5 +82,14 @@ theorem
 > V(J) & \longleftarrow J. 
 > \end{align*}$$
 
+A consequence of this theorem is the *weak Nullstellensatz*:
+For nonzero ideal $J$ in $K[x_1,\ldots, x_n]$ then $V(J)$
+is nonempty, i.e. $J$ has a zero. 
 
+Let $X \subset \mathbb{A}^n$ be affine variety. A 
+*polynomial function* on $X$ is a map $X\to K$ that is 
+of the form $x \mapsto f(x)$ for some $f\in K[x_1,\ldots, x_n]$.
+The ring (actually $K$-algebra) $A(X)$ of polynomial functions on 
+$X$ is just the quotient ring $A(X)=K[x_1,\ldots, x_n]/I(X)$, 
+which is called *coordinate ring* of affine variety $X$.
 
