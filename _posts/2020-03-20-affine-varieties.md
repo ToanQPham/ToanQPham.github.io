@@ -74,8 +74,10 @@ theorem
 > \sqrt{J}$. In particular, there is an inclusion reversing 
 > bijection 
 > $$\begin{align*} 
-> \\{ \text{affine varieties in } \mathbb{A}^n \\}
-> & \leftrightarrow \\{ \text{radical ideal in } 
-> K[x_1,\ldots, x_n] \\}
+> \{ \text{affine varieties in } \mathbb{A}^n \}
+> & \longleftrightarrow \{ \text{radical ideal in } 
+> K[x_1,\ldots, x_n] \} \\ 
+> X & \longrightarrow I(X) \\
+> V(J) & \longleftarrow J. 
 > \end{align*}$$
 
