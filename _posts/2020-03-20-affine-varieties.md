@@ -43,13 +43,39 @@ that any affine variety can be written as zero locus
 of finitely many polynomials. 
 
 Conversely, for each subset $X\subset \mathbb{A}^n$, 
-the collection $I(X)$ of all polynomials vanishing on $X$
-is an ideal of $K[x_1,\ldots, x_n]$. We have the 
-inclusions $X \subset V(I(X))$ and $J\subset I(V(J))$ 
+the collection of all polynomials vanishing on $X$
+is an ideal of $K[x_1,\ldots, x_n]$, denoted as $I(X)$. 
+We have the inclusions $X \subset V(I(X))$ and $J\subset I(V(J))$ 
 for $X\subset \mathbb{A}^n$ and ideal $J\subset 
-K[x_1,\ldots, x_n]$. The question is whether these 
-are equal or not, which is the content of 
-following theorem. 
+K[x_1,\ldots, x_n]$. A question is that whether 
+these are actually equal or not. 
 
-> (Hilbert's Nullstellensatz) 
+It is not always true that $J=I(V(J))$. A quick 
+way to see $I(V(J))\ne J$ is notice that if we work 
+with $K[x_1]$ (i.e. $n=1$) then with $f(x_1)=(x_1-a)^k$
+then $V(f)=\{a\}$, which does not contain the data 
+about multiplicity $k$, so when we apply $I(\dot)$ to
+$V(f)$ we obtain $I(V(f))=\langle (x_1-a)\rangle$,
+which is not $J=\langle (x_1-a)^k\rangle$ if $k>1$. 
+This example suggests us to define the *radical* 
+$\sqrt{J}$ of ideal $J$ of ring $R$ to be 
+
+$$
+\sqrt{J}=\{f\in R: f^k \in J \; \text{for some }
+k\in \mathbb{N}\}
+$$
+
+In fact, $I(V(J))=\sqrt{J}$, as shown by following 
+theorem 
+
+> (Hilbert's Nullstellensatz) For any affine variety 
+> $X\subset \mathbb{A}^n$ we have $V(I(X))=X$. For any 
+> ideal $J$ of $K[x_1,\ldots, x_n]$, we have $I(V(J))=
+> \sqrt{J}$. In particular, there is an inclusion reversing 
+> bijection 
+> \begin{align*} 
+> \\{ \text{affine varieties in } \mathbb{A}^n \\}
+> & \leftrightarrow \\{ \text{radical ideal in } 
+> K[x_1,\ldots, x_n] \\}
+> \end{align*}
 
