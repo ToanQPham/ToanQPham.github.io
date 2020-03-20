@@ -285,4 +285,5 @@ OK, I just had a talk with my supervisor and it seems the
 content of this chapter is not as famous/active to 
 current research anymore (at least in area of algebraic 
 combinatorics) so if anyone wants to read Macdonald's book, 
-a suggestion is to jump right to chapter 3. 
+a suggestion is to jump right to chapter 3 after reading 
+chapter 1. 
