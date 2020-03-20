@@ -9,7 +9,8 @@ tag:
 ---
 
 Today is 20/03/2020 and I decided to learn some basics about 
-affine varieties, following [Gathmann's note](https://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2019/alggeom-2019.pdf) mainly. 
+affine varieties, following [Gathmann's note](https://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2019/alggeom-2019.pdf) mainly.
+Other reference include [Milne's note](https://www.jmilne.org/math/CourseNotes/AG.pdf).
 
 The current goal is learn enough 
 algebraic geometry to learn about (linear) algebraic groups. 
@@ -27,7 +28,7 @@ $\mathbb{A}_K^n$ or just $\mathbb{A}^n$ (i.e. writing
 this means we ignore the addition and scalar multiplication 
 that occur in $K^n$). Given subset $S\subset K[x_1,\ldots, x_n]$
 of polynomials we call set of common roots in $\mathbb{A}^n$ of 
-$S$ the (affine) *zero locus* of $S$, denoted as $V(S)=\{x\in 
+$S$ the (affine) *zero locus* (or *algebraic set) of $S$, denoted as $V(S)=\{x\in 
 \mathbb{A}^n: f(x)=0 \; \forall x\in S\}$. 
 An *affine variety* $X\subset \mathbb{A}^n$
 is the zero locus $V(S)$ of collection 
@@ -54,7 +55,7 @@ It is not always true that $J=I(V(J))$. A quick
 way to see $I(V(J))\ne J$ is notice that if we work 
 with $K[x_1]$ (i.e. $n=1$) then with $f(x_1)=(x_1-a)^k$
 then $V(f)=\{a\}$, which does not contain the data 
-about multiplicity $k$, so when we apply $I(\dot)$ to
+about multiplicity $k$, so when we apply $I(.)$ to
 $V(f)$ we obtain $I(V(f))=\langle (x_1-a)\rangle$,
 which is not $J=\langle (x_1-a)^k\rangle$ if $k>1$. 
 This example suggests us to define the *radical* 
@@ -93,5 +94,3 @@ The ring (actually $K$-algebra) $A(X)$ of polynomial functions on
 $X$ is just the quotient ring $A(X)=K[x_1,\ldots, x_n]/I(X)$, 
 which is called *coordinate ring* of affine variety $X$.
 
-**Exercise.** Find radical of ideal $\langle x_1^3-x_2^6,
-x_1x_2-x_2^3\rangle$ of $\mathbb{C}[x_1,x_2]$. 
