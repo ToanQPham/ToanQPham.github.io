@@ -56,6 +56,11 @@ some material from one of these books.
 for a lot of references. Right now I plan to follow Sergey Fomin, Laurent Williams, and 
 Andrei Zelevinsky, Introduction to Cluster Algebras. 
 
+UPDATE 20/03/2020: OK it seems that due to COVID-19, two reading courses
+on Crystal bases and Cluster algebras are cancelled this semester.
+As a result, I will prioritise learning the first four items,
+leaving out cluster algebra if I have free time to do. 
+
 # Why posting in blogs will help learning these?
 
 I need some audiences (imaginary audiences also fine) to listen to me 

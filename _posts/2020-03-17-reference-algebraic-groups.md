@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OPPD: Reference for algebraic groups"
+title: "OPPD: Reference for Lie groups, algebraic groups, Lie algebras"
 categories: 
 - Algebraic groups
 tag: 
@@ -14,7 +14,9 @@ For purpose OPPD, just want to give some links to reference about
 look those up again. 
 
 We have classial recommended textbooks about linear algebraic groups: Borel, Springer, 
-Humphreys, ... , Milne. 
+Humphreys, ... , [Milne's book](https://www.jmilne.org/math/CourseNotes/iAG200.pdf) (also see [this Milne's note 1](https://www.jmilne.org/math/CourseNotes/RG.pdf)
+for summary
+and [note 2](https://www.jmilne.org/math/CourseNotes/LAG.pdf))
 
 Notes online about algebraic geometry:
 * Gathman: https://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2019/alggeom-2019.pdf
