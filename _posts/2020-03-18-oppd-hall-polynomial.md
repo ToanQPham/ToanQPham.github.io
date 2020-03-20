@@ -104,7 +104,7 @@ and identifies $N$ with $N^{00}$. Hence,
 > set of all $N^0\subset \widehat{M}$ of type $\mu$ and cotype $\nu$.
 
 QUESTION: What is exactly this correspondence? How do one derive 
-the (co)type here? This is part of Macdonald's book that I couldn't
+the (co)type here? This is part of this chapter that I couldn't
 quite understand. 
 
 ### Hall algebra
