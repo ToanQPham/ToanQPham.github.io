@@ -101,7 +101,11 @@ and identifies $N$ with $N^{00}$. Hence,
 > $N \leftrightarrow N^0$ is a one-one correspondence between 
 > submodules of $M, M\widehat{M}$, respectively, which maps 
 > set of all $N\subset M$ of type $\nu$ and cotype $\mu$ onto 
-> set of all $N^0\subset \widehat{M}$ of type $\mu$ and cotype $\nu$. 
+> set of all $N^0\subset \widehat{M}$ of type $\mu$ and cotype $\nu$.
+
+QUESTION: What is exactly this correspondence? How do one derive 
+the (co)type here? This is part of Macdonald's book that I couldn't
+quite understand. 
 
 ### Hall algebra
 
@@ -274,3 +278,11 @@ at $q=|k|$. Such polynomial called *Hall polynomial*.
 From these computations, Macdonald also gives 
 explicit formulas for two special cases $\nu=(r)$ and 
 $\nu=(1^r)$. 
+
+---
+
+OK, I just had a talk with my supervisor and it seems the 
+content of this chapter is not as famous/active to 
+current research anymore (at least in area of algebraic 
+combinatorics) so if anyone wants to read Macdonald's book, 
+a suggestion is to jump right to chapter 3. 
