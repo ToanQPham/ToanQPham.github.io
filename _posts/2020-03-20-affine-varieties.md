@@ -93,3 +93,5 @@ The ring (actually $K$-algebra) $A(X)$ of polynomial functions on
 $X$ is just the quotient ring $A(X)=K[x_1,\ldots, x_n]/I(X)$, 
 which is called *coordinate ring* of affine variety $X$.
 
+**Exercise.** Find radical of ideal $\langle x_1^3-x_2^6,
+x_1x_2-x_2^3\rangle$ of $\mathbb{C}[x_1,x_2]$. 
