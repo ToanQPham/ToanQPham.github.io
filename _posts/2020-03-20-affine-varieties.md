@@ -71,7 +71,7 @@ theorem
 > (Hilbert's Nullstellensatz) For any affine variety 
 > $X\subset \mathbb{A}^n$ we have $V(I(X))=X$. For any 
 > ideal $J$ of $K[x_1,\ldots, x_n]$, we have $I(V(J))=
-> \sqrt{J}$. In particular, there is an inclusion reversing 
+> \sqrt{J}$. In particular, there is an inclusion-reversing 
 > bijection 
 > $$\begin{align*} 
 > \{ \text{affine varieties in } \mathbb{A}^n \}
@@ -80,4 +80,6 @@ theorem
 > X & \longrightarrow I(X) \\
 > V(J) & \longleftarrow J. 
 > \end{align*}$$
+
+
 
