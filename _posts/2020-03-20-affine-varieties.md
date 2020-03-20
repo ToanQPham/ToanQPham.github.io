@@ -8,7 +8,9 @@ tag:
 - OPPD
 ---
 
-Today is 20/03/2020 and here is what I learn:
+Today is 20/03/2020 and I decided to learn some basics about 
+affine varieties, following [Gathmann's note](https://www.mathematik.uni-kl.de/~gathmann/class/alggeom-2019/alggeom-2019.pdf). The current goal is learn enough 
+algebraic geometry to learn about (linear) algebraic groups. 
 
 ## Affine varieties
 
