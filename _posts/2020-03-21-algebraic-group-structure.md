@@ -87,7 +87,7 @@ For every integer $m\ge 1$, the map $\mathfrak{o}
 \to \mathfrak{o}/\mathfrak{p}^m$ induces map 
 $K\to GL_n(\mathfrak{o}/\mathfrak{p}^m)$. 
 The kernel $K_m$ of this map is called 
-\vocab{principal congruence subgroup of level $m$}.
+**principal congruence subgroup of level $m$**.
 We also define $K_0$ to be $K$. For all $m\ge 1$,
 we have $K_m = 1_n+\mathfrak{p}^m M_n(\mathfrak{o})$.
 $K_m$ are open compact subgroups of $G$ and 
@@ -101,7 +101,7 @@ operations.
 
 **Cartan decomposition** gives,
 for $A=\{\text{diag}(\Pi^{m_1},\ldots,\Pi^{m_n}): 
-m_i\in \mathbb{Z}_{\ge 0}, m_1\le \cdots \le m_n\}$ then 
+m_i\in \mathbb{Z}\_{\ge 0}, m_1\le \cdots \le m_n\}$ then 
 $G=\bigsqcup_{a\in A} KaK$. 
 
 **Iwasawa decomposition** gives $G=KB$. 
