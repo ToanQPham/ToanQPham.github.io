@@ -12,3 +12,6 @@ But the amount I managed to read from that book is very little.
 
 On 23/03/2020, I learnt about classification of complex semisimple Lie 
 algebras and its representations. I will definitely write this here. 
+
+I spent most of my time during these two days doing university work, 
+which is quite ineffective. 
