@@ -49,9 +49,9 @@ is called **parabolic subgroup** of $G$
 associated to flag $W_{\bullet}$.
 
 If $\{v_1,\ldots, v_n\}$ basis of $V$ then 
-stabilizer of flag $\{(v_1)\subset (v_1,v_2)\subset 
-\cdots \subset (v_1,\ldots, v_n)\}$ is called 
-\vocab{Borel subgroup}. In the case of $GL(V)$,
+stabilizer of flag $\\\{(v_1)\subset (v_1,v_2)\subset 
+\cdots \subset (v_1,\ldots, v_n)\\\}$ is called 
+**Borel subgroup**. In the case of $GL(V)$,
 stabilizer of any two such (maximal) flags 
 are conjugate under $GL(V)$. 
 
