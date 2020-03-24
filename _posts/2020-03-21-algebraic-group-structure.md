@@ -45,7 +45,7 @@ to be strictly increasing sequence of subspaces
 $W_0\subset W_1\subset \cdots \subset W_m=V$. 
 Subgroup of $GL(V)$ that stabilizes flag $W_{.}$,
 i.e. with the property that $gW_i=W_i$ for all $i$ 
-is called \vocab{parabolic subgroup} of $G$
+is called **parabolic subgroup** of $G$
 associated to flag $W_{\bullet}$.
 
 If $\{v_1,\ldots, v_n\}$ basis of $V$ then 
