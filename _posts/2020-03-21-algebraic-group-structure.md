@@ -131,7 +131,7 @@ the isomorphism is defined over $F$ we say $T$
 **split** (over $F$). 
 
 For affine algebraic group $G$ over $F$. 
-By \vocab{representation} we mean morphism 
+By **representation** we mean morphism 
 $\rho:G\to GL_n$ for some $n$ such that 
 $\rho:G(E)\to GL_n(E)$ group hom for any 
 commutative $F$-algebra $E$. 
