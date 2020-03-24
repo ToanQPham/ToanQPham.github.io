@@ -100,8 +100,8 @@ column reduction (on the right) by elementary
 operations.
 
 **Cartan decomposition** gives,
-for $A=\{\text{diag}(\Pi^{m_1},\ldots,\Pi^{m_n})
-: m_i\in \ZZ_{\ge 0}, m_1\le \cdots \le m_n\}$ then 
+for $A=\{\text{diag}(\Pi^{m_1},\ldots,\Pi^{m_n}): 
+m_i\in \mathbb{Z}_{\ge 0}, m_1\le \cdots \le m_n\}$ then 
 $G=\bigsqcup_{a\in A} KaK$. 
 
 **Iwasawa decomposition** gives $G=KB$. 
@@ -128,7 +128,7 @@ $G(E)=E^{\times}$.
 A **torus** is group $T$ that is isomorphic to 
 direct product of $G_m^k$ for some $k$. If 
 the isomorphism is defined over $F$ we say $T$ 
-\vocab{split} (over $F$). 
+**split** (over $F$). 
 
 For affine algebraic group $G$ over $F$. 
 By \vocab{representation} we mean morphism 
@@ -148,9 +148,9 @@ $U$, called **unipotent radical**. If $U$
 is trivial then $G$ is **reductive**. 
 If it is reductive and has no nontrivial normal 
 tori then $G$ is **semisimple**. For example 
-group of $\left\{\begin{pmatrix}
-a & b \\ 0 &d
-\end{pmatrix}\right\}$ is not reductive since 
+group of $\left \{ \begin{pmatrix}
+a & b \\ 0 & d
+\end{pmatrix} \right \}$ is not reductive since 
 $\left\{ \begin{pmatrix}
 1 & x\\ 0 & 1
 \end{pmatrix} \right\}$ is normal unipotent subgroup.
