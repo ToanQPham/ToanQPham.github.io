@@ -148,9 +148,9 @@ $U$, called **unipotent radical**. If $U$
 is trivial then $G$ is **reductive**. 
 If it is reductive and has no nontrivial normal 
 tori then $G$ is **semisimple**. For example 
-group of $\left \{ \begin{pmatrix}
+group of $\left \\{ \begin{pmatrix}
 a & b \\ 0 & d
-\end{pmatrix} \right \}$ is not reductive since 
+\end{pmatrix} \right \\}$ is not reductive since 
 $\left\{ \begin{pmatrix}
 1 & x\\ 0 & 1
 \end{pmatrix} \right\}$ is normal unipotent subgroup.
