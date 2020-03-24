@@ -165,3 +165,5 @@ algebraically closed.
 If $G$ is $F$-split reductive group and $T$ is 
 $F$-split maximal torus, $N$ normalizer of $T$
 then $N/T$ is Weyl group $W$. 
+
+See also [this short note](https://gauss.math.yale.edu/~il282/group_stuff.pdf). 
