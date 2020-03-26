@@ -4,7 +4,6 @@ title: "OPPD - Day 1: Hall polynomials"
 categories: 
 - Symmetric Functions
 tag: 
-- symmetric function
 - OPPD
 ---
 
