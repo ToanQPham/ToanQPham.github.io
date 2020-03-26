@@ -10,6 +10,7 @@ tag:
 ---
 
 On 24/03/2020, I learn a bit about Hall-Littlewood polynomial, following
-Macdonald's book. 
+Macdonald's book.
+ 
 On 25/03/2020, I learn a bit about schemes, following book by 
 Jantzen about Representations of Algebraic Groups. 
