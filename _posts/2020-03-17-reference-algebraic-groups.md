@@ -2,7 +2,7 @@
 layout: post
 title: "OPPD: Reference for Lie groups, algebraic groups, Lie algebras"
 categories: 
-- Algebraic groups
+- Algebraic Groups
 tag: 
 - algebraic groups
 - reference

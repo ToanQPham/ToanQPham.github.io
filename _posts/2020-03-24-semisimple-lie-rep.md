@@ -2,7 +2,7 @@
 layout: post
 title: "OPPD - Day 4,5: Complex semisimple Lie algebras"
 categories: 
-- Algebraic groups
+- Algebraic Groups
 tag: 
 - OPPD
 ---

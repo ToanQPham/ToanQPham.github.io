@@ -2,7 +2,7 @@
 layout: post
 title: "OPPD - Day 3: Structure theory of linear algebraic groups"
 categories: 
-- Algebraic groups
+- Algebraic Groups
 tag: 
 - OPPD
 ---

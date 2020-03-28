@@ -2,8 +2,8 @@
 layout: post
 title: "OPPD: Reference for Crystal Bases"
 categories: 
-- Crystal bases
-- Quantum groups
+- Crystal Bases
+- Quantum Groups
 tag: 
 - crystal bases
 - reference

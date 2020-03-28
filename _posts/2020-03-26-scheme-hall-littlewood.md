@@ -2,11 +2,12 @@
 layout: post
 title: "OPPD - Day 6,7: Hall-Littlewood polynomials, Schemes"
 categories: 
-- Algebraic groups
+- Algebraic Groups
 - Symmetric Functions
-- Algebraic geometry
+- Algebraic Geometry
 tag: 
 - OPPD
+- Jantzen Algebraic Groups
 ---
 
 On 24/03/2020, I learn a bit about Hall-Littlewood polynomial, following
