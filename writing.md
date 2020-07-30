@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Writing
+title: Learning Mathematics
 permalink: /writing/
 exclude: true
 ---
