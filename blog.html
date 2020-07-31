@@ -31,8 +31,8 @@ exclude: true
     <li><a href="#{{ category[0] | slugify }}">{{ category[0] }} ({{ category | last | size }})</a>
   {% endfor %}
 </ul>
-{% endfor %}
+
 
 {% for category in categories %}
 <h2 class="posts-list" id="{{ category[0] | slugify }}">{{ category[0] }}</h2>
-
+{% endfor %}
