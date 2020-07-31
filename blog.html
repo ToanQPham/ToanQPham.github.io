@@ -15,21 +15,13 @@ exclude: true
 <ul>
   <li><a href="{{ site.baseurl }}/blog/categories">categories</a>
   <li><a href="{{ site.baseurl }}/blog/tags">tags</a>
+  <li><a href="{{ site.baseurl }}/blog/year">years</a></li>
 </ul>
 
-{%for post in site.posts %}
-  {% unless post.next %}
-    <h2 class="posts-list">{{ post.date | date: '%Y' }}</h2>
-    <ul class="posts-list">
-  {% else %}
-    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-    {% capture nextyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nextyear %}
-        </ul>
-        <h2 class="posts-list">{{ post.date | date: '%Y' }}</h2>
-        <ul class="posts-list">
-    {% endif %}
-  {% endunless %}
-  <li><span class="date">{{ post.date | date: "%b %d, %Y" }}</span> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>{% if post.draft %} (draft){% endif %}
-{% endfor %}
+<ul>
+  {% assign categories = site.categories | sort %}
+  {% for category in categories %}
+    <li><a href="#{{ category[0] | slugify }}">{{ category[0] }} ({{ category | last | size }})</a>
+  {% endfor %}
 </ul>
+
