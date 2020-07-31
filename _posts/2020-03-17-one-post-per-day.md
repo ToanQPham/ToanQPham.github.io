@@ -2,7 +2,7 @@
 layout: post
 title: "New plan: One post per day (OPPD)"
 categories: 
-- Learning
+- others
 tag: 
 - learning
 - OPPD

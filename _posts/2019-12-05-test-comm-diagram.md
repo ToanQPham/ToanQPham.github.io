@@ -2,7 +2,7 @@
 layout: post
 title: "Test commutative diagram drawing with MathJax"
 categories: 
-- LaTeX
+- others
 tag: 
 - latex
 - xypic

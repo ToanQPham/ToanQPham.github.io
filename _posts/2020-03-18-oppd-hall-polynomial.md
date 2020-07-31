@@ -2,9 +2,10 @@
 layout: post
 title: "OPPD - Day 1: Hall polynomials"
 categories: 
-- Symmetric Functions
+- mathematics
 tag: 
 - OPPD
+- symmetric functions
 ---
 
 Today is 19/03/2020 and I will post what I learn from 18-19/03/2020. 

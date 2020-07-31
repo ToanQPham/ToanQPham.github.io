@@ -2,9 +2,9 @@
 layout: post
 title: "OPPD - Day 2: Affine varieties"
 categories: 
-- Algebraic Geometry
+- mathematics
 tag: 
-- varieties
+- algebraic geometry
 - OPPD
 ---
 

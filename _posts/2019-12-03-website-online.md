@@ -2,7 +2,7 @@
 layout: post
 title: "Convert LaTeX to HTML"
 categories: 
-- LaTeX
+- others
 tag: 
 - latex
 - gerby

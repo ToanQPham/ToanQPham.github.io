@@ -2,9 +2,10 @@
 layout: post
 title: "OPPD - Day 3: Structure theory of linear algebraic groups"
 categories: 
-- Algebraic Groups
+- mathematics
 tag: 
 - OPPD
+- algebraic groups
 ---
 
 On 21/03/2020, I had a quick read through structure theory of linear algebraic groups
