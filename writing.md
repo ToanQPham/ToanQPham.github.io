@@ -17,7 +17,7 @@ Apologies in advance for the immature writings.
 **On hold/Abandoned projects:**
 
 <p>
-<a href="{{ site.baseurl }}/notes/walk_through_com_Bona.pdf">Solutions for Bona's A Walk Through Combinatorics</a>. I decided to skip this and waiting for a chance to tackle Stanley's Enumerative Combinatorics.</p>
+<a href="{{ site.baseurl }}/notes/walk_through_com_Bona.pdf">Solutions for Bona's A Walk Through Combinatorics</a>. I decided to skip this and waiting for a chance to do problems from Stanley's Enumerative Combinatorics.</p>
 
 <p>
 <a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_group.pdf">Aluffi</a>
