@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learn Lie algebras 2: Cartan subalgebra"
+title: "Learn Lie algebras 3: Cartan decomposition"
 categories: 
 - mathematics
 tag: 
@@ -8,3 +8,8 @@ tag:
 - representation theory
 ---
 
+Knowing $L$ having nondegenerate bilinear form 
+means to show $l=0$ we show $\langle l,a\rangle=0$ for 
+all $a\in L$.
+
+Calculating the trace trick. 

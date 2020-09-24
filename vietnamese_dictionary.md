@@ -146,6 +146,18 @@ inner product = tích vô hướng
 * bundle = phân thớ
 * 
 
+## Representation theory
+* irreducible = bất khả quy.
+* weight = trọng
+* faithful = trung thành
+* lie bracket = móc lie
+* nomalizer = chuẩn hoá
+* orthogonal = ngẫu đối
+* symplectic = trực giao ximplectic 
+* toral = xuyến; 
+* centralizer = tâm hoá;
+* span = sinh ra
+
 http://khoaspth.vinhuni.edu.vn/DATA/0/Donvi/Admin//UpVanBan//Tu_Dien_Toan_Anh_Viet_121004170627.pdf
 
 
@@ -172,6 +184,7 @@ WRITING WORDS:
 * note = pose = denote
 * et = and 
 * suivantes = following
+* sortir/sortie = to leave
 
 Example: on note par X le = we denote X as 
 
@@ -208,12 +221,3 @@ Example: on note par X le = we denote X as
 * coefficient dominant = coefficient of highest degree term in a polynomial 
 * corps =field
 
-## Representation theory
-* irreducible = bất khả quy.
-* weight = trọng
-* faithful = trung thành
-* lie bracket = móc lie
-* nomalizer = chuẩn hoá
-* orthogonal = ngẫu đối
-* symplectic = trực giao
-* 
