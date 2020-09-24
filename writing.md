@@ -10,7 +10,7 @@ Here are some of my writings:
 Ongoing projects:
 
 <a href="{{ site.baseurl }}/_notes/AluffiAlgebra_chap1_group.pdf">Aluffi solutions</a>
-
+<a href="https://github.com/ToanQPham/notes/AluffiAlgebra_chap1_categories.pdf">kmk</a>
 
 (Almost) Finished projects:
 
