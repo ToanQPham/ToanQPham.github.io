@@ -36,7 +36,9 @@ but I didn't manage to go that far for the book.</p>
 <a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> and <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
 <p>Springer's Linear algebraic groups.
 
-# Notes
+<p>
+
+### Notes
 
 <p><a href="{{ site.baseurl }}/notes/SymFuncNotes.pdf">Notes about symmetric functions</a> when I took a reading course with <a href="https://people.smp.uq.edu.au/OleWarnaar/">Ole Warnaar</a>.</p> 
 
