@@ -5,26 +5,34 @@ permalink: /writing/
 exclude: true
 ---
 
-Here are some of my writings:
+Here are some of my progesses in learning mathematics:
 
-Ongoing projects:
+**(Almost) Finished projects:**
 
-<a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_group.pdf">Aluffi solutions</a>
+<p>Solutions for <a href="{{ site.baseurl }}/notes/analysis.pdf">Rudin's Principle of Mathematical Analysis</a>.
 
-## (Almost) Finished projects:
+<p>Solutions for <a href="{{ site.baseurl }}/notes/linear_al_done_right_note.pdf">Axler's Linear algebra done right</a>.
 
-[Real Analysis: Solutions for problems
-in the book of Rudin, Principle of Mathematical Analysis.](https://github.com/ToanQPham/RealAnal/blob/master/analysis.pdf)
+**On hold/Abandoned projects:**
 
-[Linear algebra: Solutions for problems in
-the book Linear Algebra Done Right by Axler](https://github.com/ToanQPham/LinearAlgDoneRight-Axler/blob/master/linear_al_done_right_note.pdf)
+<p>
+<a href="{{ site.baseurl }}/notes/walk_through_com_Bona.pdf">Solutions for Bona's A Walk Through Combinatorics</a>
+</p>
+<p>Due to time restriction, I decided to skip this and wait for a chance to tackle Stanley's Enumerative Combinatorics.</p>
 
-## Abandoned projects:
+<p>
+<a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_group.pdf">Aluffi</a>
+<a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_categories.pdf">Algebra: Chapter 0's book</a>
+<a href="{{ site.baseurl }}/notes/AluffiAlg_Chap3RingsModules.pdf">solutions</a>. 
+</p>
+<p>Too many commutative diagrams needed to drawn. Also, I feel that I know enough to learn more when needed. Or another option is to resume when taking quals exam.
 
-[Algebraic Combinatorics: Solutions for the book 
-Algebraic Combinatorics by Stanley](https://github.com/ToanQPham/AlgCom-Stanley/blob/master/algcom_chap1.pdf)
+**Ongoing projects:**
 
-[Solutions for A Walk Through Combinatorics by 
-Bona](https://github.com/ToanQPham/WalkThroughCom-Bona/blob/master/walk_through_com_Bona.pdf)
+<p><a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">..."</a>
 
-I kmkm
+**Writing/Notes:**
+<p><a href="{{ site.baseurl }}/notes/SymFuncNotes.pdf">Notes about symmetric functions</a> when I took a reading course with [Ole Warnaar](https://people.smp.uq.edu.au/OleWarnaar/). 
+
+<p><a href="{{ site.baseurl }}/notes/HomologicalAlg.pdf">Notes about homological algebra</a> where I learnt from Nguyen Manh Linh via Basic Notions webinar.  
+
