@@ -9,10 +9,10 @@ Here are some of my writings:
 
 Ongoing projects:
 
-<a href="{{ site.baseurl }}/_notes/AluffiAlgebra_chap1_group.pdf">Aluffi solutions</a>
+<a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_group.pdf">Aluffi solutions</a>
 <a href="https://github.com/ToanQPham/notes/blob/master/AluffiAlgebra_chap1_categories.pdf">kmk</a>
 
-(Almost) Finished projects:
+## (Almost) Finished projects:
 
 [Real Analysis: Solutions for problems
 in the book of Rudin, Principle of Mathematical Analysis.](https://github.com/ToanQPham/RealAnal/blob/master/analysis.pdf)
@@ -20,7 +20,7 @@ in the book of Rudin, Principle of Mathematical Analysis.](https://github.com/To
 [Linear algebra: Solutions for problems in
 the book Linear Algebra Done Right by Axler](https://github.com/ToanQPham/LinearAlgDoneRight-Axler/blob/master/linear_al_done_right_note.pdf)
 
-Abandoned projects:
+## Abandoned projects:
 
 [Algebraic Combinatorics: Solutions for the book 
 Algebraic Combinatorics by Stanley](https://github.com/ToanQPham/AlgCom-Stanley/blob/master/algcom_chap1.pdf)
@@ -28,4 +28,4 @@ Algebraic Combinatorics by Stanley](https://github.com/ToanQPham/AlgCom-Stanley/
 [Solutions for A Walk Through Combinatorics by 
 Bona](https://github.com/ToanQPham/WalkThroughCom-Bona/blob/master/walk_through_com_Bona.pdf)
 
-Due
+I 
