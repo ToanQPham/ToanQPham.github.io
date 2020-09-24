@@ -2,7 +2,7 @@
 layout: page
 title: Vietnamese/French Mathematics Dictionary
 permalink: /about/math-dictionary/
-exclude: false
+exclude: true
 ---
 
 # English-Vietnamese mathematics dictionary
