@@ -1,2 +1,7 @@
-# notes
-My mathematics notes 
+---
+layout: page
+title: Notes
+permalink: /notes/
+exclude: true
+---
+
