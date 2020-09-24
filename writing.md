@@ -8,7 +8,7 @@ exclude: true
 Here are some of my progresses in learning mathematics.
 Apologies in advance for the immature writings. 
 
-### (Almost) Finished projects:**
+### (Almost) Finished projects:
 
 <p>Solutions for <a href="{{ site.baseurl }}/notes/analysis.pdf">Rudin's Principle of Mathematical Analysis</a>.</p>
 
@@ -31,10 +31,10 @@ representation theory</a> (very incomplete) The goal is to fill out the details 
 
 ### Ongoing projects:
 
-<p><a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> and <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
-<p>Springer's Linear algebraic groups. </p>
+<a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> and <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
+<p>Springer's Linear algebraic groups.
 
-### Notes:
+### Writings:
 
 <p><a href="{{ site.baseurl }}/notes/SymFuncNotes.pdf">Notes about symmetric functions</a> when I took a reading course with <a href="https://people.smp.uq.edu.au/OleWarnaar/">Ole Warnaar</a>.</p> 
 
