@@ -38,7 +38,7 @@ but I didn't manage to go that far for the book.</p>
 
 <p></p>
 
-### Notes
+### Notes  
 
 <p><a href="{{ site.baseurl }}/notes/SymFuncNotes.pdf">Notes about symmetric functions</a> when I took a reading course with <a href="https://people.smp.uq.edu.au/OleWarnaar/">Ole Warnaar</a>.</p> 
 
