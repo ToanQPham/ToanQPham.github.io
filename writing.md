@@ -35,5 +35,5 @@ Also, I feel that I know enough to learn more when needed. Another option is to 
 **Notes:**
 <p><a href="{{ site.baseurl }}/notes/SymFuncNotes.pdf">Notes about symmetric functions</a> when I took a reading course with <a href="https://people.smp.uq.edu.au/OleWarnaar/">Ole Warnaar</a>.</p> 
 
-<p><a href="{{ site.baseurl }}/notes/HomologicalAlg.pdf">Notes about homological algebra</a> where I learnt from Nguyen Manh Linh via Basic Notions webinar.  
+<p><a href="{{ site.baseurl }}/notes/HomologicalAlg.pdf">Notes about homological algebra</a> where I learnt from Nguyen Manh Linh's lectures for Basic Notions webinar.  
 
