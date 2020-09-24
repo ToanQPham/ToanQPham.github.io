@@ -27,7 +27,7 @@ So many commutative diagrams needed to drawn so I stop typing solutions.
 Also, I feel that I know enough to learn more when needed. Another option is to resume when taking quals exam.</p>
 
 <p><a href="{{ site.baseurl }}/notes/LocalLanglandsGL2.pdf">Notes about $p$-adic 
-representation theory</a> (very incomplete) The goal is to fill out the details about this subject and learn as much as possible. On hold until I know more about algebraic groups and algebraic number theory. 
+representation theory</a> (very incomplete) The goal is to fill out the details about this subject and learn as much as possible. On hold until I know more about algebraic groups and algebraic number theory. </p>
 
 **Ongoing projects:**
 
