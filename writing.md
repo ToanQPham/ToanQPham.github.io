@@ -9,7 +9,7 @@ Here are some of my writings:
 
 Ongoing projects:
 
-<a href="{{ site.baseurl }}/Notes/AluffiAlgebra_chap1_group.pdf">Aluffi solutions</a>
+<a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_group.pdf">Aluffi solutions</a>
 
 
 (Almost) Finished projects:
