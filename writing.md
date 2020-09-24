@@ -14,7 +14,7 @@ Apologies in advance for the immature writings.
 
 <p>Solutions for <a href="{{ site.baseurl }}/notes/linear_al_done_right_note.pdf">Axler's Linear algebra done right</a>.</p>
 
-### On hold/Abandoned projects:
+### On hold/Abandoned projects:  
 
 <p>
 <a href="{{ site.baseurl }}/notes/walk_through_com_Bona.pdf">Solutions for Bona's A Walk Through Combinatorics</a>. I decided to skip this and waiting for a chance to do problems from Stanley's Enumerative Combinatorics.</p>
@@ -31,7 +31,7 @@ representation theory</a> (very incomplete) The goal is to fill out the details 
 the goal is to read Bushnell and Henniart's The Local Langlands Conjecture for GL(2) 
 but I didn't manage to go that far for the book.</p>
 
-### Ongoing projects:
+### Ongoing projects:  
 
 <a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> + <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
 <p>Springer's Linear algebraic groups.
