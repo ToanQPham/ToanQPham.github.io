@@ -17,14 +17,13 @@ Apologies in advance for the immature writings.
 **On hold/Abandoned projects:**
 
 <p>
-<a href="{{ site.baseurl }}/notes/walk_through_com_Bona.pdf">Solutions for Bona's A Walk Through Combinatorics</a>. Due to time restriction, I decided to skip this and wait for a chance to tackle Stanley's Enumerative Combinatorics.</p>
+<a href="{{ site.baseurl }}/notes/walk_through_com_Bona.pdf">Solutions for Bona's A Walk Through Combinatorics</a>. I decided to skip this and waiting for a chance to tackle Stanley's Enumerative Combinatorics.</p>
 
 <p>
 <a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_group.pdf">Aluffi</a>
 <a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_categories.pdf">Algebra: Chapter 0's book</a>
 <a href="{{ site.baseurl }}/notes/AluffiAlg_Chap3RingsModules.pdf">solutions</a>. 
-</p>
-<p>Too many commutative diagrams needed to drawn so I stop typing solutions. 
+So many commutative diagrams needed to drawn so I stop typing solutions. 
 Also, I feel that I know enough to learn more when needed. Another option is to resume when taking quals exam.</p>
 
 **Ongoing projects:**
