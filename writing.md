@@ -29,7 +29,7 @@ Also, I feel that I know enough to learn more when needed. Another option is to 
 
 **Ongoing projects:**
 
-<p><a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">..."</a>
+<p><a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> and <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
 
 <p>Springer's Linear algebraic groups. </p>
 
