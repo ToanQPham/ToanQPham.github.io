@@ -5,6 +5,9 @@ permalink: /about/math-dictionary/
 exclude: true
 ---
 
+My attempt to learn mathematics in many languagues. 
+For now, these are very unorganised. 
+
 # English-Vietnamese mathematics dictionary
 
 * topological space = không gian topo
