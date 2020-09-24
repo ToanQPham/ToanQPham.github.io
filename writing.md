@@ -25,7 +25,8 @@ Here are some of my progesses in learning mathematics:
 <a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_categories.pdf">Algebra: Chapter 0's book</a>
 <a href="{{ site.baseurl }}/notes/AluffiAlg_Chap3RingsModules.pdf">solutions</a>. 
 </p>
-<p>Too many commutative diagrams needed to drawn. Also, I feel that I know enough to learn more when needed. Or another option is to resume when taking quals exam.
+<p>Too many commutative diagrams needed to drawn so I stop typing solutions. 
+Also, I feel that I know enough to learn more when needed. Another option is to resume when taking quals exam.
 
 **Ongoing projects:**
 
