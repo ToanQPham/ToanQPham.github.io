@@ -28,7 +28,8 @@ Also, I feel that I know enough to learn more when needed. Another option is to 
 
 <p><a href="{{ site.baseurl }}/notes/LocalLanglandsGL2.pdf">Notes about $p$-adic 
 representation theory</a> (very incomplete) The goal is to fill out the details about this subject and learn as much as possible. On hold until I know more about algebraic groups and algebraic number theory. I learn the subject from <a href="https://sites.google.com/site/valentinbuciumas/home">Valentin Buciumas</a>, where at first 
-the goal is to read Bushnell and Henniart's The Local Langlands Conjecture for GL(2).</p>
+the goal is to read Bushnell and Henniart's The Local Langlands Conjecture for GL(2) 
+but I didn't manage to go that far for the book.</p>
 
 ### Ongoing projects:
 
