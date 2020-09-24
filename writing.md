@@ -10,7 +10,7 @@ Apologies in advance for the immature writings.
 
 ### (Almost) Finished projects:
 
-<p>Solutions for <a href="{{ site.baseurl }}/notes/analysis.pdf">Rudin's Principle of Mathematical Analysis</a>.</p>
+<p>Solutions for <a href="{{ site.baseurl }}/notes/analysis.pdf">Rudin's Principle of Mathematical Analysis</a>. First 8 chapters. </p>
 
 <p>Solutions for <a href="{{ site.baseurl }}/notes/linear_al_done_right_note.pdf">Axler's Linear algebra done right</a>.</p>
 
