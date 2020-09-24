@@ -9,7 +9,7 @@ Here are some of my writings:
 
 Ongoing projects:
 
-[Abstract Algebra: Solutions for a great book Algebra Chapter 0 by Aluffi](https://github.com/ToanQPham/AlgChap0-solutions)
+<a href="{{ site.baseurl }}/Notes/AluffiAlgebra_chap1_group.pdf">Aluffi solutions</a>
 
 
 (Almost) Finished projects:
