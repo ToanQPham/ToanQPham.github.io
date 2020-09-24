@@ -5,7 +5,7 @@ permalink: /writing/
 exclude: true
 ---
 
-Here are some of my progesses in learning mathematics.
+Here are some of my progresses in learning mathematics.
 Apologies in advance for the immature writings. 
 
 **(Almost) Finished projects:**
