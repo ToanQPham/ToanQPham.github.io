@@ -8,13 +8,13 @@ exclude: true
 Here are some of my progresses in learning mathematics.
 Apologies in advance for the immature writings. 
 
-**(Almost) Finished projects:**
+### (Almost) Finished projects:**
 
 <p>Solutions for <a href="{{ site.baseurl }}/notes/analysis.pdf">Rudin's Principle of Mathematical Analysis</a>.</p>
 
 <p>Solutions for <a href="{{ site.baseurl }}/notes/linear_al_done_right_note.pdf">Axler's Linear algebra done right</a>.</p>
 
-**On hold/Abandoned projects:**
+### On hold/Abandoned projects:
 
 <p>
 <a href="{{ site.baseurl }}/notes/walk_through_com_Bona.pdf">Solutions for Bona's A Walk Through Combinatorics</a>. I decided to skip this and waiting for a chance to do problems from Stanley's Enumerative Combinatorics.</p>
@@ -29,12 +29,12 @@ Also, I feel that I know enough to learn more when needed. Another option is to 
 <p><a href="{{ site.baseurl }}/notes/LocalLanglandsGL2.pdf">Notes about $p$-adic 
 representation theory</a> (very incomplete) The goal is to fill out the details about this subject and learn as much as possible. On hold until I know more about algebraic groups and algebraic number theory. </p>
 
-**Ongoing projects:**
+### Ongoing projects:
 
 <p><a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> and <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
 <p>Springer's Linear algebraic groups. </p>
 
-**otes:**
+### Notes:
 
 <p><a href="{{ site.baseurl }}/notes/SymFuncNotes.pdf">Notes about symmetric functions</a> when I took a reading course with <a href="https://people.smp.uq.edu.au/OleWarnaar/">Ole Warnaar</a>.</p> 
 
