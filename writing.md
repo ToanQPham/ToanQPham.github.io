@@ -10,7 +10,7 @@ Here are some of my writings:
 Ongoing projects:
 
 <a href="{{ site.baseurl }}/_notes/AluffiAlgebra_chap1_group.pdf">Aluffi solutions</a>
-<a href="https://github.com/ToanQPham/notes/AluffiAlgebra_chap1_categories.pdf">kmk</a>
+<a href="https://github.com/ToanQPham/notes/blob/master/AluffiAlgebra_chap1_categories.pdf">kmk</a>
 
 (Almost) Finished projects:
 
@@ -27,3 +27,5 @@ Algebraic Combinatorics by Stanley](https://github.com/ToanQPham/AlgCom-Stanley/
 
 [Solutions for A Walk Through Combinatorics by 
 Bona](https://github.com/ToanQPham/WalkThroughCom-Bona/blob/master/walk_through_com_Bona.pdf)
+
+Due
