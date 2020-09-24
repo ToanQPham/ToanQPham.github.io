@@ -33,7 +33,7 @@ but I didn't manage to go that far for the book.</p>
 
 ### Ongoing projects:
 
-<a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> and <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
+<a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> + <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
 <p>Springer's Linear algebraic groups.
 
 <p></p>
