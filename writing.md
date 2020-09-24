@@ -26,6 +26,9 @@ Apologies in advance for the immature writings.
 So many commutative diagrams needed to drawn so I stop typing solutions. 
 Also, I feel that I know enough to learn more when needed. Another option is to resume when taking quals exam.</p>
 
+<p><a href="{{ site.baseurl }}/notes/LocalLanglandsGL2.pdf">Notes about $p$-adic 
+representation theory</p> (very incomplete) The goal is to fill out the details about this subject and learn as much as possible. On hold until I know more about algebraic groups and algebraic number theory. 
+
 **Ongoing projects:**
 
 <p><a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> and <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
@@ -36,4 +39,6 @@ Also, I feel that I know enough to learn more when needed. Another option is to 
 <p><a href="{{ site.baseurl }}/notes/SymFuncNotes.pdf">Notes about symmetric functions</a> when I took a reading course with <a href="https://people.smp.uq.edu.au/OleWarnaar/">Ole Warnaar</a>.</p> 
 
 <p><a href="{{ site.baseurl }}/notes/HomologicalAlg.pdf">Notes about homological algebra</a> where I learnt from Nguyen Manh Linh's lectures for Basic Notions webinar.  
+
+
 
