@@ -17,7 +17,7 @@ David Hilbert
 
 *There'll be plenty of time to rest in the grave.*
 
-(I found various sourses for this but I saw this quote the first time when I read about Paul Erdős and his work ethic)
+(I found various sourses for this but I saw this quote the first time when I read about Paul Erdős)
 
 *Finally, if you attempt to read this without working through a significant number of exercises (see §0.0.1), I will come to your house and pummel you with
 [Gr-EGA] until you beg for mercy. It is important to not just have a vague sense of
