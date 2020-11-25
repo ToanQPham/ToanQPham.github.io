@@ -24,21 +24,26 @@ Apologies in advance for the immature writings.
 <a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_categories.pdf">Algebra: Chapter 0's book</a>
 <a href="{{ site.baseurl }}/notes/AluffiAlg_Chap3RingsModules.pdf">solutions</a>. 
 So many commutative diagrams needed to drawn so I stop typing solutions. 
-Also, I feel that I know enough to learn more when needed. Another option is to resume when taking quals exam.</p>
+Also, I feel that I know enough to learn more when needed.</p>
 
 <p><a href="{{ site.baseurl }}/notes/LocalLanglandsGL2.pdf">Notes about $p$-adic 
-representation theory</a> (very incomplete) The goal is to fill out the details about this subject and learn as much as possible. On hold until I know more about algebraic groups and algebraic number theory. I learn the subject from <a href="https://sites.google.com/site/valentinbuciumas/home">Valentin Buciumas</a>, where at first 
+representation theory</a> (very incomplete) The goal is to fill out the details about this subject and learn as much as possible. I learn the subject from <a href="https://sites.google.com/site/valentinbuciumas/home">Valentin Buciumas</a>, where at first 
 the goal is to read Bushnell and Henniart's The Local Langlands Conjecture for GL(2) 
 but I didn't manage to go that far for the book.</p>
 
-### Ongoing projects:  
+### Few things I am trying to do:  
 
 <a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> + <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
 
-<p>Springer's Linear algebraic groups.</p>
+<p><a href="{{ site.baseurl }}/notes/HeckeToan.pdf">Hecke</a> The naive goal is to learn everything that has the word "Hecke" attached to it.</p>
 
-<p>Learn Kac-Moody/affine Lie algebras and their representations. </p>
+Whittaker. I am just aware of some 
+interesting stories involving name 
+Whittaker. For example, I think there is a <a href="https://arxiv.org/pdf/1511.04265.pdf">nice book by Fleig,  Gustafsson, Kleinschmidt, Persson</a> that I didn't have the chance to read. 
 
+<p>Homological algebra from Gelfand and Manin.</p>
+
+<p></p>
 ### Notes  
 
 <p><a href="{{ site.baseurl }}/notes/SymFuncNotes.pdf">Notes about symmetric functions</a> when I took a reading course with <a href="https://people.smp.uq.edu.au/OleWarnaar/">Ole Warnaar</a>.</p> 
