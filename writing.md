@@ -35,7 +35,7 @@ but I didn't manage to go that far for the book.</p>
 
 <a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> + <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
 
-<p><a href="{{ site.baseurl }}/notes/HeckeToan.pdf">Hecke</a> The naive goal is to learn everything that has the word "Hecke" attached to it.</p>
+<p><a href="{{ site.baseurl }}/notes/heckeToan.pdf">Hecke</a> The naive goal is to learn everything that has the word "Hecke" attached to it.</p>
 
 Whittaker. I am just aware of some 
 interesting stories involving name 
