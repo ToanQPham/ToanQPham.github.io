@@ -5,7 +5,7 @@ permalink: /about/lessons/
 exclude: true
 ---
 
-Some of the great lessons/quotes that I learnt and want to 
+Some of the lessons/quotes that I learnt and want to 
 write it here in case I forgot. 
 
 *There are two ways to do mathematics. The first is to be smarter than everybody else. The second way is to be stupider than everybody else - but persistent.* - based on a quotation from Raoul Bott.
