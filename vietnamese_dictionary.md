@@ -15,6 +15,8 @@ For now, these are very unorganised.
 * continuous function = hàm liên tục
 * injection = đơn ánh
 * bijection = song ánh
+* (double) coset = lớp kề (kép) 
+* Hecke = Héc 
 
 ## Linear algebra - Đại số tuyến tính
 
@@ -29,6 +31,7 @@ For now, these are very unorganised.
 * determinant = định thức 
 * invertible = khả nghịch 
 * transpose = chuyển tín
+* normal = chính tắc 
 
 ## Graph - Đồ thị
 
@@ -123,7 +126,7 @@ For now, these are very unorganised.
 * infinitely diffenrentiable = khả vi vô hạn
 * holomorphic = chỉnh hình 
 * connected = đơn viên 
-* integration = tích phân
+* integration = tích phân integrable = khả tích
 * period = chu kỳ 
 * universal covering = ánh xạ phủ dụng 
 * support = giá
@@ -143,13 +146,12 @@ inner product = tích vô hướng
 * differentiable / derivable = khả vi 
 * isometry = đẳng cự 
 * cannonical = chính tắc 
-* 
+* measure = độ đo 
 
 # Algebraic geometry
 * bundle = phân thớ
-* 
 
-## Representation theory
+# Rep theory 
 * irreducible = bất khả quy.
 * weight = trọng
 * faithful = trung thành
@@ -160,6 +162,10 @@ inner product = tích vô hướng
 * toral = xuyến; 
 * centralizer = tâm hoá;
 * span = sinh ra
+* automorphic form = dạng tự đẳng cấu
+* representation = biểu diễn
+* completion = làm đầy
+* reductive = giảm được
 
 http://khoaspth.vinhuni.edu.vn/DATA/0/Donvi/Admin//UpVanBan//Tu_Dien_Toan_Anh_Viet_121004170627.pdf
 
