@@ -50,5 +50,5 @@ Whittaker, i.e. <a href="http://sporadic.stanford.edu/bump/multiple.pdf">Bump's 
 
 <p><a href="{{ site.baseurl }}/notes/HomologicalAlg.pdf">Notes about homological algebra</a> where I learnt from Nguyen Manh Linh's lectures for Basic Notions webinar.  
 
-
+<p><a href="{{ site.baseurl }}/about/lessons/">Quotes</a>
 
