@@ -37,12 +37,6 @@ but I didn't manage to go that far for the book.</p>
 
 <p><a href="{{ site.baseurl }}/notes/heckeToan.pdf">Hecke</a> The naive goal is to learn everything that has the word "Hecke" attached to it.</p>
 
-Whittaker. I am just aware of some 
-interesting stories involving the name 
-Whittaker, i.e. <a href="http://sporadic.stanford.edu/bump/multiple.pdf">Bump's survey</a> and <a href="https://arxiv.org/pdf/1511.04265.pdf">a book of Fleig,  Gustafsson, Kleinschmidt, Persson</a>.
-
-<p>Homological algebra from Gelfand and Manin.</p>
-
 <p></p>
 ### Notes  
 
