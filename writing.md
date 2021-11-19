@@ -10,14 +10,14 @@ Apologies in advance for the immature writings.
 
 ### (Almost) Finished projects:
 
-<p>Solutions for <a href="{{ site.baseurl }}/notes/analysis.pdf">Rudin's Principle of Mathematical Analysis</a>. First 8 chapters. </p>
+<p><a href="{{ site.baseurl }}/notes/analysis.pdf">Rudin's Principle of Mathematical Analysis</a>. First 8 chapters. </p>
 
-<p>Solutions for <a href="{{ site.baseurl }}/notes/linear_al_done_right_note.pdf">Axler's Linear algebra done right</a>.</p>
+<p><a href="{{ site.baseurl }}/notes/linear_al_done_right_note.pdf">Axler's Linear algebra done right</a>.</p>
 
 ### On hold/Abandoned projects:  
 
 <p>
-<a href="{{ site.baseurl }}/notes/walk_through_com_Bona.pdf">Solutions for Bona's A Walk Through Combinatorics</a>. I decided to skip this and waiting for a chance to do problems from Stanley's Enumerative Combinatorics.</p>
+<a href="{{ site.baseurl }}/notes/walk_through_com_Bona.pdf">Bona's A Walk Through Combinatorics</a>. I decided to skip this and waiting for a chance to do problems from Stanley's Enumerative Combinatorics.</p>
 
 <p>
 <a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_group.pdf">Aluffi</a>
@@ -33,9 +33,7 @@ but I didn't manage to go that far for the book.</p>
 
 ### Few things I am trying to do:  
 
-<a href="{{ site.baseurl }}/notes/vakil_ag.html">Solutions for Vakil's algebraic geometry book</a> + <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">...</a>
-
-<p><a href="{{ site.baseurl }}/notes/heckeToan.pdf">Hecke</a> The naive goal is to learn everything that has the word "Hecke" attached to it.</p>
+<a href="{{ site.baseurl }}/notes/vakil_ag.html">Vakil's algebraic geometry book</a> + <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">part 2</a>
 
 <p></p>
 ### Notes  
