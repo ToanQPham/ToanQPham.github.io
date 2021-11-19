@@ -22,9 +22,8 @@ Apologies in advance for the immature writings.
 <p>
 <a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_group.pdf">Aluffi</a>
 <a href="{{ site.baseurl }}/notes/AluffiAlgebra_chap1_categories.pdf">Algebra: Chapter 0's book</a>
-<a href="{{ site.baseurl }}/notes/AluffiAlg_Chap3RingsModules.pdf">solutions</a>. 
-So many commutative diagrams needed to drawn so I stop typing solutions. 
-Also, I feel that I know enough to learn more when needed.</p>
+<a href="{{ site.baseurl }}/notes/AluffiAlg_Chap3RingsModules.pdf">notes</a>. 
+So many commutative diagrams needed to drawn so I stop typing solutions.</p>
 
 <p><a href="{{ site.baseurl }}/notes/LocalLanglandsGL2.pdf">Notes about $p$-adic 
 representation theory</a> (very incomplete) The goal is to fill out the details about this subject and learn as much as possible. I learn the subject from <a href="https://sites.google.com/site/valentinbuciumas/home">Valentin Buciumas</a>, where at first 
