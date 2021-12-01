@@ -15,7 +15,7 @@ David Hilbert
 
 (We must know. We shall know.)
 
-*There'll be plenty of time to rest in the grave.*
+*There will be plenty of time to rest in the grave.*
 
 (I found various sourses for this but I saw this quote the first time when I read about Paul Erdős)
 
