@@ -32,7 +32,7 @@ but I didn't manage to go that far for the book.</p>
 
 ### Few things I am trying to do:  
 
-<a href="{{ site.baseurl }}/notes/vakil_ag.html">Vakil's algebraic geometry book</a> + <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">part 2</a>
+<a href="{{ site.baseurl }}/notes/vakil_ag2.pdf">Vakil's algebraic geometry book</a> + <a href="{{ site.baseurl }}/notes/AlgGeoVakil2.pdf">part 2</a>
 
 <p></p>
 ### Notes  
