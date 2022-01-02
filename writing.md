@@ -41,5 +41,8 @@ but I didn't manage to go that far for the book.</p>
 
 <p><a href="{{ site.baseurl }}/notes/HomologicalAlg.pdf">Notes about homological algebra</a> where I learnt from Nguyen Manh Linh's lectures for Basic Notions webinar.  
 
+<a href="{{ site.baseurl }}/notes/final.pdf">A record of things I learnt everyday</a> (it is not proofread, so please read with care). 
+This is inspired by Tom Gannon's <a href="https://web.ma.utexas.edu/users/gannonth/Notes/learned.pdf">What I Learned Today</a>.
+
 <p><a href="{{ site.baseurl }}/about/lessons/">Quotes</a>
 
