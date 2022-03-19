@@ -15,7 +15,7 @@ the edited notes is [here](https://www.dropbox.com/s/7shsi2bys16v25b/Venkatesh_G
 
 # Schedule 
 
-Talk 1 (Toan): Overview, describe irreducible 
+Talk 1 (Toan, 15/03/2022): Overview, describe irreducible 
 representations and characters of $\text{SO}_2$.
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220315_Orbit_method.pdf)
 
