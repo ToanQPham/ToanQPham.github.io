@@ -15,11 +15,13 @@ the edited notes is [here](https://www.dropbox.com/s/7shsi2bys16v25b/Venkatesh_G
 
 # Schedule 
 
+Here is the zoom ID 872 3002 3928 with password 135105.
+
 Talk 1 (Toan, 15/03/2022): Overview, describe irreducible 
-representations and characters of $\text{SO}_2$.
+representations and characters of $\text{SO}_2(\mathbb{R})$.
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220315_Orbit_method.pdf)
 
-Talk 2 (Jaco): ...
+Talk 2 (Jaco 22/03/2022): ...
 
 # Resourses
 
