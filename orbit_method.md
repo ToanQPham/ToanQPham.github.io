@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Geometric quantisation in representation theory
-permalink: /about/lessons/
+permalink: /orbit_method/
 exclude: true
 ---
 
