@@ -9,19 +9,22 @@ We are trying to learn about application of geometric
 quantisation in representation theory, in particular, 
 what's called *Kirillov's orbit method*. 
 
-The main reference will be [Askay Venkatesh's lectures](https://www.mit.edu/~fengt/249C_2017.pdf) on this.
+The main reference will be [Askay Venkatesh's lectures](https://www.mit.edu/~fengt/249C_2017.pdf) on this. 
 We will put comments on this notes as we're learning the subject, and 
-the edited notes is [here](https://www.dropbox.com/s/7shsi2bys16v25b/Venkatesh_GeometricQuantization_Rep%20Theory.pdf?dl=0). 
+the edited notes is [here](https://www.dropbox.com/s/7shsi2bys16v25b/Venkatesh_GeometricQuantization_Rep%20Theory.pdf?dl=0) (updated 25/03/2022).
 
 ## Schedule 
 
 Here is the zoom ID 872 3002 3928 with password 135105.
 
 Talk 1 (Toan, 15/03/2022): Overview, describe irreducible 
-representations and characters of $\text{SO}_2(\mathbb{R})$.
+representations and characters of $\text{SO}_3(\mathbb{R})$.
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220315_Orbit_method.pdf). 
 
-Talk 2 (Jaco 22/03/2022): ...
+Talk 2 (Jaco 22/03/2022): 
+Rewrite the character formula of $\text{SO}_3(\mathbb{R}))$ as Fourier transform 
+on the spheres (section 1.3 of Venkatesh's notes).
+[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220323_orbit_method_Jaco_talk2.pdf). 
 
 ## Resourses
 
