@@ -21,7 +21,7 @@ Talk 1 (Toan, 15/03/2022): Overview, describe irreducible
 representations and characters of $\text{SO}_3(\mathbb{R})$.
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220315_Orbit_method.pdf). 
 
-Talk 2 (Jaco 22/03/2022): 
+Talk 2 (Jaco 23/03/2022): 
 Rewrite the character formula of $\text{SO}_3(\mathbb{R}))$ as Fourier transform 
 on the spheres (section 1.3 of Venkatesh's notes).
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220323_orbit_method_Jaco_talk2.pdf). 
