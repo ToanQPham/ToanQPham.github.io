@@ -26,6 +26,10 @@ Rewrite the character formula of $\text{SO}_3(\mathbb{R})$ as Fourier transform
 on the spheres (section 1.3 of Venkatesh's notes).
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220323_orbit_method_Jaco_talk2.pdf). 
 
+Talk 3 (Toan 29/03/2022):
+Describe how to obtain the coadjoint orbits and define the measure in Kirrilov's character formula. 
+[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220329_orbitMethod_Toan_talk3.pdf).
+
 ## Resourses
 
 Other than the main reference above, here are some more. 
