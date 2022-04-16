@@ -30,6 +30,11 @@ Talk 3 (Toan 29/03/2022):
 Describe how to obtain the coadjoint orbits and define the measure in Kirrilov's character formula. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220329_orbitMethod_Toan_talk3.pdf).
 
+Talk 4 (Toan 16/04/2022):
+Describe the coadjoint orbits, the symplectic forms of the orbits for the case 
+$\text{SO}_3(\mathbb{R})$.
+[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/orbitMethod_talk4.html)
+
 ## Resourses
 
 Other than the main reference above, here are some more. 
