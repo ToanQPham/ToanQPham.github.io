@@ -9,7 +9,7 @@ We are trying to learn about application of geometric
 quantisation in representation theory, in particular, 
 what's called *Kirillov's orbit method*. 
 
-The main reference will be [Askay Venkatesh's lectures](https://www.mit.edu/~fengt/249C_2017.pdf) on this. 
+The main reference will be [Askay Venkatesh's lectures](https://www.mit.edu/~fengt/249C_2017.pdf) on this, with notes taken by Tony Feng and Niccolo Roncheti. 
 We will put comments on this notes as we're learning the subject, and 
 the edited notes is [here](https://www.dropbox.com/s/7shsi2bys16v25b/Venkatesh_GeometricQuantization_Rep%20Theory.pdf?dl=0) (updated 25/03/2022).
 
@@ -33,7 +33,11 @@ Describe how to obtain the coadjoint orbits and define the measure in Kirrilov's
 Talk 4 (Toan 16/04/2022):
 Describe the coadjoint orbits, the symplectic forms of the orbits for the case 
 $\text{SO}_3(\mathbb{R})$.
-[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/orbitMethod_talk4.html)
+[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/orbitMethod_talk4.html).
+
+Talk 5 (Jaco 22/04/2022):
+Introduce pseudo-differential operators. Section 3.1-3.3 of  Venkatesh's lectures. 
+[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220422_Jaco_orbitMethod_talk5.pdf).
 
 ## Resourses
 
