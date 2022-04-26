@@ -39,6 +39,10 @@ Talk 5 (Jaco 22/04/2022):
 Introduce pseudo-differential operators. Section 3.1-3.3 of  Venkatesh's lectures. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220422_Jaco_orbitMethod_talk5.pdf).
 
+Talk 6 (Toan 26/04/2022):
+Discuss geometric decomposition of $L^2(\mathbb{R})$ using pseudo-differential operators. 
+[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/Orbit_method_26_04_talk6.pdf).
+
 ## Resourses
 
 Other than the main reference above, here are some more. 
