@@ -27,7 +27,7 @@ on the spheres (section 1.3 of Venkatesh's notes).
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220323_orbit_method_Jaco_talk2.pdf). 
 
 Talk 3 (Toan 29/03/2022):
-Describe how to obtain the coadjoint orbits and define the measure in Kirrilov's character formula. 
+Describe how to obtain the coadjoint orbits and define the measure in Kirrilov's character formula. State roughly the Kirrilov's theorem linking representations and coadjoint orbits. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220329_orbitMethod_Toan_talk3.pdf).
 
 Talk 4 (Toan 16/04/2022):
