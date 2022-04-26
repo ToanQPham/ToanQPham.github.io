@@ -11,7 +11,7 @@ what's called *Kirillov's orbit method*.
 
 The main reference will be [Askay Venkatesh's lectures](https://www.mit.edu/~fengt/249C_2017.pdf) on this, with notes taken by Tony Feng and Niccolo Roncheti. 
 We will put comments on this notes as we're learning the subject, and 
-the edited notes is [here](https://www.dropbox.com/s/7shsi2bys16v25b/Venkatesh_GeometricQuantization_Rep%20Theory.pdf?dl=0) (updated 25/03/2022).
+the edited notes is [here](https://www.dropbox.com/s/7shsi2bys16v25b/Venkatesh_GeometricQuantization_Rep%20Theory.pdf?dl=0) (updated 26/04/2022).
 
 ## Schedule 
 
