@@ -41,6 +41,7 @@ Introduce pseudo-differential operators. Section 3.1-3.3 of  Venkatesh's lecture
 
 Talk 6 (Toan 26/04/2022):
 Discuss geometric decomposition of $L^2(\mathbb{R})$ using pseudo-differential operators. 
+Link this discussion with Kirrilov's orbid method.
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/Orbit_method_26_04_talk6.pdf).
 
 ## Resourses
