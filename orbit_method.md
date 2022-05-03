@@ -9,7 +9,7 @@ We are trying to learn about application of geometric
 quantisation in representation theory, in particular, 
 what's called *Kirillov's orbit method*. 
 
-The main reference will be [Askay Venkatesh's lectures](https://www.mit.edu/~fengt/249C_2017.pdf) on this, with notes taken by Tony Feng and Niccolo Roncheti. 
+The main reference will be [Askay Venkatesh's lectures](https://www.mit.edu/~fengt/249C_2017.pdf) on this, with notes taken by Tony Feng and Niccolo Ronchetti. 
 We will put comments on this notes as we're learning the subject, and 
 the edited notes is [here](https://www.dropbox.com/s/7shsi2bys16v25b/Venkatesh_GeometricQuantization_Rep%20Theory.pdf?dl=0) (updated 26/04/2022).
 
