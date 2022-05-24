@@ -51,7 +51,7 @@ Sections 4.3, 4.4 of Venkatesh's lectures.
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220505_orbit_method_talk7.pdf).
 
 Talk 8 (Toan 24/05/2022): Describe character formula for the representation of the 
-Heisenberg group on $L^2(\mathbb{R})$. 
+Heisenberg group on $L^2(\mathbb{R})$. Sections 4.5, 4.6, 4.7 of Venkatesh's lectures. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220524_orbit_method_talk8.pdf).
 
 ## Resourses
