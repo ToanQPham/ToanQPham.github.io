@@ -59,6 +59,10 @@ the character formula for the representation of the Heisenberg group on $L^2(\ma
 in the sense of Kirrilov character formula. Sections 4.8, 4.9 of Venkatesh's lectures. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220608_orbit_method_talk9.pdf).
 
+Talk 10 (Toan 15/06/2022): Classify all the unitary irreducible representations of the 
+Heisenberg group. State the Kirrilov's theorem for the Heisenberg group. 
+[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220615_orbit_method_talk10.pdf).
+
 ## Resourses
 
 Other than the main reference above, here are some more. 
