@@ -61,7 +61,7 @@ in the sense of Kirrilov character formula. Sections 4.8, 4.9 of Venkatesh's lec
 
 Talk 10 (Toan 15/06/2022): Classify all the unitary irreducible representations of the 
 Heisenberg group and match them with the coadjoint orbits. State the Kirrilov's theorem 
-for nilpotent groups. 
+for nilpotent groups. Sections 5.1, 5.2, 5.3, 7.1 of Venkatesh's lectures. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220615_orbit_method_talk10.pdf).
 
 ## Resourses
