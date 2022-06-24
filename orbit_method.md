@@ -79,6 +79,8 @@ Other than the main reference above, here are some more.
 Kirrilov's book Lectures on the Orbit Method, 
 with a [review](https://klein.mit.edu/~dav/kirillov.pdf) by David Vogan.
 
+A [talk](https://math.mit.edu/~dav/kostant18HO.pdf) by David Vogan.
+
 
 
 
