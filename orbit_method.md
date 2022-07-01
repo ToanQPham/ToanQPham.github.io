@@ -41,7 +41,7 @@ Introduce pseudo-differential operators. Sections 3.1-3.3 of  Venkatesh's lectur
 
 Talk 6 (Toan 26/04/2022):
 Discuss geometric decomposition of $L^2(\mathbb{R})$ using pseudo-differential operators. 
-Link this discussion with Kirrilov's orbid method. Sections 3.4, 3.5, 4.1, 4.2 of Venkatesh's 
+Link this discussion with Kirrilov's orbit method. Sections 3.4, 3.5, 4.1, 4.2 of Venkatesh's 
 lectures. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/Orbit_method_26_04_talk6.pdf).
 
@@ -59,7 +59,7 @@ the character formula for the representation of the Heisenberg group on $L^2(\ma
 in the sense of Kirrilov character formula. Sections 4.8, 4.9 of Venkatesh's lectures. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220608_orbit_method_talk9.pdf).
 
-Talk 10 (Toan 15/06/2022): Classify all the unitary irreducible representations of the 
+Talk 10 (Toan 15/06/2022): Classify all unitary irreducible representations of the 
 Heisenberg group and match them with the coadjoint orbits. State the Kirrilov's theorem 
 for nilpotent groups. Sections 5.1, 5.2, 5.3, 7.1 of Venkatesh's lectures. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220615_orbit_method_talk10.pdf).
