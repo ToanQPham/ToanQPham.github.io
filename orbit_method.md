@@ -64,6 +64,10 @@ Heisenberg group and match them with the coadjoint orbits. State the Kirrilov's 
 for nilpotent groups. Sections 5.1, 5.2, 5.3, 7.1 of Venkatesh's lectures. 
 [Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220615_orbit_method_talk10.pdf).
 
+Talk 11 (Jaco 05/07/2022): Sketch the proof of Kirrilov's orbit theorem for nilpotent groups. 
+Sections 7.2, 7.3 of Venkatesh's lectures. 
+[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220705_orbit_method_talk11.pdf)
+
 ## Resourses
 
 Other than the main reference above, here are some more. 
