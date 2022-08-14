@@ -66,7 +66,7 @@ for nilpotent groups. Sections 5.1, 5.2, 5.3, 7.1 of Venkatesh's lectures.
 
 Talk 11 (Jaco 05/07/2022): Sketch the proof of Kirrilov's orbit theorem for nilpotent groups. 
 Sections 7.2, 7.3 of Venkatesh's lectures. 
-[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220705_orbit_method_talk11.pdf)
+[Notes]({{ site.baseurl }}/notes/Kirrilov_orbit_method/20220705_orbit_method_talk11.pdf).
 
 ## Resourses
 
@@ -76,7 +76,7 @@ Other than the main reference above, here are some more.
 
 [Geometric quantisation's seminar by Heidelberg University](https://www.mathi.uni-heidelberg.de/~jbimmermann/geometricquantization) with [a detailed list of topics](https://www.mathi.uni-heidelberg.de/~jbimmermann/geo.pdf). 
 
-[Nice and short overview on geometric quantisation by Baykara](http://math.uchicago.edu/~may/REU2019/REUPapers/Baykara.pdf)
+[Short overview on geometric quantisation by Baykara](http://math.uchicago.edu/~may/REU2019/REUPapers/Baykara.pdf)
 
 ### About orbit's method
 
