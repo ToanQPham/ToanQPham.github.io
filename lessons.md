@@ -10,7 +10,7 @@ write it here in case I forgot.
 
 To observe, to pay attention, to listen with the utmost curiosity, without any judgements, opinions and prejudice. 
 
-(Not a quote, but something I learned from Jiddu Krishnamurti, which to me seems to be solutions of many problems)
+(Not a quote, but something I learned from Jiddu Krishnamurti)
 
 *There are two ways to do mathematics. The first is to be smarter than everybody else. The second way is to be stupider than everybody else - but persistent.* - based on a quotation from Raoul Bott.
 
