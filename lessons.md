@@ -8,6 +8,10 @@ exclude: true
 Some of the lessons/quotes that I learnt and want to 
 write it here in case I forgot. 
 
+To observe, to pay attention, to listen with the utmost curiosity, without any judgements, opinions and prejudice. 
+
+(Not a quote, but something I learned from Jiddu Krishnamurti, which to me seems to be solutions of many problems)
+
 *There are two ways to do mathematics. The first is to be smarter than everybody else. The second way is to be stupider than everybody else - but persistent.* - based on a quotation from Raoul Bott.
 
 *Wir müssen wissen. Wir werden wissen.*
@@ -25,4 +29,6 @@ what is true, but to be able to actually get your hands dirty. To quote Mark Kis
 “You can wave your hands all you want, but it still won’t make you fly.”*
 
 (About learning algebraic geometry, by Ravi Vakil in his book [The Rising Sea: Foundations Of Algebraic Geometry Notes](https://math.stanford.edu/~vakil/216blog/))
+
+
 
