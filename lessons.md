@@ -5,9 +5,6 @@ permalink: /about/lessons/
 exclude: true
 ---
 
-Some of the lessons/quotes that I learnt and want to 
-write it here in case I forgot. 
-
 Marie-France Vigneras gave the following raison d’etre of being a mathematician. *Think of yourself in a forest. You enjoy the beauty of nature and it is not cold, but light becomes dim and it is time to leave the forest. You try a tiny path but it ends quickly. You walk back and try another one; they all look the same and it is darker. You stop and stay motionless. You wait and wait, with your senses alert to see the invisible, to feel the indescribable, to listen to the silence. And it happens suddenly: one direction becomes more dense, or more luminous. To experience this intense moment is the reason why I became a mathematician.*
 
 *There are two ways to do mathematics. The first is to be smarter than everybody else. The second way is to be stupider than everybody else - but persistent.* - based on a quotation from Raoul Bott.
