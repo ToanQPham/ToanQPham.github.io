@@ -5,7 +5,10 @@ permalink: /about/lessons/
 exclude: true
 ---
 
-Marie-France Vigneras gave the following raison d’etre of being a mathematician. *Think of yourself in a forest. You enjoy the beauty of nature and it is not cold, but light becomes dim and it is time to leave the forest. You try a tiny path but it ends quickly. You walk back and try another one; they all look the same and it is darker. You stop and stay motionless. You wait and wait, with your senses alert to see the invisible, to feel the indescribable, to listen to the silence. And it happens suddenly: one direction becomes more dense, or more luminous. To experience this intense moment is the reason why I became a mathematician.*
+*Discovery is a child’s privilege. I mean the small child, the child who is not afraid to be wrong, to look silly, to not be serious, and to act differently from everyone else. He is also not afraid that the things he is interested in are in bad taste or turn out to be different from his expectations, from what they should be, or rather he is not afraid of what they actually are. He ignores the silent and flawless consensus that is part of the air we breathe – the consensus of all the people who are, or are reputed to be, reasonable.*
+Grothendieck, Récoltes et Semailles (“Crops and Seeds”). 
+
+Marie-France Vigneras gave the following raison d’etre of being a mathematician. ``Think of yourself in a forest. You enjoy the beauty of nature and it is not cold, but light becomes dim and it is time to leave the forest. You try a tiny path but it ends quickly. You walk back and try another one; they all look the same and it is darker. You stop and stay motionless. You wait and wait, with your senses alert to see the invisible, to feel the indescribable, to listen to the silence. And it happens suddenly: one direction becomes more dense, or more luminous. To experience this intense moment is the reason why I became a mathematician.''
 
 *There are two ways to do mathematics. The first is to be smarter than everybody else. The second way is to be stupider than everybody else - but persistent.* - based on a quotation from Raoul Bott.
 
