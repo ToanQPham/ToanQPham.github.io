@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quotes
+title: Random
 permalink: /about/lessons/
 exclude: true
 ---
