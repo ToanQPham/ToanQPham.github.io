@@ -28,4 +28,4 @@ what is true, but to be able to actually get your hands dirty. To quote Mark Kis
 
 (About learning algebraic geometry, by Ravi Vakil in his book [The Rising Sea: Foundations Of Algebraic Geometry Notes](https://math.stanford.edu/~vakil/216blog/))
 
-Something that lifts my soul when I am down: [Playlist 1](https://youtube.com/playlist?list=PLGojKgEnSjGw8mob_triU4V0asoyd00eH&si=-xbG57kB4y5dCoiw) and [Playlist 2](https://youtube.com/playlist?list=PLGojKgEnSjGzX4AW8gUKLDOTE-E2lDCzB&si=6mfB-FDkhXCA4xXc). 
+Something that lifts my soul when I am down: [Playlist 1](https://youtube.com/playlist?list=PLGojKgEnSjGw8mob_triU4V0asoyd00eH&si=-xbG57kB4y5dCoiw), [Playlist 2](https://youtube.com/playlist?list=PLGojKgEnSjGzX4AW8gUKLDOTE-E2lDCzB&si=6mfB-FDkhXCA4xXc), [Playlist 3](https://youtube.com/playlist?list=PLkMf14VQEvTYbQaR9ddxnJmJRangPrY5f&si=bnn7Bhhfil-CNp5t).
