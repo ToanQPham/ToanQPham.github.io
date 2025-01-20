@@ -5,67 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Activity Tracker</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .container { max-width: 600px; margin: auto; }
-        label, input, textarea { display: block; width: 100%; margin-top: 10px; }
-        button { margin-top: 15px; padding: 10px; cursor: pointer; }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #2c3e50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #34495e;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Daily Activity Tracker</h2>
-        <form id="activityForm">
-            <label for="date">Date:</label>
-            <input type="date" id="date" required>
+        <h1>Daily Activity Tracker</h1>
+        
+        <!-- Meditation Concentration -->
+        <form id="meditationForm">
+            <h2>Meditation Concentration</h2>
+            <label for="meditationDate">Date:</label>
+            <input type="date" id="meditationDate" name="meditationDate" required>
             
-            <h3>Meditation Concentration</h3>
-            <textarea id="meditation" rows="2" placeholder="Describe your meditation experience..."></textarea>
+            <label for="concentrationLevel">Concentration Level (1-10):</label>
+            <input type="number" id="concentrationLevel" name="concentrationLevel" min="1" max="10" required>
             
-            <h3>Daily Schedule</h3>
-            <label>Wake Up Time:</label>
-            <input type="time" id="wakeUpTime">
-            <label>Sleep Time:</label>
-            <input type="time" id="sleepTime">
-            <label>Eat Time:</label>
-            <input type="time" id="eatTime">
-            <label>Learn Chinese Time:</label>
-            <input type="time" id="learnChineseTime">
-            <label>Do Math Time:</label>
-            <input type="time" id="doMathTime">
-            <label>Meditation Time:</label>
-            <input type="time" id="meditationTime">
-            
-            <h3>Learn Chinese</h3>
-            <textarea id="learnChinese" rows="2" placeholder="Notes on Chinese learning..."></textarea>
-            
-            <button type="button" onclick="saveData()">Save Entry</button>
+            <button type="submit">Record Meditation</button>
         </form>
-        <h3>Saved Entries</h3>
-        <div id="savedEntries"></div>
+        
+        <!-- Daily Schedule -->
+        <form id="scheduleForm">
+            <h2>Daily Schedule</h2>
+            <label for="scheduleDate">Date:</label>
+            <input type="date" id="scheduleDate" name="scheduleDate" required>
+            
+            <label for="wakeUpTime">Wake Up Time:</label>
+            <input type="time" id="wakeUpTime" name="wakeUpTime" required>
+            
+            <label for="sleepTime">Sleep Time:</label>
+            <input type="time" id="sleepTime" name="sleepTime" required>
+            
+            <label for="eatTime">Eat Time:</label>
+            <input type="time" id="eatTime" name="eatTime" required>
+            
+            <label for="learnChineseTime">Learn Chinese Time:</label>
+            <input type="time" id="learnChineseTime" name="learnChineseTime" required>
+            
+            <label for="doMathTime">Do Math Time:</label>
+            <input type="time" id="doMathTime" name="doMathTime" required>
+            
+            <label for="meditationTime">Meditation Time:</label>
+            <input type="time" id="meditationTime" name="meditationTime" required>
+            
+            <button type="submit">Record Schedule</button>
+        </form>
+        
+        <!-- Learn Chinese -->
+        <form id="learnChineseForm">
+            <h2>Learn Chinese</h2>
+            <label for="chineseDate">Date:</label>
+            <input type="date" id="chineseDate" name="chineseDate" required>
+            
+            <label for="chineseNotes">What You Learned:</label>
+            <textarea id="chineseNotes" name="chineseNotes" rows="4" required></textarea>
+            
+            <button type="submit">Record Learning</button>
+        </form>
     </div>
-
-    <script>
-        function saveData() {
-            const date = document.getElementById("date").value;
-            const meditation = document.getElementById("meditation").value;
-            const wakeUpTime = document.getElementById("wakeUpTime").value;
-            const sleepTime = document.getElementById("sleepTime").value;
-            const eatTime = document.getElementById("eatTime").value;
-            const learnChineseTime = document.getElementById("learnChineseTime").value;
-            const doMathTime = document.getElementById("doMathTime").value;
-            const meditationTime = document.getElementById("meditationTime").value;
-            const learnChinese = document.getElementById("learnChinese").value;
-            
-            const entry = `<div><strong>${date}</strong>
-                <p><strong>Meditation:</strong> ${meditation}</p>
-                <p><strong>Wake Up:</strong> ${wakeUpTime} | <strong>Sleep:</strong> ${sleepTime} | <strong>Eat:</strong> ${eatTime}</p>
-                <p><strong>Learn Chinese Time:</strong> ${learnChineseTime} | <strong>Do Math Time:</strong> ${doMathTime} | <strong>Meditation Time:</strong> ${meditationTime}</p>
-                <p><strong>Chinese Learning Notes:</strong> ${learnChinese}</p>
-                <hr>
-            </div>`;
-            
-            document.getElementById("savedEntries").innerHTML += entry;
-        }
-    </script>
 </body>
 </html>
