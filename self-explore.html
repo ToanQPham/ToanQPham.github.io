@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Activity Tracker</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 600px; margin: auto; }
+        label, input, textarea { display: block; width: 100%; margin-top: 10px; }
+        button { margin-top: 15px; padding: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Daily Activity Tracker</h2>
+        <form id="activityForm">
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            
+            <h3>Meditation Concentration</h3>
+            <textarea id="meditation" rows="2" placeholder="Describe your meditation experience..."></textarea>
+            
+            <h3>Daily Schedule</h3>
+            <label>Wake Up Time:</label>
+            <input type="time" id="wakeUpTime">
+            <label>Sleep Time:</label>
+            <input type="time" id="sleepTime">
+            <label>Eat Time:</label>
+            <input type="time" id="eatTime">
+            <label>Learn Chinese Time:</label>
+            <input type="time" id="learnChineseTime">
+            <label>Do Math Time:</label>
+            <input type="time" id="doMathTime">
+            <label>Meditation Time:</label>
+            <input type="time" id="meditationTime">
+            
+            <h3>Learn Chinese</h3>
+            <textarea id="learnChinese" rows="2" placeholder="Notes on Chinese learning..."></textarea>
+            
+            <button type="button" onclick="saveData()">Save Entry</button>
+        </form>
+        <h3>Saved Entries</h3>
+        <div id="savedEntries"></div>
+    </div>
+
+    <script>
+        function saveData() {
+            const date = document.getElementById("date").value;
+            const meditation = document.getElementById("meditation").value;
+            const wakeUpTime = document.getElementById("wakeUpTime").value;
+            const sleepTime = document.getElementById("sleepTime").value;
+            const eatTime = document.getElementById("eatTime").value;
+            const learnChineseTime = document.getElementById("learnChineseTime").value;
+            const doMathTime = document.getElementById("doMathTime").value;
+            const meditationTime = document.getElementById("meditationTime").value;
+            const learnChinese = document.getElementById("learnChinese").value;
+            
+            const entry = `<div><strong>${date}</strong>
+                <p><strong>Meditation:</strong> ${meditation}</p>
+                <p><strong>Wake Up:</strong> ${wakeUpTime} | <strong>Sleep:</strong> ${sleepTime} | <strong>Eat:</strong> ${eatTime}</p>
+                <p><strong>Learn Chinese Time:</strong> ${learnChineseTime} | <strong>Do Math Time:</strong> ${doMathTime} | <strong>Meditation Time:</strong> ${meditationTime}</p>
+                <p><strong>Chinese Learning Notes:</strong> ${learnChinese}</p>
+                <hr>
+            </div>`;
+            
+            document.getElementById("savedEntries").innerHTML += entry;
+        }
+    </script>
+</body>
+</html>
