@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Random
-permalink: /about/lessons/
+permalink: /about/random/
 exclude: true
 ---
 
